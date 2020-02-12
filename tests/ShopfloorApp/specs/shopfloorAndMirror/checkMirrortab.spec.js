@@ -14,17 +14,15 @@ describe('Sending the item to the mirror successfully,', () => {
 
     afterEach(() => {
         ShopfloorCommonPage.logout()
-        chromeBrowser.$(RequestScreen.verifyScreenoff).waitForExist(5000)
     });
 
     it('should be able to send the item to the mirror', () => {
         chromeBrowser.url('/')
         ShopfloorCommonPage.sendToMirror('chirag.verma@farfetch.com')
-        chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
-        chromeBrowser.execute(() => document.body.style.zoom='60%')
-        driver.pause(5000)
-        chromeBrowser.execute("arguments[0].click;", RequestScreen.expandProduct)
-        chromeBrowser.$(RequestScreen.verifyMirrorproduct).waitForExist(6000)
+        shopfloorApp.$(HomeScreen.customersearchButon).click();
+        shopfloorApp.$(ClientScreen.clientWishlist).touchAction('press')
+        shopfloorApp.$(ClientScreen.mirrorTab).click()
+        shopfloorApp.$(ClientScreen.recommendationTitle).waitForExist(5000)
     });
 
 });

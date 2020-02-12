@@ -11,6 +11,7 @@ const SELECTORS = {
     TAP_MIRROR:  '/html/body',
     VERIFY_SCREENOFF: '.screen-off',
     VERIFY_MIRRORPRODUCT: '//*[@data-test="PRÊT À PORTER"]',
+    VERIFY_MIRRORLOOKS: '//*[@data-test="PRÊT À PORTER"]',
     EXPAND_PRODUCT: '#plus'
 };
 
@@ -40,6 +41,10 @@ class RequestScreen extends AppScreen {
     }
 
     get verifyMirrorproduct () {
+        return SELECTORS.VERIFY_MIRRORPRODUCT;
+    }
+
+    get verifyMirrorlooks () {
         return SELECTORS.VERIFY_MIRRORPRODUCT;
     }
 

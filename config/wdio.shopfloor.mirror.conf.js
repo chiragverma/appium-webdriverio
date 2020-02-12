@@ -29,7 +29,7 @@ exports.config = {
                 platformName: 'iOS',
                 'appium:platformVersion': '12.4',
                 'appium:orientation': 'PORTRAIT',
-                'appium:noReset': true,
+                'appium:noReset': false,
                 'appium:newCommandTimeout': 240,
                 "appium:platformName": "iOS",
                 "appium:deviceName": "iPhone 8",

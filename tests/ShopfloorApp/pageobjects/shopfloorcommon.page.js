@@ -41,7 +41,7 @@ class ShopfloorCommonPage extends Page {
         shopfloorApp.$(HomeScreen.settingIcon).click();
         shopfloorApp.$(HomeScreen.logoutButton).click();
         shopfloorApp.$(SettingScreen.logoutButton).click();
-        shopfloorApp.$(LoginScreen.loginContainerButon).waitForExist(7000)
+        shopfloorApp.$(LoginScreen.loginContainerButon).waitForExist(8000)
         driver.pause(5000)
     }
 
@@ -65,6 +65,7 @@ class ShopfloorCommonPage extends Page {
         shopfloorApp.$(ClientScreen.fittingRoomButton).touchAction('press')
         shopfloorApp.$(ClientScreen.mirrorName).click();
         shopfloorApp.$(ClientScreen.assignMirrorButton).click();
+        shopfloorApp.$(ClientScreen.backArrow).click();
         shopfloorApp.$(HomeScreen.productsearchButton).click();
         driver.pause(3000)
         shopfloorApp.$(SearchScreen.handbags).click();
