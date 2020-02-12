@@ -12,7 +12,10 @@ const SELECTORS = {
     ASSIGNMIRROR_BUTTON: '~footerWithButtonComponent',
     SEARCH_CROSS: '~WhiteCross',
     FIRSTWISHLIST_ITEM: '//XCUIElementTypeTable/XCUIElementTypeCell[1]',
+    MIRROR_TAB: '~Mirror',
     ITEMADDED_ALERT: '//XCUIElementTypeAlert[@name="This product is already in the client\'s wishlist"]',
+    RECOMMENDATION_TITLE: '(//XCUIElementTypeOther[@name="tableViewHeaderComponent"])[2]',
+    BACK_ARROW: '~BackArrow',
 };
 
 class ClientScreen extends AppScreen {
@@ -61,8 +64,20 @@ class ClientScreen extends AppScreen {
         return SELECTORS.FIRSTWISHLIST_ITEM;
     }
 
+    get mirrorTab () {
+        return SELECTORS.MIRROR_TAB;
+    }
+
     get itemAddedAlert () {
         return SELECTORS.ITEMADDED_ALERT;
+    }
+
+    get recommendationTitle () {
+        return SELECTORS.RECOMMENDATION_TITLE;
+    }
+
+    get backArrow () {
+        return SELECTORS.BACK_ARROW;
     }
 
 }
