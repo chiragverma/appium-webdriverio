@@ -24,6 +24,8 @@ describe('Resetting the mirror successfully,', () => {
         chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
         chromeBrowser.execute(() => document.body.style.zoom='50%')
         driver.pause(5000)
+        chromeBrowser.$(RequestScreen.mirrorleftArea).moveTo(0,0)
+        chromeBrowser.execute(elem => elem.click(), chromeBrowser.$(RequestScreen.expandProduct));
         chromeBrowser.$(RequestScreen.verifyMirrorproduct).waitForExist(6000)
         // long press on the left hand side
         chromeBrowser.$(RequestScreen.mirrorleftArea).moveTo(0,0)
