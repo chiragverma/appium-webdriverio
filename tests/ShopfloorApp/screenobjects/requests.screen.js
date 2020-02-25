@@ -6,13 +6,16 @@ const SELECTORS = {
     LOGIN_SCREEN: '~Login-screen',
     LAST_REQUEST: '//XCUIElementTypeCollectionView/XCUIElementTypeCell[1]',
     COMPLETE_REQUEST: '~Mark as complete',
-    // these locators are for browser
+    // these locators are for the mirror
     CALLADVISOR_BUTTON: '//*[@id="call-advisor"]',
     TAP_MIRROR:  '/html/body',
     VERIFY_SCREENOFF: '.screen-off',
     VERIFY_MIRRORPRODUCT: '//*[@data-test="PRÊT À PORTER"]',
     VERIFY_MIRRORLOOKS: '//*[@data-test="PRÊT À PORTER"]',
-    EXPAND_PRODUCT: '#plus'
+    EXPAND_PRODUCT: '#plus',
+    MIRROR_LEFTAREA: '//div[@data-test="touch-area"]',
+    RESET_MIRROR: '//button[@data-test="settings-reset"]',
+    CONFIRM_RESET: '//button[@data-test="settings-reset-confirm"]'
 };
 
 class RequestScreen extends AppScreen {
@@ -50,6 +53,18 @@ class RequestScreen extends AppScreen {
 
     get expandProduct () {
         return SELECTORS.EXPAND_PRODUCT;
+    }
+
+    get mirrorleftArea () {
+        return SELECTORS.MIRROR_LEFTAREA;
+    }
+
+    get resetMirror () {
+        return SELECTORS.RESET_MIRROR;
+    }
+
+    get confirmReset() {
+        return SELECTORS.CONFIRM_RESET;
     }
 
     get alert () {
