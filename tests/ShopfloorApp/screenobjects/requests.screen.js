@@ -10,9 +10,9 @@ const SELECTORS = {
     CALLADVISOR_BUTTON: '//*[@id="call-advisor"]',
     TAP_MIRROR:  '/html/body',
     VERIFY_SCREENOFF: '.screen-off',
-    VERIFY_MIRRORPRODUCT: '//*[@data-test="PRÊT À PORTER"]',
+    VERIFY_MIRRORPRODUCT: "//div[@data-test='title-category' and contains(text(), 'PRÊT À PORTER')]",
     VERIFY_MIRRORLOOKS: '//*[@data-test="PRÊT À PORTER"]',
-    EXPAND_PRODUCT: '#plus',
+    EXPAND_PRODUCT: '//*[@id="accordionTitle-recommended"]/div',
     MIRROR_LEFTAREA: '//div[@data-test="touch-area"]',
     RESET_MIRROR: '//button[@data-test="settings-reset"]',
     CONFIRM_RESET: '//button[@data-test="settings-reset-confirm"]'
