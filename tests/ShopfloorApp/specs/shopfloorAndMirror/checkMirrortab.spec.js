@@ -6,7 +6,7 @@ import RequestScreen from '../../screenobjects/requests.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 
 
-describe('Sending the item to the mirror successfully,', () => {
+describe('Check Mirror Tab,', () => {
 
     beforeEach(() => {
         ShopfloorCommonPage.login()
@@ -16,7 +16,7 @@ describe('Sending the item to the mirror successfully,', () => {
         ShopfloorCommonPage.logout()
     });
 
-    it('should be able to send the item to the mirror', () => {
+    it('should contain items in the mirror tab', () => {
         chromeBrowser.url('/')
         ShopfloorCommonPage.sendToMirror('chirag.verma@farfetch.com')
         shopfloorApp.$(HomeScreen.customersearchButon).click();

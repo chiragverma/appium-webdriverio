@@ -5,7 +5,7 @@ import RequestScreen from '../../screenobjects/requests.screen';
 import FormScreen from '../../screenobjects/forms.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 
-describe('Able to Successfully Call the Advisor from the Mirror,', () => {
+describe('Able to Successfully call the Advisor from the mirror,', () => {
 
     beforeEach(() => {
         ShopfloorCommonPage.login()
@@ -15,7 +15,7 @@ describe('Able to Successfully Call the Advisor from the Mirror,', () => {
         ShopfloorCommonPage.logout()
     });
 
-    it('should be able to Call the Advisor from the Mirror', () => {
+    it('should be able to call the Advisor from the mirror', () => {
         chromeBrowser.url('/')
         ShopfloorCommonPage.sendToMirror('chirag.verma@farfetch.com')
         chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
