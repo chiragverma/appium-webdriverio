@@ -1,10 +1,8 @@
 import Page from './page';
 import LoginScreen from '../screenobjects/login.screen';
 import HomeScreen from '../screenobjects/home.screen';
-import FormScreen from '../screenobjects/forms.screen';
-import SearchScreen from '../screenobjects/search.screen';
 import AccountScreen from '../screenobjects/account.screen';
-import homeScreen from '../screenobjects/home.screen';
+
 
 class ConsumerCommonPage extends Page {
     /**

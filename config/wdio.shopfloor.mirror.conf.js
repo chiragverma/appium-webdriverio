@@ -20,7 +20,11 @@ exports.config = {
     capabilities: {
         chromeBrowser: {
             capabilities: {
-                browserName: 'chrome'
+                browserName: 'chrome',
+                'goog:chromeOptions': {
+                    // mirror size:
+                    args: ['--window-size=2160,3840']
+                  }
             }
         },
         shopfloorApp: {
