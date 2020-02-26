@@ -1,5 +1,4 @@
 import AppScreen from './app.screen';
-import NativeAlert from '../helpers/NativeAlert';
 
 
 const SELECTORS = {

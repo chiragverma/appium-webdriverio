@@ -1,7 +1,5 @@
-import ClientScreen from '../../screenobjects/client.screen';
 import SearchScreen from '../../screenobjects/search.screen';
 import HomeScreen from '../../screenobjects/home.screen';
-import FormScreen from '../../screenobjects/forms.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 
 var productName;
@@ -30,7 +28,6 @@ describe('Sending the recommendaton to the customer,', () => {
         if (shopfloorApp.$(SearchScreen.sendtoClientAlert).waitForExist(5000)){
             shopfloorApp.$(SearchScreen.resendButton).click();
         };
-
     });
 
 });

@@ -1,5 +1,5 @@
 import AppScreen from './app.screen';
-import NativeAlert from '../helpers/NativeAlert';
+
 
 const SELECTORS = {
     LOGOUT_BUTTON: '~Logout',

@@ -1,12 +1,12 @@
 {
   "type": "module",
-  "name": "appium-boilerplate",
+  "name": "end-to-end",
   "version": "5.3.1",
   "description": "Run end to end tests with using the webapp and the mobile app",
   "scripts": {
     "consumer.app": "./node_modules/.bin/wdio ./config/wdio.consumer.app.conf.js",
-    "shopfloor.consumer": "npm run shopfloor.app && npm run consumer.app",
     "shopfloor.app": "./node_modules/.bin/wdio ./config/wdio.shopfloor.consumer.conf.js",
+    "shopfloor.consumer": "npm run shopfloor.app && npm run consumer.app",
     "shopfloor.mirror": "./node_modules/.bin/wdio ./config/wdio.shopfloor.mirror.conf.js",
     "lint": "eslint config tests",
     "build": "babel --presets es2015 -d lib/ src",

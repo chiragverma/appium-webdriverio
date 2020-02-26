@@ -5,7 +5,7 @@ import FormScreen from '../screenobjects/forms.screen';
 import SearchScreen from '../screenobjects/search.screen';
 import ClientScreen from '../screenobjects/client.screen';
 import SettingScreen from '../screenobjects/setting.screen';
-import settingScreen from '../screenobjects/setting.screen';
+
 
 class ShopfloorCommonPage extends Page {
     /**

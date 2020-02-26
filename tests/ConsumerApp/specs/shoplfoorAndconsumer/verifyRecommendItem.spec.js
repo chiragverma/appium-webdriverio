@@ -1,9 +1,6 @@
-import ClientScreen from '../../screenobjects/account.screen';
-import SearchScreen from '../../screenobjects/search.screen';
 import HomeScreen from '../../screenobjects/home.screen';
-import FormScreen from '../../screenobjects/forms.screen';
 import ConsumerCommonPage from '../../pageobjects/consumercommon.page';
-import homeScreen from '../../screenobjects/home.screen';
+
 
 describe('Checking if the customer received the recommendation,', () => {
 
