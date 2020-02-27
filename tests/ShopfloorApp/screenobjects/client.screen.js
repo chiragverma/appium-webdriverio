@@ -16,6 +16,7 @@ const SELECTORS = {
     ITEMADDED_ALERT: '//XCUIElementTypeAlert[@name="This product is already in the client\'s wishlist"]',
     RECOMMENDATION_TITLE: '(//XCUIElementTypeOther[@name="tableViewHeaderComponent"])[2]',
     BACK_ARROW: '~BackArrow',
+    OVERRIDE_ALERT: '~Would you like to override & take over the assignment?'
 };
 
 class ClientScreen extends AppScreen {
@@ -78,6 +79,10 @@ class ClientScreen extends AppScreen {
 
     get backArrow () {
         return SELECTORS.BACK_ARROW;
+    }
+
+    get overrideAlert () {
+        return SELECTORS.OVERRIDE_ALERT;
     }
 
 }
