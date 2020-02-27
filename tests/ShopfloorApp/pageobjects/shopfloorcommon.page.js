@@ -1,7 +1,6 @@
 import Page from './page';
 import LoginScreen from '../screenobjects/login.screen';
 import HomeScreen from '../screenobjects/home.screen';
-import FormScreen from '../screenobjects/forms.screen';
 import SearchScreen from '../screenobjects/search.screen';
 import ClientScreen from '../screenobjects/client.screen';
 import SettingScreen from '../screenobjects/setting.screen';
@@ -15,64 +14,65 @@ class ShopfloorCommonPage extends Page {
     /**
      * define or overwrite page methods
      */
-    hideKeyboard() {
-        if (shopfloorApp.isKeyboardShown()) {
-            (shopfloorApp.hideKeyboard());
+    hideKeyboard(appName) {
+        if (appName.isKeyboardShown()) {
+            (appName.hideKeyboard());
         }
     }
 
-    login() {
-        shopfloorApp.$(LoginScreen.loginContainerButon).click();
-        shopfloorApp.$(LoginScreen.email).setValue('Vchirag');
-        shopfloorApp.$(LoginScreen.password).touchAction('tap');
-        shopfloorApp.$(LoginScreen.password).setValue('SFApp_321');
-        shopfloorApp.$(LoginScreen.loginButton).click();
+    login(appName, username, password) {
+        appName.$(LoginScreen.loginContainerButon).click();
+        appName.$(LoginScreen.email).setValue(username);
+        appName.$(LoginScreen.password).touchAction('tap');
+        appName.$(LoginScreen.password).setValue(password);
+        appName.$(LoginScreen.loginButton).click();
     }
 
-    logout () {
-        if (shopfloorApp.$(ClientScreen.searchCross).isDisplayed()) {
-            shopfloorApp.$(ClientScreen.searchCross).click();
+
+    logout (appName) {
+        if (appName.$(ClientScreen.searchCross).isDisplayed()) {
+            appName.$(ClientScreen.searchCross).click();
         }
         else if
-            (shopfloorApp.$(SearchScreen.searchCross).isDisplayed()) {
-             shopfloorApp.$(SearchScreen.searchCross).click();
+            (appName.$(SearchScreen.searchCross).isDisplayed()) {
+                appName.$(SearchScreen.searchCross).click();
         }
-        shopfloorApp.$(HomeScreen.homescreenButton).click();
-        shopfloorApp.$(HomeScreen.settingIcon).click();
-        shopfloorApp.$(HomeScreen.logoutButton).click();
-        shopfloorApp.$(SettingScreen.logoutButton).click();
-        shopfloorApp.$(LoginScreen.loginContainerButon).waitForExist(9000)
+        appName.$(HomeScreen.homescreenButton).click();
+        appName.$(HomeScreen.settingIcon).click();
+        appName.$(HomeScreen.logoutButton).click();
+        appName.$(SettingScreen.logoutButton).click();
+        appName.$(LoginScreen.loginContainerButon).waitForExist(9000)
         driver.pause(6000)
     }
 
-    assignClient(customerName) {
-        shopfloorApp.$(ClientScreen.clientTab).click();
-        shopfloorApp.$(ClientScreen.searchButon).click();
-        shopfloorApp.$(ClientScreen.searchButon).setValue(customerName)
-        this.hideKeyboard()
-        shopfloorApp.$(ClientScreen.customerlabelButton).click();
+    assignClient(appName, customerName) {
+        appName.$(ClientScreen.clientTab).click();
+        appName.$(ClientScreen.searchButon).click();
+        appName.$(ClientScreen.searchButon).setValue(customerName)
+        this.hideKeyboard(appName)
+        appName.$(ClientScreen.customerlabelButton).click();
         driver.pause(5000)
-        if (shopfloorApp.$(ClientScreen.assignmentButton).getText() == 'Assign to me'){
-            shopfloorApp.$(ClientScreen.assignmentButton).click();
+        if (appName.$(ClientScreen.assignmentButton).getText() == 'Assign to me'){
+            appName.$(ClientScreen.assignmentButton).click();
         };
         driver.pause(5000)
     }
 
 
-    sendToMirror(customerName) {
-        this.assignClient(customerName)
+    sendToMirror(appName, customerName) {
+        this.assignClient(appName, customerName)
         driver.pause(3000)
-        shopfloorApp.$(ClientScreen.fittingRoomButton).touchAction('press')
-        shopfloorApp.$(ClientScreen.mirrorName).click();
-        shopfloorApp.$(ClientScreen.assignMirrorButton).click();
-        shopfloorApp.$(ClientScreen.backArrow).click();
-        shopfloorApp.$(HomeScreen.productsearchButton).click();
+        appName.$(ClientScreen.fittingRoomButton).touchAction('press')
+        appName.$(ClientScreen.mirrorName).click();
+        appName.$(ClientScreen.assignMirrorButton).click();
+        appName.$(ClientScreen.backArrow).click();
+        appName.$(HomeScreen.productsearchButton).click();
         driver.pause(3000)
-        shopfloorApp.$(SearchScreen.handbags).click();
+        appName.$(SearchScreen.handbags).click();
         driver.pause(3000)
-        shopfloorApp.$(SearchScreen.viewAllDresses).click();
-        shopfloorApp.$(SearchScreen.actionListButton).click();
-        shopfloorApp.$(SearchScreen.sendtoMirror).click();
+        appName.$(SearchScreen.viewAllDresses).click();
+        appName.$(SearchScreen.actionListButton).click();
+        appName.$(SearchScreen.sendtoMirror).click();
     }
 }
 

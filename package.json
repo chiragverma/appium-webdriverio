@@ -8,6 +8,7 @@
     "shopfloor.app": "./node_modules/.bin/wdio ./config/wdio.shopfloor.consumer.conf.js",
     "shopfloor.consumer": "npm run shopfloor.app && npm run consumer.app",
     "shopfloor.mirror": "./node_modules/.bin/wdio ./config/wdio.shopfloor.mirror.conf.js",
+    "shopfloor.shopfloor": "./node_modules/.bin/wdio ./config/wdio.shopfloor.shopfloor.conf.js",
     "lint": "eslint config tests",
     "build": "babel --presets es2015 -d lib/ src",
     "singleshopfloortest.app": "./node_modules/.bin/wdio ./config/wdio.singleshopfloortest.conf.js",
