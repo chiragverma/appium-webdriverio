@@ -23,14 +23,14 @@ class ConsumerCommonPage extends Page {
         consumerApp.hideKeyboard()
         consumerApp.$(LoginScreen.passwordField).setValue('SFApp_321');
         consumerApp.$(LoginScreen.signinButton).click();
-        driver.pause(5000)
+        driver.pause(2000)
         if (consumerApp.$(LoginScreen.skipButton).isDisplayed()) {
             consumerApp.$(LoginScreen.skipButton).click();
         }
 }
 
     logout () {
-        driver.pause(3000)
+        driver.pause(2000)
         if (consumerApp.$(HomeScreen.closeButton).isDisplayed()) {
             consumerApp.$(HomeScreen.closeButton).click();
         }

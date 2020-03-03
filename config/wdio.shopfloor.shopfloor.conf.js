@@ -1,7 +1,14 @@
 const { join } = require('path');
 require('@babel/register')
 
+
 exports.config = {
+    before: function () { 
+        var chai = require('chai'); 
+        global.expect = chai.expect;
+        chai.Should();
+        chai.expect();
+    },
     runner: 'local',
 
     maxInstances: 1,
@@ -13,6 +20,8 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+    //
+    //
 
     capabilities: {
         shopfloorAppOne: {
@@ -62,7 +71,7 @@ exports.config = {
     //
     connectionRetryTimeout: 90000,
     //
-    connectionRetryCount: 2,
+    connectionRetryCount: 3,
     //
     services: ['selenium-standalone'],
     //

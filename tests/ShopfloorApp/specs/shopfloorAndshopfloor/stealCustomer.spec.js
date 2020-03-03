@@ -1,4 +1,4 @@
-import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+/* import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 import ClientScreen from '../../screenobjects/client.screen';
 import SearchScreen from '../../screenobjects/search.screen';
 
@@ -24,4 +24,4 @@ describe('Steal customer from the advisor,', () => {
         shopfloorAppOne.$(ClientScreen.overrideAlert).waitForExist(3000)
         shopfloorAppOne.$(SearchScreen.cancelButton).click();
     });
-});
+}); */
