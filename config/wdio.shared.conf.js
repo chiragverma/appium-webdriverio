@@ -14,7 +14,7 @@ exports.config = {
     logLevel: 'silent',
     deprecationWarnings: true,
     bail: 0,
-    baseUrl: 'http://the-internet.herokuapp.com',
+    baseUrl: 'http://localhost:9174/',
     waitforTimeout: 10000,
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,

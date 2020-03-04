@@ -20,6 +20,7 @@
     "chai": "^4.2.0",
     "chai-webdriverio": "^1.0.0",
     "esm": "^3.2.25",
+    "expect": "^25.1.0",
     "expect-webdriverio": "^0.2.0"
   },
   "devDependencies": {

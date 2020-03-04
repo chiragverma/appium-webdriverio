@@ -68,7 +68,6 @@ class ShopfloorCommonPage extends Page {
     }
 
     sendToMirror(appName) {
-        //appName.$(ClientScreen.backArrow).click();
         appName.$(HomeScreen.productsearchButton).click();
         driver.pause(3000)
         appName.$(SearchScreen.handbags).click();

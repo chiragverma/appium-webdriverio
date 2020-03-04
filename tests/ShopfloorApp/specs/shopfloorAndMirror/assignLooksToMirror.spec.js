@@ -5,11 +5,11 @@ import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 describe('Sending the looks to the mirror successfully,', () => {
 
     beforeEach(() => {
-        ShopfloorCommonPage.login()
+        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_321')
     });
 
     afterEach(() => {
-        ShopfloorCommonPage.logout()
+        ShopfloorCommonPage.logout(shopfloorApp)
         chromeBrowser.$(RequestScreen.verifyScreenoff).waitForExist(5000)
     });
 
@@ -20,7 +20,7 @@ describe('Sending the looks to the mirror successfully,', () => {
         chromeBrowser.execute(() => document.body.style.zoom='60%')
         driver.pause(2000)
         chromeBrowser.execute(elem => elem.click(), chromeBrowser.$(RequestScreen.expandProduct));
-        chromeBrowser.$(RequestScreen.verifyMirrorproduct).waitForExist(6000)
+        chromeBrowser.$(RequestScreen.verifyMirrorlooks).waitForExist(6000)
     });
 
 });
