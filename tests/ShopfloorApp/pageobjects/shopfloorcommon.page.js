@@ -23,7 +23,7 @@ class ShopfloorCommonPage extends Page {
     login(appName, username, password) {
         appName.$(LoginScreen.loginContainerButon).click();
         appName.$(LoginScreen.email).setValue(username);
-        appName.$(LoginScreen.password).touchAction('tap');
+        appName.$(LoginScreen.password).click();
         appName.$(LoginScreen.password).setValue(password);
         appName.$(LoginScreen.loginButton).click();
     }
@@ -42,7 +42,7 @@ class ShopfloorCommonPage extends Page {
         appName.$(HomeScreen.logoutButton).click();
         appName.$(SettingScreen.logoutButton).click();
         appName.$(LoginScreen.loginContainerButon).waitForExist(9000)
-        driver.pause(6000)
+        driver.pause(2000)
     }
 
     assignClient(appName, customerName) {
@@ -51,21 +51,24 @@ class ShopfloorCommonPage extends Page {
         appName.$(ClientScreen.searchButon).setValue(customerName)
         this.hideKeyboard(appName)
         appName.$(ClientScreen.customerlabelButton).click();
-        driver.pause(5000)
+        driver.pause(3000)
         if (appName.$(ClientScreen.assignmentButton).getText() == 'Assign to me'){
             appName.$(ClientScreen.assignmentButton).click();
         };
-        driver.pause(5000)
+        driver.pause(2000)
     }
 
 
-    sendToMirror(appName, customerName) {
+    assignMirror(appName, customerName) {
         this.assignClient(appName, customerName)
         driver.pause(3000)
         appName.$(ClientScreen.fittingRoomButton).touchAction('press')
         appName.$(ClientScreen.mirrorName).click();
         appName.$(ClientScreen.assignMirrorButton).click();
-        appName.$(ClientScreen.backArrow).click();
+    }
+
+    sendToMirror(appName) {
+        //appName.$(ClientScreen.backArrow).click();
         appName.$(HomeScreen.productsearchButton).click();
         driver.pause(3000)
         appName.$(SearchScreen.handbags).click();
@@ -73,7 +76,7 @@ class ShopfloorCommonPage extends Page {
         appName.$(SearchScreen.viewAllDresses).click();
         appName.$(SearchScreen.actionListButton).click();
         appName.$(SearchScreen.sendtoMirror).click();
-    }
+    } 
 }
 
 export default new ShopfloorCommonPage();

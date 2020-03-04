@@ -1,5 +1,8 @@
-/* import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
-
+import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import ClientScreen from '../../screenobjects/client.screen';
+var chai = require('chai');
+var chaiWebdriver = require('chai-webdriverio').default;
+chai.use(chaiWebdriver(browser));
 
 describe('Steal mirror from the advisor,', () => {
 
@@ -11,15 +14,19 @@ describe('Steal mirror from the advisor,', () => {
     });
 
    afterEach(() => {
-        ShopfloorCommonPage.logout(shopfloorAppTwo)
-        shopfloorAppOne.launchApp()
         ShopfloorCommonPage.logout(shopfloorAppOne)
+        shopfloorAppTwo.launchApp()
+        ShopfloorCommonPage.logout(shopfloorAppTwo)
     });
 
-    it('should be able to steal the Mirror', () => {
+    it('should be able to steal the mirror', () => {
+        ShopfloorCommonPage.assignMirror(shopfloorAppTwo, 'chirag.verma@farfetch.com')
         shopfloorAppOne.launchApp()
-        ShopfloorCommonPage.sendToMirror(shopfloorAppOne, 'chirag.verma@farfetch.com')
-        shopfloorAppTwo.launchApp()
-        ShopfloorCommonPage.sendToMirror(shopfloorAppTwo, 'chirag.verma@farfetch.com')
+        ShopfloorCommonPage.assignMirror(shopfloorAppOne, 'rita.costa@farfetch.com', )
+        shopfloorAppOne.$(ClientScreen.overrideMirrorAlert).waitForExist(4000)
+        shopfloorAppOne.$(ClientScreen.yesButton).click();
+        driver.pause(2000)
+        // verify the mirror is re-assigned
+        //shopfloorAppOne.chai.expect.$(ClientScreen.title).to.have.text('Rita Costa | Demo Fitting Room QaLx'))
     });
-}); */
+});

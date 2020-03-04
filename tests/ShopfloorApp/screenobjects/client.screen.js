@@ -16,7 +16,10 @@ const SELECTORS = {
     ITEMADDED_ALERT: '//XCUIElementTypeAlert[@name="This product is already in the client\'s wishlist"]',
     RECOMMENDATION_TITLE: '(//XCUIElementTypeOther[@name="tableViewHeaderComponent"])[2]',
     BACK_ARROW: '~BackArrow',
-    OVERRIDE_ALERT: '~Would you like to override & take over the assignment?'
+    OVERRIDECLIENT_ALERT: '~Would you like to override & take over the assignment?',
+    OVERRIDEMIRROR_ALERT: '~The connected mirror is not available. Would you like to assign to Demo Fitting Room QaLx?',
+    YES_BUTTON: '~Yes',
+    TITLE: '~messageBarTitleLabel'
 };
 
 class ClientScreen extends AppScreen {
@@ -81,8 +84,20 @@ class ClientScreen extends AppScreen {
         return SELECTORS.BACK_ARROW;
     }
 
-    get overrideAlert () {
-        return SELECTORS.OVERRIDE_ALERT;
+    get overrideClientAlert () {
+        return SELECTORS.OVERRIDECLIENT_ALERT;
+    }
+
+    get overrideMirrorAlert () {
+        return SELECTORS.OVERRIDEMIRROR_ALERT;
+    }
+
+    get yesButton () {
+        return SELECTORS.YES_BUTTON;
+    }
+
+    get title () {
+        return SELECTORS.TITLE;
     }
 
 }
