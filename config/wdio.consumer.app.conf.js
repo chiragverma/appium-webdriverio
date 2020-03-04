@@ -16,17 +16,16 @@ exports.config = {
     //
 
     capabilities: {
-        
         consumerApp: {
             port: 4724,
             capabilities: {
                 platformName: 'iOS',
-                'appium:platformVersion': '13.2',
+                'appium:platformVersion': '12.4',
                 'appium:orientation': 'PORTRAIT',
-                'appium:noReset': false,
+                'appium:noReset': true,
                 'appium:newCommandTimeout': 240,
                 "appium:platformName": "iOS",
-                "appium:deviceName": "iPhone 11",
+                "appium:deviceName": "iPhone 7",
                 "appium:bundleId": "com.farfetch.enterprise.sof.consumerapp.tage.in-house",
             }
         }

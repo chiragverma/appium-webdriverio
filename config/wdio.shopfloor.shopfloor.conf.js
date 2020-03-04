@@ -3,11 +3,8 @@ require('@babel/register')
 
 
 exports.config = {
-    before: function () { 
-        var chai = require('chai'); 
-        global.expect = chai.expect;
-        chai.Should();
-        chai.expect();
+    beforeSession () { // before hook works as well
+        require('expect-webdriverio')
     },
     runner: 'local',
 

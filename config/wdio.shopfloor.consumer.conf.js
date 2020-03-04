@@ -18,15 +18,6 @@ exports.config = {
     baseUrl: 'http://localhost:9174/',
 
     capabilities: {
-        chromeBrowser: {
-            capabilities: {
-                browserName: 'chrome',
-                'goog:chromeOptions': {
-                    // mirror size:
-                    args: ['--window-size=2160,3840']
-                  }
-            }
-        },
         shopfloorApp: {
             port: 4723,
             capabilities: {

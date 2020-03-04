@@ -35,6 +35,7 @@ class ConsumerCommonPage extends Page {
             consumerApp.$(HomeScreen.closeButton).click();
         }
         consumerApp.$(AccountScreen.accountTab).click();
+        consumerApp.execute('mobile: scroll', {'direction': 'down'});
         consumerApp.$(AccountScreen.logoutButon).click();
         consumerApp.$(AccountScreen.confirmButton).click();
         consumerApp.$(LoginScreen.emailField).waitForExist(7000)

@@ -27,6 +27,6 @@ describe('Steal mirror from the advisor,', () => {
         shopfloorAppOne.$(ClientScreen.yesButton).click();
         driver.pause(2000)
         // verify the mirror is re-assigned
-        //shopfloorAppOne.chai.expect.$(ClientScreen.title).to.have.text('Rita Costa | Demo Fitting Room QaLx'))
+        //shopfloorAppOne.expect($(ClientScreen.title)).toHaveValueContaining('Rita Costa | Demo Fitting Room QaLx')
     });
 });
