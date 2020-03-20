@@ -126,7 +126,7 @@ class Gestures {
      */
     static swipe (from, to) {
         driver.touchPerform([{
-            action: 'press',
+            action: 'tap',
             options: from,
         }, {
             action: 'wait',
@@ -137,7 +137,6 @@ class Gestures {
         }, {
             action: 'release',
         }]);
-        driver.pause(1000);
     }
 
     /**

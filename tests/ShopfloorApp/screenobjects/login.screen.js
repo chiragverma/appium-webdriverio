@@ -1,6 +1,5 @@
 import AppScreen from './app.screen';
 
-
 const SELECTORS = {
     LOGIN_SCREEN: '~Login-screen',
     LOGIN_CONTAINER_BUTTON: '~Login',

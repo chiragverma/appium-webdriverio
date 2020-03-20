@@ -57,7 +57,7 @@ exports.config = {
     services: ['selenium-standalone'],
     //
     framework: 'jasmine',
-    jasmineNodeOpts: 
+    jasmineNodeOpts:
     {   
     // Jasmine default timeout
     defaultTimeoutInterval: 90000,

@@ -42,4 +42,10 @@ exports.config = {
     beforeSession: (config, capabilities, specs) => {
         require('@babel/register');
     },
+
+    before: function() {
+        const chai = require('chai');
+        global.expect = chai.expect;
+        chai.Should();
+      }
 };

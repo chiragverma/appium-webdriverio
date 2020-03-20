@@ -4,6 +4,7 @@ import HomeScreen from '../screenobjects/home.screen';
 import SearchScreen from '../screenobjects/search.screen';
 import ClientScreen from '../screenobjects/client.screen';
 import SettingScreen from '../screenobjects/setting.screen';
+import Gestures from '../helpers/Gestures';
 
 
 class ShopfloorCommonPage extends Page {
@@ -42,7 +43,7 @@ class ShopfloorCommonPage extends Page {
         appName.$(HomeScreen.logoutButton).click();
         appName.$(SettingScreen.logoutButton).click();
         appName.$(LoginScreen.loginContainerButon).waitForExist(9000)
-        driver.pause(2000)
+        driver.pause(3000)
     }
 
     assignClient(appName, customerName) {
@@ -51,21 +52,25 @@ class ShopfloorCommonPage extends Page {
         appName.$(ClientScreen.searchButon).setValue(customerName)
         this.hideKeyboard(appName)
         appName.$(ClientScreen.customerlabelButton).click();
-        driver.pause(3000)
+        driver.pause(4000)
         if (appName.$(ClientScreen.assignmentButton).getText() == 'Assign to me'){
             appName.$(ClientScreen.assignmentButton).click();
         };
         driver.pause(2000)
     }
 
-
     assignMirror(appName, customerName) {
         this.assignClient(appName, customerName)
         driver.pause(3000)
         appName.$(ClientScreen.fittingRoomButton).touchAction('press')
+        driver.pause(3000)
+        let exist = appName.$(ClientScreen.mirrorName).isExisting();
+        if (exist === false) {
+        appName.Gestures.swipe({x: 183, y: 400}, {x: 183, y: 100 })
+        }
         appName.$(ClientScreen.mirrorName).click();
         appName.$(ClientScreen.assignMirrorButton).click();
-    }
+}
 
     sendToMirror(appName) {
         appName.$(HomeScreen.productsearchButton).click();
@@ -75,7 +80,7 @@ class ShopfloorCommonPage extends Page {
         appName.$(SearchScreen.viewAllDresses).click();
         appName.$(SearchScreen.actionListButton).click();
         appName.$(SearchScreen.sendtoMirror).click();
-    } 
+    }
 }
 
 export default new ShopfloorCommonPage();

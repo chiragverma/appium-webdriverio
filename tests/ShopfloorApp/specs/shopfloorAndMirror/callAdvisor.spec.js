@@ -30,5 +30,4 @@ describe('Able to Successfully call the Advisor from the mirror,', () => {
         shopfloorApp.$(RequestScreen.lastRequest).click();
         shopfloorApp.$(RequestScreen.lastRequest).waitForDisplayed(undefined, true);
     });
-
 });

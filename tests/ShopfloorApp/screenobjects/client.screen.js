@@ -19,7 +19,7 @@ const SELECTORS = {
     OVERRIDECLIENT_ALERT: '~Would you like to override & take over the assignment?',
     OVERRIDEMIRROR_ALERT: '~The connected mirror is not available. Would you like to assign to Demo Fitting Room QaLx?',
     YES_BUTTON: '~Yes',
-    TITLE: '~messageBarTitleLabel'
+    TITLE_MESSAGE: '~messageBarTitleLabel'
 };
 
 class ClientScreen extends AppScreen {
@@ -96,8 +96,8 @@ class ClientScreen extends AppScreen {
         return SELECTORS.YES_BUTTON;
     }
 
-    get title () {
-        return SELECTORS.TITLE;
+    get titleMessage () {
+        return SELECTORS.TITLE_MESSAGE;
     }
 
 }

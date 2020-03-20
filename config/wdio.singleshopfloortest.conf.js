@@ -7,7 +7,7 @@ exports.config = {
     maxInstances: 1,
     //
     specs: [
-        './tests/ShopfloorApp/specs/shopfloorAndMirror/checkMirrortab.spec.js'
+        './tests/ShopfloorApp/specs/shopfloorAndMirror/callAdvisor.spec.js'
     ],
 
     //

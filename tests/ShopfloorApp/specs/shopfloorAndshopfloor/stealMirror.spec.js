@@ -1,8 +1,10 @@
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 import ClientScreen from '../../screenobjects/client.screen';
-var chai = require('chai');
-var chaiWebdriver = require('chai-webdriverio').default;
-chai.use(chaiWebdriver(browser));
+const chai = require('chai');
+const expect = chai.expect;
+const webdriverio = require('webdriverio');
+var options = { desiredCapabilities: { browserName: 'chrome' } };
+const client = webdriverio.remote(options);
 
 describe('Steal mirror from the advisor,', () => {
 
@@ -22,11 +24,11 @@ describe('Steal mirror from the advisor,', () => {
     it('should be able to steal the mirror', () => {
         ShopfloorCommonPage.assignMirror(shopfloorAppTwo, 'chirag.verma@farfetch.com')
         shopfloorAppOne.launchApp()
-        ShopfloorCommonPage.assignMirror(shopfloorAppOne, 'rita.costa@farfetch.com', )
+        ShopfloorCommonPage.assignMirror(shopfloorAppOne, 'rita.costa@farfetch.com')
         shopfloorAppOne.$(ClientScreen.overrideMirrorAlert).waitForExist(4000)
         shopfloorAppOne.$(ClientScreen.yesButton).click();
-        driver.pause(2000)
+        driver.pause(3000)
         // verify the mirror is re-assigned
-        //shopfloorAppOne.expect($(ClientScreen.title)).toHaveValueContaining('Rita Costa | Demo Fitting Room QaLx')
+        expect(shopfloorAppOne.$(ClientScreen.titleMessage).getAttribute('label')).to.be.equal('Rita Costa | Demo Fitting Room QaLx');
     });
 });
