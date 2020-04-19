@@ -7,7 +7,7 @@ exports.config = {
     maxInstances: 1,
     //
     specs: [
-        './tests/ShopfloorApp/specs/shopfloorAndMirror/callAdvisor.spec.js'
+        './tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js'
     ],
 
     //
@@ -38,18 +38,12 @@ exports.config = {
                 'appium:newCommandTimeout': 240,
                 "appium:platformName": "iOS",
                 "appium:deviceName": "iPhone 8",
-                "appium:bundleId": "com.farfetch.enterprise.sof.shopfloor.chanel.in-house",
+                "appium:bundleId": "com.farfetch.enterprise.sof.shopfloor.chanel.in-house"
             }
         },
     },
 
     services: ['appium'],
-    /* appium: {
-
-        args: {
-            address: '127.0.0.1',
-        }
-    }, */
 
     //
     //logLevel: 'trace',
