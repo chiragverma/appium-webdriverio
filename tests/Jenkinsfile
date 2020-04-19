@@ -1,13 +1,69 @@
 pipeline {
-  agent any
+    agent any
+
+    environment {
+        APPIUM_PORT_ONE= 4723
+        APPIUM_PORT_TWO= 4724
+    }
 
   tools {nodejs "node"}
 
   stages {
-    stage('Tests') {
-      steps {
-        sh 'npm run shopfloor.shopfloor'
-      }
+        stage('Checkout Shopfloor App') {
+            steps {
+                echo "Building.."
+            }
+        }
+        
+        stage('Checkout Consumer App') {
+            steps {
+                echo "Building.."
+            }
+        }
+        
+        stage('Checkout Mirror') {
+            steps {
+                echo "Building.."
+            }
+        }
+        
+        stage('Checkout End to End Tests') {
+            steps {
+                echo "Building.."
+            }
+        }
+
+        stage('Starting Appium Servers') {
+            steps {
+                parallel(
+                    ServerOne: {
+                    echo "Starting Appium Server 1"
+                    dir("/Users/chirag.verma/Desktop/qa-end-to-end/") {
+                    }
+                  },
+                    ServerTwo: {
+                    echo "Starting Appium Server 2"
+                  })
+                  }
+              }
+
+          stage('Starting End to End Tests') {
+            steps {
+                echo "Starting End to End Tests"
+                dir("/Users/chirag.verma/Desktop/qa-end-to-end/") {
+                sh './tests.sh'
+                echo "Shutting Down Appium Servers"
+                sh "/usr/bin/killall -KILL node"
+                //sh "kill \$(lsof -t -i :${APPIUM_PORT_ONE}) &"
+                //sh "kill \$(lsof -t -i :${APPIUM_PORT_TWO}) &"
+            }
+          }
+        }
+
+        stage('Publish Report') {
+            steps {
+                echo "Publishing Report"
+            }
+        }
     }
-  }
-}
+}  

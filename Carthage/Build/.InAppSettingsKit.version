@@ -1,0 +1,9 @@
+{
+  "commitish" : "bbdd824e7f4033fc30618fba9c36736d31bda061",
+  "iOS" : [
+    {
+      "name" : "InAppSettingsKit",
+      "hash" : "d45bc0a9368648892ea44a5e30aed532ea19448d25528a54b9889aa645e2b42a"
+    }
+  ]
+}
