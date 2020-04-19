@@ -1,10 +1,5 @@
 #!/bin/bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-brew uninstall -g carthage;
-brew install carthage
-brew link --overwrite carthage
-npm install selenium-webdriver
-carthage bootstrap --platform iOS\,tvOS
-appium --p 4723 &
-appium --p 4724 &
-npm run singleshopfloortest.app
+git pull git@gitlab.fftech.info:sof/qa-end-to-end.git
+git pull git@gitlab.fftech.info:mobile/ios/sof/sfa.git
+git pull git@gitlab.fftech.info:mobile/ios/sof/sof-consumer-app.git
+git pull git@gitlab.fftech.info:sof/mirror.git
