@@ -47,6 +47,14 @@ exports.config = {
     //
     //bail: 0,
     //
+    reporters: ['allure', 'dot', 'spec', 'json'],
+    reporterOptions: {
+        outputDir: './wdio-logs/',
+        allure: {
+            outputDir: './allure-reports/allure/'
+        }
+    },
+
     waitforTimeout: 20000,
     //
     connectionRetryTimeout: 90000,
