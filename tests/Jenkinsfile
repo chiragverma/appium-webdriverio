@@ -11,25 +11,45 @@ pipeline {
   stages {
         stage('Checkout Shopfloor App') {
             steps {
+                dir("/Users/chirag.verma/Desktop/sfa") {
                 echo "Building.."
+                sh 'git reset --hard HEAD'
+                sh 'git clean -f -d'
+                sh 'git pull git@gitlab.fftech.info:mobile/ios/sof/sfa.git'
+                }
+                
             }
         }
         
         stage('Checkout Consumer App') {
             steps {
+                dir("/Users/chirag.verma/Desktop/sof-consumer-app") {
                 echo "Building.."
+                sh 'git reset --hard HEAD'
+                sh 'git clean -f -d'
+                sh 'git pull git@gitlab.fftech.info:mobile/ios/sof/sof-consumer-app.git'
+                }
             }
         }
         
         stage('Checkout Mirror') {
             steps {
-                echo "Building.."
+                dir("/Users/chirag.verma/Desktop/mirror/") {
+                sh 'git reset --hard HEAD'
+                sh 'git clean -f -d'
+                sh 'git pull git@gitlab.fftech.info:sof/mirror.git'
+            }
             }
         }
         
         stage('Checkout End to End Tests') {
             steps {
-                echo "Building.."
+                dir("/Users/chirag.verma/Desktop/qa-end-to-end/") {
+                //sh 'git reset --hard HEAD'
+                //sh 'git clean -f -d'
+               // sh 'git pull git@gitlab.fftech.info:sof/qa-end-to-end.git'
+            }
+                    
             }
         }
 
@@ -53,17 +73,10 @@ pipeline {
                 dir("/Users/chirag.verma/Desktop/qa-end-to-end/") {
                 sh './tests.sh'
                 echo "Shutting Down Appium Servers"
-                sh "/usr/bin/killall -KILL node"
-                //sh "kill \$(lsof -t -i :${APPIUM_PORT_ONE}) &"
-                //sh "kill \$(lsof -t -i :${APPIUM_PORT_TWO}) &"
             }
           }
         }
+            
 
-        stage('Publish Report') {
-            steps {
-                echo "Publishing Report"
-            }
-        }
     }
 }  
