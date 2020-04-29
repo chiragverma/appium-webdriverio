@@ -1,5 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Checking if the customer received the recommendation,",
+    "children" : [ {
+      "name" : "should have 1 recommendation on the home page",
+      "uid" : "e811b53dd96bff1c",
+      "parentUid" : "08561bdd4a053ee6374b4063d7ff111d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1587518162310,
+        "stop" : 1587518193422,
+        "duration" : 31112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "08561bdd4a053ee6374b4063d7ff111d"
+  } ]
 }

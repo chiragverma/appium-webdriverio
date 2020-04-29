@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "CompoundError: One or more errors occurred. ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---",
+      "children" : [ {
+        "name" : "should have 1 recommendation on the home page",
+        "uid" : "e811b53dd96bff1c",
+        "parentUid" : "8c17c78e6b040ccddd389dc7e0d783a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587518162310,
+          "stop" : 1587518193422,
+          "duration" : 31112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "true" ]
+      } ],
+      "uid" : "8c17c78e6b040ccddd389dc7e0d783a6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
