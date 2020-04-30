@@ -1,1 +1,11 @@
-[ ]
+[ {
+  "uid" : "e811b53dd96bff1c",
+  "name" : "should have 1 recommendation on the home page",
+  "time" : {
+    "start" : 1587518162310,
+    "stop" : 1587518193422,
+    "duration" : 31112
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

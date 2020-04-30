@@ -1,6 +1,9 @@
 [ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://localhost:8080/job/test/13/allure",
+  "reportName" : "AllureReport",
   "data" : {
-    "run" : 0,
-    "retry" : 0
+    "run" : 1,
+    "retry" : 7
   }
 } ]

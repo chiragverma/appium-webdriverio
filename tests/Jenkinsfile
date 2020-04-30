@@ -1,5 +1,11 @@
 pipeline {
-    agent any
+    //agent any
+    agent {
+        label {
+            label ""
+            customWorkspace "/Users/chirag.verma/Desktop/qa-end-to-end"
+        }
+    }
 
     environment {
         APPIUM_PORT_ONE= 4723
@@ -13,9 +19,9 @@ pipeline {
             steps {
                 dir("/Users/chirag.verma/Desktop/sfa") {
                 echo "Building.."
-                sh 'git reset --hard HEAD'
-                sh 'git clean -f -d'
-                sh 'git pull git@gitlab.fftech.info:mobile/ios/sof/sfa.git'
+                //sh 'git reset --hard HEAD'
+                //sh 'git clean -f -d'
+                //sh 'git pull git@gitlab.fftech.info:mobile/ios/sof/sfa.git'
                 }
                 
             }
@@ -35,9 +41,9 @@ pipeline {
         stage('Checkout Mirror') {
             steps {
                 dir("/Users/chirag.verma/Desktop/mirror/") {
-                sh 'git reset --hard HEAD'
-                sh 'git clean -f -d'
-                sh 'git pull git@gitlab.fftech.info:sof/mirror.git'
+                //sh 'git reset --hard HEAD'
+                //sh 'git clean -f -d'
+                //sh 'git pull git@gitlab.fftech.info:sof/mirror.git'
             }
             }
         }
@@ -47,7 +53,7 @@ pipeline {
                 dir("/Users/chirag.verma/Desktop/qa-end-to-end/") {
                 //sh 'git reset --hard HEAD'
                 //sh 'git clean -f -d'
-               // sh 'git pull git@gitlab.fftech.info:sof/qa-end-to-end.git'
+                //sh 'git pull git@gitlab.fftech.info:sof/qa-end-to-end.git'
             }
                     
             }
@@ -58,8 +64,6 @@ pipeline {
                 parallel(
                     ServerOne: {
                     echo "Starting Appium Server 1"
-                    dir("/Users/chirag.verma/Desktop/qa-end-to-end/") {
-                    }
                   },
                     ServerTwo: {
                     echo "Starting Appium Server 2"
@@ -76,6 +80,20 @@ pipeline {
             }
           }
         }
+        
+        stage('Reports') {
+            steps {
+            script {
+            allure([
+                    includeProperties: false,
+                    jdk: '',
+                    properties: [],
+                    reportBuildPolicy: 'ALWAYS',
+                    results: [[path: 'target/allure-results']]
+         ])
+    }
+    }
+}
             
 
     }
