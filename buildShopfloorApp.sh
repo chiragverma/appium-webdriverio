@@ -1,6 +1,16 @@
 #!/bin/bash
-xcrun xcodebuild -workspace Shopfloor.xcworkspace -scheme "In-House" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.2'
+export PATH=/usr/local/bin:$PATH
+bundle install
+gem install bundler
+bundle exec pod install --repo-update
+fastlane change_tenant tenant:Chanel
+# builds the code
+xcrun xcodebuild -workspace Shopfloor.xcworkspace -scheme "In-House" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.4.1'
+# starts the iphone simulator
 ios-sim start --devicetypeid com.apple.CoreSimulator.SimDeviceType.iPhone-7
+# starts the iphone simulator
 ios-sim start --devicetypeid com.apple.CoreSimulator.SimDeviceType.iPhone-8
-xcrun simctl install 2DE2ADEA-6B37-40A4-8E69-FCCC30F5E483 /Users/chirag.verma/Library/Developer/Xcode/DerivedData/ConsumerApp-chkgycoenlldgdeegksnhvtcyohh/Build/Products/In-House-Enterprise-iphonesimulator/Tage.app
-xcrun simctl install 2EAA4629-7260-42DB-84DA-AD2E1F662C61 /Users/chirag.verma/Library/Developer/Xcode/DerivedData/ConsumerApp-chkgycoenlldgdeegksnhvtcyohh/Build/Products/In-House-Enterprise-iphonesimulator/Tage.app
+# downloads the app to the simulator
+xcrun simctl install AC933BAA-2178-4929-BD4F-3BF71C05043C /Users/chirag.verma/Library/Developer/Xcode/DerivedData/Shopfloor-dlpwdmtxpnpgdxgvpkyneiomysay/Build/Products/In-House-iphonesimulator/Shopfloor.app
+# downloads the app to the simulator
+xcrun simctl install 0A21DF3F-F8D3-4905-983D-EECC99CF89F2 /Users/chirag.verma/Library/Developer/Xcode/DerivedData/Shopfloor-dlpwdmtxpnpgdxgvpkyneiomysay/Build/Products/In-House-iphonesimulator/Shopfloor.app
