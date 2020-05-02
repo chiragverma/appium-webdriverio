@@ -9,8 +9,8 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e811b53dd96bff1c",
-      "reportUrl" : "http://localhost:8080/job/test/13/allure/#testresult/e811b53dd96bff1c",
+      "uid" : "d7a365c3adb43288",
+      "reportUrl" : "http://localhost:8080/job/test/13/allure/#testresult/d7a365c3adb43288",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---",
       "time" : {

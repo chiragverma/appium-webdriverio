@@ -23,7 +23,8 @@
     "expect": "^25.1.0",
     "expect-webdriverio": "^0.2.0",
     "selenium": "^2.20.0",
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "yarn": "^1.22.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",

@@ -5,7 +5,7 @@
     "name" : "verifyRecommenItem",
     "children" : [ {
       "name" : "should have 1 recommendation on the home page",
-      "uid" : "e811b53dd96bff1c",
+      "uid" : "d7a365c3adb43288",
       "parentUid" : "2272eb64a3a5931c557c970b2ff48a68",
       "status" : "failed",
       "time" : {
