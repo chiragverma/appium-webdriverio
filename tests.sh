@@ -8,3 +8,5 @@ appium --port 4724 &
 npm run singleconsumertest.app
 # Shuts down all Appium Servers
 /usr/bin/killall -KILL node
+# Shuts down all Iphone Simulators
+xcrun simctl shutdown all
