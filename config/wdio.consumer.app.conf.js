@@ -20,12 +20,12 @@ exports.config = {
             port: 4724,
             capabilities: {
                 platformName: 'iOS',
-                'appium:platformVersion': '12.4',
+                'appium:platformVersion': '13.4',
                 'appium:orientation': 'PORTRAIT',
                 'appium:noReset': true,
                 'appium:newCommandTimeout': 240,
                 "appium:platformName": "iOS",
-                "appium:deviceName": "iPhone 7",
+                "appium:deviceName": "iPhone 8",
                 "appium:bundleId": "com.farfetch.enterprise.sof.consumerapp.tage.in-house",
             }
         }
