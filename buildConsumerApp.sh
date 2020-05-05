@@ -8,4 +8,4 @@ xcrun xcodebuild -workspace ConsumerApp.xcworkspace -scheme "Tage-In-House-Enter
 # starts the iphone simulator
 ios-sim start --devicetypeid com.apple.CoreSimulator.SimDeviceType.iPhone-8
 # downloads the app to the simulator
-xcrun simctl install 0A21DF3F-F8D3-4905-983D-EECC99CF89F2 /Users/chirag.verma/Library/Developer/Xcode/DerivedData/Shopfloor-dlpwdmtxpnpgdxgvpkyneiomysay/Build/Products/In-House-iphonesimulator/Shopfloor.app
+xcrun simctl install 0A21DF3F-F8D3-4905-983D-EECC99CF89F2 /Users/chirag.verma/Library/Developer/Xcode/DerivedData/ConsumerApp-dpyhndtiqafzkifahqcdpmlscxxc/Build/Products/In-House-Enterprise-iphonesimulator/Tage.app
