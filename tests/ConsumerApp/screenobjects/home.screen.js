@@ -12,6 +12,8 @@ const SELECTORS = {
     RECOMMENDATION_IMAGE: '//XCUIElementTypeCollectionView/XCUIElementTypeCell[1]',
     CLOSE_BUTTON: '~close',
     DELETE_RECOMMENDATION: '//XCUIElementTypeImage[@name="trash"]/.././XCUIElementTypeButton',
+    SKIP_BUTTON: '~SkipButton',
+    SKIP_TUTORIAL: '~HomeTooltipCloseButton'
 };
 
 class HomeScreen extends AppScreen {
@@ -58,6 +60,14 @@ class HomeScreen extends AppScreen {
 
     get deleteRecommendation () {
         return SELECTORS.DELETE_RECOMMENDATION;
+    }
+
+    get skipButton () {
+        return SELECTORS.skipButton;
+    }
+
+    get skipTutorial () {
+        return SELECTORS.skipTutorial;
     }
 }
 
