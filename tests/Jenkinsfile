@@ -23,6 +23,11 @@ pipeline {
                 sh 'git clean -f -d'
                 sh 'git pull git@gitlab.fftech.info:mobile/ios/sof/sfa.git'
                 }
+                // build consumer app
+                dir("/Users/chirag.verma/sfa") {
+                sh '/Users/chirag.verma/qa-end-to-end/buildShopfloorApp.sh'
+                }
+                
                 
             }
         }
@@ -50,18 +55,17 @@ pipeline {
                 sh 'git pull git@gitlab.fftech.info:sof/mirror.git'
             }
                 // build mirror
-                dir("/Users/chirag.verma/sof-consumer-app/sof-consumer-app") {
                 sh '/Users/chirag.verma/qa-end-to-end/buildMirror.sh'
-                }
+                
             }
         }
         
         stage('Checkout End to End Tests') {
             steps {
                 dir("/Users/chirag.verma/qa-end-to-end/") {
-                //sh 'git reset --hard HEAD'
-                //sh 'git clean -f -d'
-                //sh 'git pull git@gitlab.fftech.info:sof/qa-end-to-end.git'
+                sh 'git reset --hard HEAD'
+                sh 'git clean -f -d'
+                sh 'git pull git@gitlab.fftech.info:sof/qa-end-to-end.git'
             }
                     
             }
@@ -84,7 +88,6 @@ pipeline {
                 echo "Starting End to End Tests"
                 dir("/Users/chirag.verma/qa-end-to-end/") {
                 sh './tests.sh'
-                //echo "Shutting Down Appium Servers"
             }
           }
         }
