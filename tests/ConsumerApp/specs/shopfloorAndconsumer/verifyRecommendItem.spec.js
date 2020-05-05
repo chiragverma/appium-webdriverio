@@ -7,6 +7,8 @@ describe('Checking if the customer received the recommendation,', () => {
 
     beforeEach(() => {
         ConsumerCommonPage.login()
+        consumerApp.$(HomeScreen.skipButton).click()
+        consumerApp.$(HomeScreen.skipTutorial).click()
     });
 
     afterEach(() => {

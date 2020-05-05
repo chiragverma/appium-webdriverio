@@ -5,7 +5,7 @@
     "name" : "Checking if the customer received the recommendation,",
     "children" : [ {
       "name" : "should have 1 recommendation on the home page",
-      "uid" : "d7a365c3adb43288",
+      "uid" : "7155b6768f7e3404",
       "parentUid" : "08561bdd4a053ee6374b4063d7ff111d",
       "status" : "failed",
       "time" : {

@@ -1,12 +1,12 @@
 {
-  "uid" : "af890b3c268ff13a",
+  "uid" : "5257f1100f8ee919",
   "name" : "should have 1 recommendation on the home page",
   "fullName" : "Checking if the customer received the recommendation,.should have 1 recommendation on the home page",
   "historyId" : "b4f5c267b0d2adc586366093385d1c92",
   "time" : {
-    "start" : 1587511457951,
-    "stop" : 1587511488585,
-    "duration" : 30634
+    "start" : 1587513778825,
+    "stop" : 1587513809812,
+    "duration" : 30987
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "af890b3c268ff13a.json",
+  "source" : "5257f1100f8ee919.json",
   "parameterValues" : [ "true" ]
 }

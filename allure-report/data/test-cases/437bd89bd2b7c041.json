@@ -1,5 +1,5 @@
 {
-  "uid" : "74a43e39c00e42bd",
+  "uid" : "437bd89bd2b7c041",
   "name" : "should have 1 recommendation on the home page",
   "fullName" : "Checking if the customer received the recommendation,.should have 1 recommendation on the home page",
   "historyId" : "b4f5c267b0d2adc586366093385d1c92",
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "74a43e39c00e42bd.json",
+  "source" : "437bd89bd2b7c041.json",
   "parameterValues" : [ "true" ]
 }

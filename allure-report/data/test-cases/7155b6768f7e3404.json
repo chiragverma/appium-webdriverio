@@ -1,5 +1,5 @@
 {
-  "uid" : "d7a365c3adb43288",
+  "uid" : "7155b6768f7e3404",
   "name" : "should have 1 recommendation on the home page",
   "fullName" : "Checking if the customer received the recommendation,.should have 1 recommendation on the home page",
   "historyId" : "b4f5c267b0d2adc586366093385d1c92",
@@ -55,7 +55,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "c279632a554191f4",
+      "uid" : "5257f1100f8ee919",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---",
       "time" : {
@@ -64,7 +64,7 @@
         "duration" : 30987
       }
     }, {
-      "uid" : "af890b3c268ff13a",
+      "uid" : "b750b07f2bd39952",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---",
       "time" : {
@@ -73,7 +73,7 @@
         "duration" : 30634
       }
     }, {
-      "uid" : "3f45f725b9a341a1",
+      "uid" : "9c8551604367fe1",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---",
       "time" : {
@@ -82,7 +82,7 @@
         "duration" : 31295
       }
     }, {
-      "uid" : "babe5122cede28d7",
+      "uid" : "cf91da05d438856a",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---",
       "time" : {
@@ -91,7 +91,7 @@
         "duration" : 31221
       }
     }, {
-      "uid" : "74a43e39c00e42bd",
+      "uid" : "437bd89bd2b7c041",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"~OpenerComponent.Email\" because element wasn't found\n                        at ConsumerCommonPage.login (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/pageobjects/consumercommon.page.js:22:47)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:9:28)\n                --- End of stack trace ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~Tabbar.UserAccount\" because element wasn't found\n                        at ConsumerCommonPage.logout (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/pageobjects/consumercommon.page.js:37:49)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:13:28)\n                --- End of stack trace ---",
       "time" : {
@@ -100,7 +100,7 @@
         "duration" : 49399
       }
     }, {
-      "uid" : "9973b5510c67216f",
+      "uid" : "998e29b5162762a1",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"~OpenerComponent.Email\" because element wasn't found\n                        at ConsumerCommonPage.login (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/pageobjects/consumercommon.page.js:22:47)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:9:28)\n                --- End of stack trace ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~Tabbar.UserAccount\" because element wasn't found\n                        at ConsumerCommonPage.logout (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/pageobjects/consumercommon.page.js:37:49)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:13:28)\n                --- End of stack trace ---",
       "time" : {
@@ -109,7 +109,7 @@
         "duration" : 49321
       }
     }, {
-      "uid" : "707b9724acbb452d",
+      "uid" : "a9d72bfbd0d94385",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~Tabbar.UserAccount\" because element wasn't found\n                        at ConsumerCommonPage.logout (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/pageobjects/consumercommon.page.js:37:49)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:13:28)\n                --- End of stack trace ---",
       "time" : {
@@ -125,6 +125,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "d7a365c3adb43288.json",
+  "source" : "7155b6768f7e3404.json",
   "parameterValues" : [ "true" ]
 }
