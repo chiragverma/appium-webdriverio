@@ -1,6 +1,7 @@
 import HomeScreen from '../../screenobjects/home.screen';
 import RequestScreen from '../../screenobjects/requests.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import allureReporter from '@wdio/allure-reporter'
 
 
 describe('Able to Successfully call the Advisor from the mirror,', () => {
@@ -14,6 +15,7 @@ describe('Able to Successfully call the Advisor from the mirror,', () => {
     });
 
     it('should be able to call the Advisor from the mirror', () => {
+        allureReporter.addFeature('Call Advisor')
         chromeBrowser.url('/')
         ShopfloorCommonPage.assignMirror(shopfloorApp, 'chirag.verma@farfetch.com')
         ShopfloorCommonPage.sendToMirror(shopfloorApp)

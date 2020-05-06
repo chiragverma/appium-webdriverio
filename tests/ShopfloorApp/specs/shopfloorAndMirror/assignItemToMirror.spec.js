@@ -1,5 +1,6 @@
 import RequestScreen from '../../screenobjects/requests.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import allureReporter from '@wdio/allure-reporter'
 
 
 describe('Sending the item to the mirror successfully,', () => {
@@ -13,6 +14,7 @@ describe('Sending the item to the mirror successfully,', () => {
     });
 
     it('should be able to send the item to the mirror', () => {
+        allureReporter.addFeature('Assign Item to Mirror')
         chromeBrowser.url('/')
         ShopfloorCommonPage.assignMirror(shopfloorApp, 'chirag.verma@farfetch.com')
         ShopfloorCommonPage.sendToMirror(shopfloorApp)

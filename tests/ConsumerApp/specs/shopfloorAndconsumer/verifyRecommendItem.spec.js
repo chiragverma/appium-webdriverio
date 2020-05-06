@@ -16,7 +16,7 @@ describe('Checking if the customer received the recommendation,', () => {
     });
 
     it('should have 1 recommendation on the home page', () => {
-        allureReporter.addFeature('verifyRecommenItem')
+        allureReporter.addFeature('Verify Recommended Item')
         consumerApp.$(HomeScreen.recommendationsText).waitForExist(7000)
         consumerApp.$(HomeScreen.noOfProducts).waitForExist(7000)
         consumerApp.$(HomeScreen.recommendationImage).click()

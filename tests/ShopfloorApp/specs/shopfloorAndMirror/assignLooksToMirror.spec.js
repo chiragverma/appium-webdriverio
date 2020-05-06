@@ -1,5 +1,7 @@
 import RequestScreen from '../../screenobjects/requests.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import allureReporter from '@wdio/allure-reporter'
+
 
 
 describe('Sending the looks to the mirror successfully,', () => {
@@ -14,6 +16,7 @@ describe('Sending the looks to the mirror successfully,', () => {
     });
 
     it('should be able to send looks to the mirror', () => {
+        allureReporter.addFeature('Assign Looks to Mirror')
         chromeBrowser.url('/')
         ShopfloorCommonPage.sendToMirror('chirag.verma@farfetch.com')
         chromeBrowser.$(RequestScreen.tapMirror).doubleClick()

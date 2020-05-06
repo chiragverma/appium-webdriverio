@@ -1,5 +1,6 @@
 import SearchScreen from '../../screenobjects/search.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import allureReporter from '@wdio/allure-reporter'
 
 
 describe('Not able to Assign Mirror from the product with no image,', () => {
@@ -13,6 +14,7 @@ describe('Not able to Assign Mirror from the product with no image,', () => {
     });
 
     it('should not able to Assign Mirror from the product with no image', () => {
+        allureReporter.addFeature('Not Able to Assign Mirror')
         ShopfloorCommonPage.sendToMirror('chirag.verma@farfetch.com')
         shopfloorApp.$(SearchScreen.shoes).click();
         shopfloorApp.$(SearchScreen.viewAllShoes).click();

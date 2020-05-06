@@ -1,6 +1,8 @@
 /* import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 import ClientScreen from '../../screenobjects/client.screen';
 import SearchScreen from '../../screenobjects/search.screen';
+import allureReporter from '@wdio/allure-reporter'
+
 
 describe('Steal customer from the advisor,', () => {
 
@@ -18,6 +20,7 @@ describe('Steal customer from the advisor,', () => {
     });
 
     it('should be able to steal the customer', () => {
+        allureReporter.addFeature('Steal Customer')
         ShopfloorCommonPage.assignClient(shopfloorAppTwo, 'chirag.verma@farfetch.com')
         shopfloorAppOne.launchApp()
         ShopfloorCommonPage.assignClient(shopfloorAppOne, 'chirag.verma@farfetch.com')

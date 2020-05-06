@@ -1,6 +1,7 @@
 import ClientScreen from '../../screenobjects/client.screen';
 import HomeScreen from '../../screenobjects/home.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import allureReporter from '@wdio/allure-reporter'
 
 
 describe('Check Mirror Tab,', () => {
@@ -14,6 +15,7 @@ describe('Check Mirror Tab,', () => {
     });
 
     it('should contain items in the mirror tab', () => {
+        allureReporter.addFeature('Check Mirror Tab')
         chromeBrowser.url('/')
         ShopfloorCommonPage.assignMirror(shopfloorApp, 'chirag.verma@farfetch.com')
         shopfloorApp.$(ClientScreen.backArrow).click();
