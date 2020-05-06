@@ -1,8 +1,8 @@
 #!/bin/bash
 export PATH=/usr/local/bin:$PATH
+bundle exec pod install
 bundle update
 bundle exec pod repo update
-bundle exec pod install
 # builds the code
 xcrun xcodebuild -workspace ConsumerApp.xcworkspace -scheme "Tage-In-House-Enterprise" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.4.1'
 # starts the iphone simulator
