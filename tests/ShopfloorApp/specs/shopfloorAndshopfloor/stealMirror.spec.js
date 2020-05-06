@@ -1,5 +1,7 @@
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 import ClientScreen from '../../screenobjects/client.screen';
+import allureReporter from '@wdio/allure-reporter'
+
 const chai = require('chai');
 const expect = chai.expect;
 const webdriverio = require('webdriverio');
@@ -22,6 +24,7 @@ describe('Steal mirror from the advisor,', () => {
     });
 
     it('should be able to steal the mirror', () => {
+        allureReporter.addFeature('Steal Mirror')
         ShopfloorCommonPage.assignMirror(shopfloorAppTwo, 'chirag.verma@farfetch.com')
         shopfloorAppOne.launchApp()
         ShopfloorCommonPage.assignMirror(shopfloorAppOne, 'rita.costa@farfetch.com')

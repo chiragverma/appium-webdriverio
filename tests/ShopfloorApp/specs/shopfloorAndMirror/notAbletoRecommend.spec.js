@@ -1,6 +1,7 @@
 import ClientScreen from '../../screenobjects/client.screen';
 import SearchScreen from '../../screenobjects/search.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import allureReporter from '@wdio/allure-reporter'
 
 
 describe('Cannot send recommendaton to the customer,', () => {
@@ -14,6 +15,7 @@ describe('Cannot send recommendaton to the customer,', () => {
     });
 
     it('not able to send the recommendaton to the customer', () => {
+        allureReporter.addFeature('Not Able to Recommend')
         // add the recommendation and verify alert
         ShopfloorCommonPage.assignClient('chirag.verma@farfetch.com')
         shopfloorApp.$(ClientScreen.clientWishlist).touchAction('press')

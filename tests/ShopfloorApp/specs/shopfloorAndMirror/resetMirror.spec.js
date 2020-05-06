@@ -1,5 +1,6 @@
 import RequestScreen from '../../screenobjects/requests.screen';
 import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import allureReporter from '@wdio/allure-reporter'
 
 
 describe('Resetting the mirror successfully,', () => {
@@ -13,6 +14,7 @@ describe('Resetting the mirror successfully,', () => {
     });
 
     it('should be able to reset the mirror', () => {
+        allureReporter.addFeature('Reset Mirror')
         chromeBrowser.url('/')
         // recommend item to mirror
         ShopfloorCommonPage.sendToMirror('chirag.verma@farfetch.com')
