@@ -1,5 +1,6 @@
 #!/bin/bash
 export PATH=/usr/local/bin:$PATH
+pod install
 bundle install
 gem install bundler
 bundle exec pod install --repo-update
