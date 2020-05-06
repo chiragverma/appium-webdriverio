@@ -7,10 +7,6 @@ pipeline {
         }
     }
 
-    environment {
-        APPIUM_PORT_ONE= 4723
-        APPIUM_PORT_TWO= 4724
-    }
 
   tools {nodejs "node"}
 
@@ -23,7 +19,7 @@ pipeline {
                 sh 'git clean -f -d'
                 sh 'git pull git@gitlab.fftech.info:mobile/ios/sof/sfa.git'
                 }
-                // build consumer app
+                // build Shopfloor app
                 dir("/Users/chirag.verma/sfa") {
                 sh '/Users/chirag.verma/qa-end-to-end/buildShopfloorApp.sh'
                 }
@@ -71,17 +67,6 @@ pipeline {
             }
         }
 
-        stage('Starting Appium Servers') {
-            steps {
-                parallel(
-                    ServerOne: {
-                    echo "Starting Appium Server 1"
-                  },
-                    ServerTwo: {
-                    echo "Starting Appium Server 2"
-                  })
-                  }
-              }
 
           stage('Starting End to End Tests') {
             steps {
