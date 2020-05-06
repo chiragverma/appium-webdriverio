@@ -7,8 +7,6 @@ describe('Checking if the customer received the recommendation,', () => {
 
     beforeEach(() => {
         ConsumerCommonPage.login()
-        consumerApp.$(HomeScreen.skipButton).doubleClick()
-        consumerApp.$(HomeScreen.skipTutorial).doubleClick()
     });
 
     afterEach(() => {
@@ -17,6 +15,8 @@ describe('Checking if the customer received the recommendation,', () => {
 
     it('should have 1 recommendation on the home page', () => {
         allureReporter.addFeature('Verify Recommended Item')
+        consumerApp.$(HomeScreen.skipButton).doubleClick()
+        consumerApp.$(HomeScreen.skipTutorial).doubleClick()
         consumerApp.$(HomeScreen.recommendationsText).waitForExist(7000)
         consumerApp.$(HomeScreen.noOfProducts).waitForExist(7000)
         consumerApp.$(HomeScreen.recommendationImage).click()
