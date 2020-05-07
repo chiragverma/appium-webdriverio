@@ -17,9 +17,9 @@ pipeline {
                 echo "Building.."
                 sh 'git reset --hard HEAD'
                 sh 'git clean -f -d'
-                sh 'git pull git@gitlab.fftech.info:mobile/ios/sof/sfa.git'
+                sh 'git pull'
                 }
-                // build Shopfloor app
+                // build consumer app
                 dir("/Users/chirag.verma/sfa") {
                 sh '/Users/chirag.verma/qa-end-to-end/buildShopfloorApp.sh'
                 }
@@ -34,7 +34,7 @@ pipeline {
                 echo "Building.."
                 sh 'git reset --hard HEAD'
                 sh 'git clean -f -d'
-                sh 'git pull git@gitlab.fftech.info:mobile/ios/sof/sof-consumer-app.git'
+                sh 'git pull'
                 }
                 // build consumer app
                 dir("/Users/chirag.verma/sof-consumer-app/sof-consumer-app") {
@@ -48,7 +48,7 @@ pipeline {
                 dir("/Users/chirag.verma/mirror/") {
                 sh 'git reset --hard HEAD'
                 sh 'git clean -f -d'
-                sh 'git pull git@gitlab.fftech.info:sof/mirror.git'
+                sh 'git pull'
             }
                 // build mirror
                 sh '/Users/chirag.verma/qa-end-to-end/buildMirror.sh'
@@ -61,7 +61,7 @@ pipeline {
                 dir("/Users/chirag.verma/qa-end-to-end/") {
                 sh 'git reset --hard HEAD'
                 sh 'git clean -f -d'
-                sh 'git pull git@gitlab.fftech.info:sof/qa-end-to-end.git'
+                sh 'git pull'
             }
                     
             }
