@@ -10,3 +10,5 @@ npm run singleconsumertest.app
 /usr/bin/killall -KILL node
 # Shuts down all Iphone Simulators
 xcrun simctl shutdown all
+# Shuts down the Mirror
+killall node
