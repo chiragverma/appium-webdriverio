@@ -20,7 +20,7 @@ bundle exec pod install --repo-update
 fastlane change_tenant tenant:Chanel
 
 # builds the code
-xcrun xcodebuild -workspace Shopfloor.xcworkspace -scheme "$SCHEME" BUILD_DIR=$APPDIR -sdk iphonesimulator -destination "$DESTINATION" || { echo 'Build Failed' ; exit 1; }
+xcrun xcodebuild -workspace $WORKSPACE -scheme "$SCHEME" BUILD_DIR=$APPDIR -sdk iphonesimulator -destination "$DESTINATION" || { echo 'Build Failed' ; exit 1; }
 # starts the iphone simulator
 ios-sim start --devicetypeid com.apple.CoreSimulator.SimDeviceType.$IPHONE_VERSION_ONE
 # starts the iphone simulator
