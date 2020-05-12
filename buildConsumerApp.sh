@@ -11,7 +11,7 @@ APP_NAME="In-House-Enterprise-iphonesimulator/Tage.app"
 PHONE_ID="$(instruments -s devices | grep -m 1 'iPhone 8' | awk -F'[][]' '{print $2}')"
 APP_LOCATION="${APPDIR}${APP_NAME}"
 
-bundle install
+pod install
 bundle exec pod install
 
 # builds the code
