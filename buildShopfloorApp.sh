@@ -9,8 +9,8 @@ IPHONE_VERSION_ONE="iPhone-7"
 IPHONE_VERSION_TWO="iPhone-8"
 APPDIR="$HOME/Library/Developer/Xcode/DerivedData/"
 APP_NAME="In-House-iphonesimulator/Shopfloor.app"
-PHONE_ID_ONE="AC933BAA-2178-4929-BD4F-3BF71C05043C"
-PHONE_ID_TWO="0A21DF3F-F8D3-4905-983D-EECC99CF89F2"
+PHONE_ID_ONE="$(instruments -s devices | grep -m 1 'iPhone 7' | awk -F'[][]' '{print $2}')"
+PHONE_ID_TWO="$(instruments -s devices | grep -m 1 'iPhone 8' | awk -F'[][]' '{print $2}')"
 APP_LOCATION="${APPDIR}${APP_NAME}"
 
 pod install
