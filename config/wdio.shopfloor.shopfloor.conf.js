@@ -8,9 +8,10 @@ exports.config = {
     },
     runner: 'local',
 
-    maxInstances: 1,
+    maxInstances: 2,
     //
     specs: [
+        './tests/ShopfloorApp/specs/*.spec.js',
         './tests/ShopfloorApp/specs/shopfloorAndshopfloor/**/*.spec.js'
     ],
     //
@@ -25,7 +26,7 @@ exports.config = {
             port: 4723,
             capabilities: {
                 platformName: 'iOS',
-                'appium:platformVersion': '12.4',
+                'appium:platformVersion': '13.4',
                 'appium:orientation': 'PORTRAIT',
                 'appium:noReset': true,
                 'appium:newCommandTimeout': 240,
@@ -38,7 +39,7 @@ exports.config = {
             port: 4724,
             capabilities: {
                 platformName: 'iOS',
-                'appium:platformVersion': '12.4',
+                'appium:platformVersion': '13.4',
                 'appium:orientation': 'PORTRAIT',
                 'appium:noReset': true,
                 'appium:newCommandTimeout': 240,

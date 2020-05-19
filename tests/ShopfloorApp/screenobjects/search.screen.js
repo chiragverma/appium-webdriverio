@@ -9,7 +9,7 @@ const SELECTORS = {
     SHOES: '~Shoes',
     VIEWALL_DRESSES: '~Dresses',
     VIEWALL_SHOES: '~View All Shoes',
-    COLLECTIONS: '~Other Accessories',
+    COLLECTIONS: '~Collections',
     FIRST_COLLECTION: '//XCUIElementTypeCollectionView/XCUIElementTypeCell[1]',
     SEARCH_CROSS: '~SimpleCross',
     SEARCH_ERROR: '~toastTitleLabel',
@@ -58,6 +58,10 @@ class SearchScreen extends AppScreen {
 
     get collections () {
         return SELECTORS.COLLECTIONS;
+    }
+
+    get firstCollection () {
+        return SELECTORS.FIRST_COLLECTION;
     }
 
     get searchCross () {

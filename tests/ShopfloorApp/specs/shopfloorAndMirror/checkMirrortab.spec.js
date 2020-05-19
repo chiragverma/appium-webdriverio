@@ -7,7 +7,7 @@ import allureReporter from '@wdio/allure-reporter'
 describe('Check Mirror Tab,', () => {
 
     beforeEach(() => {
-        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_321')
+        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_322')
     });
 
     afterEach(() => {
@@ -19,7 +19,7 @@ describe('Check Mirror Tab,', () => {
         chromeBrowser.url('/')
         ShopfloorCommonPage.assignMirror(shopfloorApp, 'chirag.verma@farfetch.com')
         shopfloorApp.$(ClientScreen.backArrow).click();
-        ShopfloorCommonPage.sendToMirror(shopfloorApp)
+        ShopfloorCommonPage.sendItemToMirror(shopfloorApp)
         shopfloorApp.$(HomeScreen.customersearchButon).click();
         shopfloorApp.$(ClientScreen.clientWishlist).touchAction('press')
         shopfloorApp.$(ClientScreen.mirrorTab).click()
