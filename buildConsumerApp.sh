@@ -4,11 +4,11 @@ export PATH=/usr/local/bin:$PATH
 # define variables
 WORKSPACE="ConsumerApp.xcworkspace"
 SCHEME="Tage-In-House-Enterprise"
-DESTINATION="platform=iOS Simulator,name=iPhone 8,OS=13.4.1"
-IPHONE_VERSION="iPhone-8"
+DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=13.4.1"
+IPHONE_VERSION="iPhone-7"
 APPDIR="$HOME/Library/Developer/Xcode/DerivedData/"
 APP_NAME="In-House-Enterprise-iphonesimulator/Tage.app"
-PHONE_ID="$(instruments -s devices | grep -m 1 'iPhone 8' | awk -F'[][]' '{print $2}')"
+PHONE_ID="$(instruments -s devices | grep -m 1 'iPhone 7' | awk -F'[][]' '{print $2}')"
 APP_LOCATION="${APPDIR}${APP_NAME}"
 
 bundle exec pod install

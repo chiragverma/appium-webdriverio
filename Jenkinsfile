@@ -21,7 +21,7 @@ pipeline {
                 }
                 // build shopfloor app
                 dir("${env.HOME}/sfa") {
-                sh "${env.HOME}/qa-end-to-end/buildShopfloorApp.sh"
+                sh "/${env.HOME}/qa-end-to-end/buildShopfloorApp.sh"
                 } 
             }
         }
@@ -71,22 +71,23 @@ pipeline {
                 sh './tests.sh'
             }
           }
-        }
-        
-        stage('Reports') {
-            steps {
-            script {
-            allure([
-                    includeProperties: false,
-                    jdk: '',
-                    properties: [],
-                    reportBuildPolicy: 'ALWAYS',
-                    results: [[path: 'target/allure-results']]
-         ])
-    }
-    }
-}
-            
+        } 
 
     }
+    
+        post('Publish Report') {
+          always {
+            script {
+              allure([
+                includeProperties: false,
+                jdk: '',
+                properties: [],
+                reportBuildPolicy: 'ALWAYS',
+                results: [[path: 'target/allure_results']]
+              ])
+            }
+          }
+        }
+        
 }  
+

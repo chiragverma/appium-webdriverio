@@ -2,7 +2,7 @@ import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 import ClientScreen from '../../screenobjects/client.screen';
 import allureReporter from '@wdio/allure-reporter'
 
-const chai = require('chai');
+var chai = require('chai');
 const expect = chai.expect;
 const webdriverio = require('webdriverio');
 var options = { desiredCapabilities: { browserName: 'chrome' } };
@@ -12,9 +12,9 @@ describe('Steal mirror from the advisor,', () => {
 
     beforeEach(() => {
         shopfloorAppOne.launchApp()
-        ShopfloorCommonPage.login(shopfloorAppOne, 'Vchirag', 'SFApp_321')
+        ShopfloorCommonPage.login(shopfloorAppOne, 'Vchirag', 'SFApp_322')
         shopfloorAppTwo.launchApp()
-        ShopfloorCommonPage.login(shopfloorAppTwo, 'RCosta', '!Europa805')
+        ShopfloorCommonPage.login(shopfloorAppTwo, 'RCosta', '!Europa806')
     });
 
    afterEach(() => {

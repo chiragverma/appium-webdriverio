@@ -6,7 +6,7 @@ exports.config = {
     maxInstances: 1,
     //
     specs: [
-        './tests/ConsumerApp/specs/shoplfoorAndconsumer/**/*.js'
+        './tests/ConsumerApp/specs/shopfloorAndconsumer/**/*.js'
     ],
     //
     exclude: [
@@ -25,7 +25,7 @@ exports.config = {
                 'appium:noReset': true,
                 'appium:newCommandTimeout': 240,
                 "appium:platformName": "iOS",
-                "appium:deviceName": "iPhone 8",
+                "appium:deviceName": "iPhone 7",
                 "appium:bundleId": "com.farfetch.enterprise.sof.consumerapp.tage.in-house",
             }
         }

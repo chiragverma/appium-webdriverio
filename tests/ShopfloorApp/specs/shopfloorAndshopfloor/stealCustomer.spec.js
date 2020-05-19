@@ -1,16 +1,20 @@
-/* import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
+import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 import ClientScreen from '../../screenobjects/client.screen';
-import SearchScreen from '../../screenobjects/search.screen';
 import allureReporter from '@wdio/allure-reporter'
 
+var chai = require('chai');
+const expect = chai.expect;
+const webdriverio = require('webdriverio');
+var options = { desiredCapabilities: { browserName: 'chrome' } };
+const client = webdriverio.remote(options);
 
 describe('Steal customer from the advisor,', () => {
 
     beforeEach(() => {
         shopfloorAppOne.launchApp()
-        ShopfloorCommonPage.login(shopfloorAppOne, 'Vchirag', 'SFApp_321')
+        ShopfloorCommonPage.login(shopfloorAppOne, 'Vchirag', 'SFApp_322')
         shopfloorAppTwo.launchApp()
-        ShopfloorCommonPage.login(shopfloorAppTwo, 'RCosta', '!Europa805')
+        ShopfloorCommonPage.login(shopfloorAppTwo, 'RCosta', '!Europa806')
     });
 
    afterEach(() => {
@@ -25,6 +29,7 @@ describe('Steal customer from the advisor,', () => {
         shopfloorAppOne.launchApp()
         ShopfloorCommonPage.assignClient(shopfloorAppOne, 'chirag.verma@farfetch.com')
         shopfloorAppOne.$(ClientScreen.overrideAlert).waitForExist(3000)
-        shopfloorAppOne.$(SearchScreen.cancelButton).click();
+        shopfloorAppOne.$(ClientScreen.yesButton).click();
+        expect(shopfloorAppOne.$(ClientScreen.assignmentButton).getAttribute('label')).to.be.equal('Unassign from me');
     });
-}); */
+});

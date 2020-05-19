@@ -6,7 +6,7 @@ import allureReporter from '@wdio/allure-reporter'
 describe('Sending the item to the mirror successfully,', () => {
 
     beforeEach(() => {
-        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_321')
+        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_322')
     });
 
     afterEach(() => {
@@ -17,13 +17,13 @@ describe('Sending the item to the mirror successfully,', () => {
         allureReporter.addFeature('Assign Item to Mirror')
         chromeBrowser.url('/')
         ShopfloorCommonPage.assignMirror(shopfloorApp, 'chirag.verma@farfetch.com')
-        ShopfloorCommonPage.sendToMirror(shopfloorApp)
+        ShopfloorCommonPage.sendItemToMirror(shopfloorApp)
         // double tap on the mirror
         chromeBrowser.$(RequestScreen.tapMirror).moveTo(0,0)
         chromeBrowser.$(RequestScreen.tapMirror).click()
         chromeBrowser.$(RequestScreen.tapMirror).click()
         chromeBrowser.execute(() => document.body.style.zoom='40%')
-        driver.pause(2000)
+        driver.pause(8000)
         chromeBrowser.execute(elem => elem.click(), chromeBrowser.$(RequestScreen.expandProduct));
         chromeBrowser.$(RequestScreen.verifyMirrorproduct).waitForExist(6000)
     });

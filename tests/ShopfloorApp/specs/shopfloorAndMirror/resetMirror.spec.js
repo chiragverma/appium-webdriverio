@@ -6,18 +6,19 @@ import allureReporter from '@wdio/allure-reporter'
 describe('Resetting the mirror successfully,', () => {
 
     beforeEach(() => {
-        ShopfloorCommonPage.login()
+        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_322')
     });
 
     afterEach(() => {
-        ShopfloorCommonPage.logout()
+        ShopfloorCommonPage.logout(shopfloorApp)
     });
 
     it('should be able to reset the mirror', () => {
         allureReporter.addFeature('Reset Mirror')
         chromeBrowser.url('/')
         // recommend item to mirror
-        ShopfloorCommonPage.sendToMirror('chirag.verma@farfetch.com')
+        ShopfloorCommonPage.assignMirror(shopfloorApp, 'chirag.verma@farfetch.com')
+        ShopfloorCommonPage.sendItemToMirror(shopfloorApp)
         // double tap on the mirror
         chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
         chromeBrowser.execute(() => document.body.style.zoom='50%')

@@ -8,7 +8,7 @@ var productName;
 describe('Sending the recommendaton to the customer,', () => {
 
     beforeEach(() => {
-        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_321')
+        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_322')
     });
 
     afterEach(() => {
@@ -24,7 +24,7 @@ describe('Sending the recommendaton to the customer,', () => {
         driver.pause(3000)
         shopfloorApp.$(SearchScreen.viewAllDresses).click();
         shopfloorApp.$(SearchScreen.firstimageProduct).click();
-        shopfloorApp.$(SearchScreen.productDetails).click();
+        driver.pause(3000)
         shopfloorApp.$(SearchScreen.threedotsMenu).click();
         shopfloorApp.$(SearchScreen.sendRecommendations).click();
         driver.pause(2000)

@@ -3,25 +3,27 @@ import ShopfloorCommonPage from '../../pageobjects/shopfloorcommon.page';
 import allureReporter from '@wdio/allure-reporter'
 
 
-
 describe('Sending the looks to the mirror successfully,', () => {
 
     beforeEach(() => {
-        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_321')
+        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_322')
     });
 
     afterEach(() => {
         ShopfloorCommonPage.logout(shopfloorApp)
-        chromeBrowser.$(RequestScreen.verifyScreenoff).waitForExist(5000)
     });
 
     it('should be able to send looks to the mirror', () => {
         allureReporter.addFeature('Assign Looks to Mirror')
         chromeBrowser.url('/')
-        ShopfloorCommonPage.sendToMirror('chirag.verma@farfetch.com')
-        chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
-        chromeBrowser.execute(() => document.body.style.zoom='60%')
-        driver.pause(2000)
+        ShopfloorCommonPage.assignMirror(shopfloorApp, 'chirag.verma@farfetch.com')
+        ShopfloorCommonPage.sendLooksToMirror(shopfloorApp)
+        // double tap on the mirror
+        chromeBrowser.$(RequestScreen.tapMirror).moveTo(0,0)
+        chromeBrowser.$(RequestScreen.tapMirror).click()
+        chromeBrowser.$(RequestScreen.tapMirror).click()
+        chromeBrowser.execute(() => document.body.style.zoom='40%')
+        driver.pause(8000)
         chromeBrowser.execute(elem => elem.click(), chromeBrowser.$(RequestScreen.expandProduct));
         chromeBrowser.$(RequestScreen.verifyMirrorlooks).waitForExist(6000)
     });

@@ -7,7 +7,7 @@ import allureReporter from '@wdio/allure-reporter'
 describe('Able to Successfully call the Advisor from the mirror,', () => {
 
     beforeEach(() => {
-        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_321')
+        ShopfloorCommonPage.login(shopfloorApp, 'Vchirag', 'SFApp_322')
     });
 
     afterEach(() => {
@@ -18,7 +18,7 @@ describe('Able to Successfully call the Advisor from the mirror,', () => {
         allureReporter.addFeature('Call Advisor')
         chromeBrowser.url('/')
         ShopfloorCommonPage.assignMirror(shopfloorApp, 'chirag.verma@farfetch.com')
-        ShopfloorCommonPage.sendToMirror(shopfloorApp)
+        ShopfloorCommonPage.sendItemToMirror(shopfloorApp)
         // double tap on the mirror
         chromeBrowser.$(RequestScreen.tapMirror).moveTo(0,0)
         chromeBrowser.$(RequestScreen.tapMirror).click()

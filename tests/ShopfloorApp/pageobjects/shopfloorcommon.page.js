@@ -72,13 +72,23 @@ class ShopfloorCommonPage extends Page {
         appName.$(ClientScreen.assignMirrorButton).click();
 }
 
-    sendToMirror(appName) {
+    sendItemToMirror(appName) {
         appName.$(HomeScreen.productsearchButton).click();
         driver.pause(3000)
         appName.$(SearchScreen.handbags).click();
         driver.pause(3000)
         appName.$(SearchScreen.viewAllDresses).click();
         appName.$(SearchScreen.actionListButton).click();
+        appName.$(SearchScreen.sendtoMirror).click();
+    }
+
+    sendLooksToMirror(appName) {
+        appName.$(HomeScreen.productsearchButton).click();
+        driver.pause(3000)
+        appName.$(SearchScreen.collections).click();
+        driver.pause(3000)
+        appName.$(SearchScreen.firstCollection).click();
+        appName.$(SearchScreen.firstLook).click();
         appName.$(SearchScreen.sendtoMirror).click();
     }
 }
