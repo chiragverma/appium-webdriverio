@@ -52,6 +52,12 @@ exports.config = {
     //
     //bail: 0,
     //
+    reporters: [['allure', {
+        outputDir: 'allureresults',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
+    
     waitforTimeout: 20000,
     //
     connectionRetryTimeout: 90000,
