@@ -83,11 +83,10 @@ pipeline {
                 jdk: '',
                 properties: [],
                 reportBuildPolicy: 'ALWAYS',
-                results: [[path: 'target/allure_results']]
+                results: [[path: '$WORKSPACE/${env.HOME}/app/target/allure_results']]
               ])
             }
           }
         }
         
 }  
-
