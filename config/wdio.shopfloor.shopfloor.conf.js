@@ -59,6 +59,12 @@ exports.config = {
     }, */
 
     //
+    reporters: [['allure', {
+        outputDir: 'allureresults',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
+    
     logLevel: 'trace',
     //
     //deprecationWarnings: true,
