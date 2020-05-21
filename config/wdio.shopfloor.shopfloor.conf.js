@@ -60,7 +60,7 @@ exports.config = {
 
     //
     reporters: [['allure', {
-        outputDir: 'allureresults',
+        outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: true,
     }]],
