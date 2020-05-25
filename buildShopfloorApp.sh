@@ -1,5 +1,8 @@
 #!/bin/bash
 export PATH=/usr/local/bin:$PATH
+export LANGUAGE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # define variables
 WORKSPACE="Shopfloor.xcworkspace"
@@ -15,8 +18,8 @@ APP_LOCATION="${APPDIR}${APP_NAME}"
 
 pod install
 bundle install
+bundle exec pod install
 gem install bundler
-bundle exec pod install --repo-update
 fastlane change_tenant tenant:Chanel
 
 # builds the code
