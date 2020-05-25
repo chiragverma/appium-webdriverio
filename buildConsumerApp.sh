@@ -1,5 +1,8 @@
 #!/bin/bash
 export PATH=/usr/local/bin:$PATH
+export LANGUAGE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # define variables
 WORKSPACE="ConsumerApp.xcworkspace"
@@ -11,8 +14,11 @@ APP_NAME="In-House-Enterprise-iphonesimulator/Tage.app"
 PHONE_ID="$(instruments -s devices | grep -m 1 'iPhone 7' | awk -F'[][]' '{print $2}')"
 APP_LOCATION="${APPDIR}${APP_NAME}"
 
+bundle update
 bundle exec pod install
 
+# cleans the code
+xcodebuild clean -workspace $WORKSPACE -scheme "$SCHEME"
 # builds the code
 xcrun xcodebuild -workspace $WORKSPACE -scheme "$SCHEME" BUILD_DIR=$APPDIR -sdk iphonesimulator -destination "$DESTINATION" || { echo 'Build Failed' ; exit 1; }
 # starts the iphone simulator
