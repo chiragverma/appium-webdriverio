@@ -2,21 +2,191 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Checking if the customer received the recommendation,",
+    "name" : "Sending the looks to the mirror successfully,",
     "children" : [ {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "c166d084c8266844",
-      "parentUid" : "9f3f6b2f0a7a3bb802003eceeec21769",
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "56105e1aa76ab1ad",
+      "parentUid" : "7ed15813f834e1680f2c1150cb27af1d",
       "status" : "failed",
       "time" : {
-        "start" : 1587518162310,
-        "stop" : 1587518193422,
-        "duration" : 31112
+        "start" : 1593394854783,
+        "stop" : 1593394936182,
+        "duration" : 81399
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     } ],
-    "uid" : "9f3f6b2f0a7a3bb802003eceeec21769"
+    "uid" : "7ed15813f834e1680f2c1150cb27af1d"
+  }, {
+    "name" : "Able to Successfully call the Advisor from the mirror,",
+    "children" : [ {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "a08105cc3a9752e",
+      "parentUid" : "6d0f94275269dc78d7f578f06c5e1bb3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593394955839,
+        "stop" : 1593395049747,
+        "duration" : 93908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "6d0f94275269dc78d7f578f06c5e1bb3"
+  }, {
+    "name" : "Check Mirror Tab,",
+    "children" : [ {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "273fe714d60168cc",
+      "parentUid" : "d93a99254759507eb03e625caa12e4a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593395069937,
+        "stop" : 1593395147857,
+        "duration" : 77920
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "d93a99254759507eb03e625caa12e4a4"
+  }, {
+    "name" : "Not able to Assign Mirror from the product with no image,",
+    "children" : [ {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "65d3b98e8a3b67a",
+      "parentUid" : "e041fd3394f8c234276b7a1100a214df",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593395167617,
+        "stop" : 1593395251589,
+        "duration" : 83972
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "e041fd3394f8c234276b7a1100a214df"
+  }, {
+    "name" : "Cannot send recommendaton to the customer,",
+    "children" : [ {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "dfc3965d80c3074b",
+      "parentUid" : "2c3e574c5310b67e46c6346325b1e0e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593395271809,
+        "stop" : 1593395354676,
+        "duration" : 82867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "2c3e574c5310b67e46c6346325b1e0e7"
+  }, {
+    "name" : "Resetting the mirror successfully,",
+    "children" : [ {
+      "name" : "should be able to reset the mirror",
+      "uid" : "c8164288b8575480",
+      "parentUid" : "472cc16e828b684c61964912951cabe3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593395374879,
+        "stop" : 1593395473884,
+        "duration" : 99005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "472cc16e828b684c61964912951cabe3"
+  }, {
+    "name" : "Sending the recommendaton to the customer,",
+    "children" : [ {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "65e1378f42e2e907",
+      "parentUid" : "9748dd37633e9078060dcdc312d918c5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593395499535,
+        "stop" : 1593395597242,
+        "duration" : 97707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "9748dd37633e9078060dcdc312d918c5"
+  }, {
+    "name" : "Prebuild Shopfloor,",
+    "children" : [ {
+      "name" : "should set the app before testing",
+      "uid" : "954c9f193c45c6e0",
+      "parentUid" : "c3012b5bc2505e5762e10379d961196a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593419904840,
+        "stop" : 1593419955505,
+        "duration" : 50665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "c3012b5bc2505e5762e10379d961196a"
+  }, {
+    "name" : "Steal mirror from the advisor,",
+    "children" : [ {
+      "name" : "should be able to steal the mirror",
+      "uid" : "72b5e3e4f5d3f443",
+      "parentUid" : "5f93e75b6e8b2c1f4be4f6b96e506c9a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593420009948,
+        "stop" : 1593420083284,
+        "duration" : 73336
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "5f93e75b6e8b2c1f4be4f6b96e506c9a"
+  }, {
+    "name" : "Steal customer from the advisor,",
+    "children" : [ {
+      "name" : "should be able to steal the customer",
+      "uid" : "bc9a1ed60414b39",
+      "parentUid" : "91ce450b42e31a14f1efc140420a8e0e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593420014352,
+        "stop" : 1593420214196,
+        "duration" : 199844
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "91ce450b42e31a14f1efc140420a8e0e"
+  }, {
+    "name" : "Sending the item to the mirror successfully,",
+    "children" : [ {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "3cd137cbc332cce8",
+      "parentUid" : "1cc3769fffba5e0c9bd62ba7053b5c82",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593420246601,
+        "stop" : 1593420280537,
+        "duration" : 33936
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "1cc3769fffba5e0c9bd62ba7053b5c82"
   } ]
 }

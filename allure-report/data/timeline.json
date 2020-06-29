@@ -2,112 +2,5986 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "216429acd1196aad",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592311164987,
+        "stop" : 1592311231216,
+        "duration" : 66229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "3ea9f81b0ef05040",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592303787661,
+        "stop" : 1592303852078,
+        "duration" : 64417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "b73c77cc7e79b672",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592510863300,
+        "stop" : 1592510924921,
+        "duration" : 61621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "8f610b4f12b318ee",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590450517080,
+        "stop" : 1590450587276,
+        "duration" : 70196
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "9b045841fd964ee3",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592438102514,
+        "stop" : 1592438171966,
+        "duration" : 69452
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "edbc9fa5d7d2b63f",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592834138398,
+        "stop" : 1592834214000,
+        "duration" : 75602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "98ae8cfc31f2557e",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592686350049,
+        "stop" : 1592686432760,
+        "duration" : 82711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "a08105cc3a9752e",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593394955839,
+        "stop" : 1593395049747,
+        "duration" : 93908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "52c5bd7f03bae7b3",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593387513482,
+        "stop" : 1593387606376,
+        "duration" : 92894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "5da5a26756a4cb2f",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592505417575,
+        "stop" : 1592505501694,
+        "duration" : 84119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "6909b9ab5da17086",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590534999912,
+        "stop" : 1590535064082,
+        "duration" : 64170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "ead1278854333db4",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425350077,
+        "stop" : 1592425415684,
+        "duration" : 65607
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "8b7563b5e45ce3b1",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581597520,
+        "stop" : 1590581662071,
+        "duration" : 64551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "1e4a1a07f222a792",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592823742027,
+        "stop" : 1592823805745,
+        "duration" : 63718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "fef62c1529d7cf74",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592683489469,
+        "stop" : 1592683551011,
+        "duration" : 61542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "80b03c26c34911ec",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592774825616,
+        "stop" : 1592774909979,
+        "duration" : 84363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "cc77cef9b1581f6a",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592500892098,
+        "stop" : 1592500983159,
+        "duration" : 91061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "5fa2667913811684",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592826367552,
+        "stop" : 1592826448958,
+        "duration" : 81406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "35d3dc09296abc66",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719502556,
+        "stop" : 1591719568249,
+        "duration" : 65693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "55201ad2b93cda4",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592778327797,
+        "stop" : 1592778388778,
+        "duration" : 60981
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "a448792433cff9c7",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593211753547,
+        "stop" : 1593211845687,
+        "duration" : 92140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
     "name" : "0-0",
     "children" : [ {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "e091ced1a074289",
+      "name" : "should be able to reset the mirror",
+      "uid" : "d7ac19779a65f17a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1587511457951,
-        "stop" : 1587511488585,
-        "duration" : 30634
+        "start" : 1592843870102,
+        "stop" : 1592843958194,
+        "duration" : 88092
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     }, {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "59e689e430ec4ec5",
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "87e02487adfb3351",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1587513778825,
-        "stop" : 1587513809812,
-        "duration" : 30987
+        "start" : 1592519244536,
+        "stop" : 1592519327599,
+        "duration" : 83063
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     }, {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "5a180f150e532017",
+      "name" : "should be able to steal the customer",
+      "uid" : "ec96d12d4b2a7a31",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1587335073567,
-        "stop" : 1587335122966,
-        "duration" : 49399
+        "start" : 1592685945971,
+        "stop" : 1592686149427,
+        "duration" : 203456
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     }, {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "c166d084c8266844",
+      "name" : "should set the app before testing",
+      "uid" : "45a1e6b674a3bae0",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1587518162310,
-        "stop" : 1587518193422,
-        "duration" : 31112
+        "start" : 1591014465440,
+        "stop" : 1591014515713,
+        "duration" : 50273
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     }, {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "c78fb8ddc0033118",
+      "name" : "should be able to steal the customer",
+      "uid" : "ba77acca985511f8",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1587331086282,
-        "stop" : 1587331135603,
-        "duration" : 49321
+        "start" : 1592774418926,
+        "stop" : 1592774480453,
+        "duration" : 61527
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     }, {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "acc5108df59fe91e",
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "6994b62843f8335",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1587511363699,
-        "stop" : 1587511394994,
-        "duration" : 31295
+        "start" : 1592519518712,
+        "stop" : 1592519579830,
+        "duration" : 61118
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     }, {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "5a3582278e8fc1dd",
+      "name" : "should be able to reset the mirror",
+      "uid" : "b76c2cd6da497e35",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1587335168167,
-        "stop" : 1587335199388,
-        "duration" : 31221
+        "start" : 1592843307224,
+        "stop" : 1592843397852,
+        "duration" : 90628
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     }, {
-      "name" : "should have 1 recommendation on the home page",
-      "uid" : "a965d2976437863a",
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "ec70b25ed155fc68",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1587330401017,
-        "stop" : 1587330446953,
-        "duration" : 45936
+        "start" : 1592523649906,
+        "stop" : 1592523739720,
+        "duration" : 89814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "46a1f95b9785ad35",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425189600,
+        "stop" : 1592425260259,
+        "duration" : 70659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "a0a02e66b397a8dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593092988108,
+        "stop" : 1593093051684,
+        "duration" : 63576
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "f2718aa59b324046",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590667472238,
+        "stop" : 1590667519469,
+        "duration" : 47231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "a80ac9defcb6e566",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593097088282,
+        "stop" : 1593097155308,
+        "duration" : 67026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "ed6c9fe1b947c2b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593383385686,
+        "stop" : 1593383436338,
+        "duration" : 50652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "1441aaee55c8a4ce",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592418194119,
+        "stop" : 1592418397351,
+        "duration" : 203232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "149512ce0bffe599",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593130205994,
+        "stop" : 1593130260713,
+        "duration" : 54719
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "4807e06006868abd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592679199534,
+        "stop" : 1592679282747,
+        "duration" : 83213
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "a304dd1653b27c94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592849549770,
+        "stop" : 1592849680262,
+        "duration" : 130492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "ea5c42d28dd5b8e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592844476998,
+        "stop" : 1592844583635,
+        "duration" : 106637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "3f2bfea0b628066a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591718145331,
+        "stop" : 1591718191620,
+        "duration" : 46289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "ad3720ce5381f071",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591649636647,
+        "stop" : 1591649676551,
+        "duration" : 39904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "e7ad79443569f9bf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592530652409,
+        "stop" : 1592530739521,
+        "duration" : 87112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "b86d14581d882b1e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590702365840,
+        "stop" : 1590702411735,
+        "duration" : 45895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "68153ab3a6bf2785",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592519610841,
+        "stop" : 1592519696422,
+        "duration" : 85581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "bc9a1ed60414b39",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593420014352,
+        "stop" : 1593420214196,
+        "duration" : 199844
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "755f26d6b6a45bd7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592523315229,
+        "stop" : 1592523376095,
+        "duration" : 60866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "e4bdff84a5a3137a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592844155125,
+        "stop" : 1592844251271,
+        "duration" : 96146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "cd3fa574a4fd6706",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592842650145,
+        "stop" : 1592842744707,
+        "duration" : 94562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "eb4fa6e17feffdb2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592848499389,
+        "stop" : 1592848597247,
+        "duration" : 97858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "c058d9689c9b0bc4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591019339374,
+        "stop" : 1591019372113,
+        "duration" : 32739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "6a9a8f1d463e365",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591014692847,
+        "stop" : 1591014744235,
+        "duration" : 51388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "b0ddcff318616864",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592837426559,
+        "stop" : 1592837549355,
+        "duration" : 122796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "2d4c34fae9451882",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592303635259,
+        "stop" : 1592303703006,
+        "duration" : 67747
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "187630daae3510e4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592690505300,
+        "stop" : 1592690588763,
+        "duration" : 83463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "8f7a56870b3e2c09",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592847468270,
+        "stop" : 1592847601238,
+        "duration" : 132968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "17b6e7d26b171b2c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591710394634,
+        "stop" : 1591710432379,
+        "duration" : 37745
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "8c4583248e2f426f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592511261236,
+        "stop" : 1592511321684,
+        "duration" : 60448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "cabd163916cb5678",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590587528148,
+        "stop" : 1590587576078,
+        "duration" : 47930
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "c7e5315c5fbd1276",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593092667645,
+        "stop" : 1593092720091,
+        "duration" : 52446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "6f5b4fb8c0b82cef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592778106156,
+        "stop" : 1592778171326,
+        "duration" : 65170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "15b030fa224dadaf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591727629685,
+        "stop" : 1591727667699,
+        "duration" : 38014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "a4a39875a2f7e6a7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592581492377,
+        "stop" : 1592581553620,
+        "duration" : 61243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "7cc6368bb0b01de8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592847743718,
+        "stop" : 1592847875289,
+        "duration" : 131571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "b04f2f963a0c07cf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592679694383,
+        "stop" : 1592679777679,
+        "duration" : 83296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "21ed166242b1462c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592691823401,
+        "stop" : 1592691918688,
+        "duration" : 95287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "80e4862d2f3f48ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592839775731,
+        "stop" : 1592839865288,
+        "duration" : 89557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "64a31f041f2606c4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592843093888,
+        "stop" : 1592843197624,
+        "duration" : 103736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "c26d93d88e48f4b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590583418600,
+        "stop" : 1590583465700,
+        "duration" : 47100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "ec3d6eeeff8e6f18",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593380595805,
+        "stop" : 1593380729281,
+        "duration" : 133476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "db3bef8ef2fb14ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592682949184,
+        "stop" : 1592683023234,
+        "duration" : 74050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "ac50a853d0217286",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592684014548,
+        "stop" : 1592684115498,
+        "duration" : 100950
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "f19e1d49c182f23f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592691045747,
+        "stop" : 1592691106676,
+        "duration" : 60929
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "37a8183ec6dbf43b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592583487951,
+        "stop" : 1592583572168,
+        "duration" : 84217
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "a54930399a939f7c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592526655437,
+        "stop" : 1592526739035,
+        "duration" : 83598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "a9735d7cfa10dd1c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593169087777,
+        "stop" : 1593169218530,
+        "duration" : 130753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "d2495038f822907c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591700455096,
+        "stop" : 1591700468832,
+        "duration" : 13736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "82b67d038bd90dda",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591016594917,
+        "stop" : 1591016649163,
+        "duration" : 54246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "8c1388d4bfbd2e7f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592774664448,
+        "stop" : 1592774733129,
+        "duration" : 68681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "e0be0dea2630705e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591722080141,
+        "stop" : 1591722157931,
+        "duration" : 77790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "9ebf8b1433efe44d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593130284477,
+        "stop" : 1593130414896,
+        "duration" : 130419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "65e1378f42e2e907",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593395499535,
+        "stop" : 1593395597242,
+        "duration" : 97707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "ccf67266bd141136",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590534686532,
+        "stop" : 1590534759698,
+        "duration" : 73166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "a35f93baee8b565b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592672409393,
+        "stop" : 1592672470874,
+        "duration" : 61481
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "4ba99e3ebf8fbfab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592510683328,
+        "stop" : 1592510749120,
+        "duration" : 65792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "4498014ead80827e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591008049013,
+        "stop" : 1591008083534,
+        "duration" : 34521
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "db2c7916b5102bb7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592513412718,
+        "stop" : 1592513548036,
+        "duration" : 135318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "9193126be05b4e38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591647680855,
+        "stop" : 1591647718142,
+        "duration" : 37287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "7a6b385ac176931d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592512860665,
+        "stop" : 1592512950762,
+        "duration" : 90097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "d6078aa47ac03833",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591718458472,
+        "stop" : 1591718510131,
+        "duration" : 51659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "cb77d11a6d0c90f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592836930201,
+        "stop" : 1592837027960,
+        "duration" : 97759
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "30ebeab2b6558a27",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581443727,
+        "stop" : 1590581510767,
+        "duration" : 67040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "3d8ca409c8e8247c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593092863005,
+        "stop" : 1593092928190,
+        "duration" : 65185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "5d41e707fa8157c2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592851328353,
+        "stop" : 1592851469526,
+        "duration" : 141173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "24d809dae3dcb804",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591649854768,
+        "stop" : 1591649893889,
+        "duration" : 39121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "d49ded8ff8d6c6fc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590452853940,
+        "stop" : 1590452940363,
+        "duration" : 86423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "be0254c3864458cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592840110194,
+        "stop" : 1592840199584,
+        "duration" : 89390
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "e49f62f61f56f41f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592679975818,
+        "stop" : 1592680059554,
+        "duration" : 83736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "43d9d252f7112c63",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593212243494,
+        "stop" : 1593212348356,
+        "duration" : 104862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "3cd137cbc332cce8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593420246601,
+        "stop" : 1593420280537,
+        "duration" : 33936
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "dc2912c4e6092ea0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590582578202,
+        "stop" : 1590582613122,
+        "duration" : 34920
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "30dc007c67e39c13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592531625608,
+        "stop" : 1592531728450,
+        "duration" : 102842
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "c90ae93d30fc1d78",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592672500411,
+        "stop" : 1592672584722,
+        "duration" : 84311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "6cdea712f0e73455",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592500511511,
+        "stop" : 1592500567720,
+        "duration" : 56209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "dd44e18e0bbefb54",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591655995411,
+        "stop" : 1591656041933,
+        "duration" : 46522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "ee22f765e247bc40",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592844345252,
+        "stop" : 1592844445913,
+        "duration" : 100661
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "3bbcff45b5ca6995",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592691302783,
+        "stop" : 1592691368324,
+        "duration" : 65541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "e8da0641a0c5ec80",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592432273437,
+        "stop" : 1592432311143,
+        "duration" : 37706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "1539cd1d427127d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592406104428,
+        "stop" : 1592406194509,
+        "duration" : 90081
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "a51f405fd2a2d7f7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591657553502,
+        "stop" : 1591657602102,
+        "duration" : 48600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "c7c6d790bd88c8cb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592417465631,
+        "stop" : 1592417496183,
+        "duration" : 30552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "f36267b18040ebb8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593380944240,
+        "stop" : 1593381079169,
+        "duration" : 134929
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "48dbe5dd4023d4ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592686880440,
+        "stop" : 1592686982823,
+        "duration" : 102383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "e78552574697ae07",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592437598718,
+        "stop" : 1592437652926,
+        "duration" : 54208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "636d18b9a0eed6bc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592314342172,
+        "stop" : 1592314408524,
+        "duration" : 66352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "89ac8ca8890daece",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592334710032,
+        "stop" : 1592334754829,
+        "duration" : 44797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "fce09d9997d1b63d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592825877712,
+        "stop" : 1592825932451,
+        "duration" : 54739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "d0c7d262dbe1c3a0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592847233006,
+        "stop" : 1592847333698,
+        "duration" : 100692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "7e6b8c3986df74a4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592833933757,
+        "stop" : 1592834025441,
+        "duration" : 91684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "3ef23102d1db9b04",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593388056617,
+        "stop" : 1593388158568,
+        "duration" : 101951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "533792f57541a3b6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592581761427,
+        "stop" : 1592581823225,
+        "duration" : 61798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "988c06eda2e37226",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593382633469,
+        "stop" : 1593382675011,
+        "duration" : 41542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "a89b53537aa91558",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590704015819,
+        "stop" : 1590704051176,
+        "duration" : 35357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "d0e428de17874178",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592837765825,
+        "stop" : 1592837854846,
+        "duration" : 89021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "740a1fab25a4315c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591707128357,
+        "stop" : 1591707165379,
+        "duration" : 37022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "406062e2f0e453e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590452979385,
+        "stop" : 1590453044300,
+        "duration" : 64915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "ef9057f5b1b3409c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593211411393,
+        "stop" : 1593211484925,
+        "duration" : 73532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "9cf528ece792acbc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592589495150,
+        "stop" : 1592589567212,
+        "duration" : 72062
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "87f2b112050e1a8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591018994165,
+        "stop" : 1591019034843,
+        "duration" : 40678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "ef41e5167461b5f8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592839422733,
+        "stop" : 1592839511464,
+        "duration" : 88731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "155f7af548a25e5b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592517936914,
+        "stop" : 1592518001986,
+        "duration" : 65072
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "ba64215ff4d0226c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592513286667,
+        "stop" : 1592513329564,
+        "duration" : 42897
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "b61b6313999bdfac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592510478074,
+        "stop" : 1592510517514,
+        "duration" : 39440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "411b30c567c5ff00",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592686177970,
+        "stop" : 1592686260135,
+        "duration" : 82165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "69048b6a9ec7f6f4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592839183843,
+        "stop" : 1592839272075,
+        "duration" : 88232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "62665c76f7e1642d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592518042953,
+        "stop" : 1592518128156,
+        "duration" : 85203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "2a3c91c99ee67aa0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592691709120,
+        "stop" : 1592691799272,
+        "duration" : 90152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "eb73269b2aec1d1a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592499674034,
+        "stop" : 1592499852408,
+        "duration" : 178374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "21fcfd84cdfe9936",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593387311555,
+        "stop" : 1593387393353,
+        "duration" : 81798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "11a4bff9d5ba6e7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592310334902,
+        "stop" : 1592310406431,
+        "duration" : 71529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "3ffa3d891b60d522",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590535372132,
+        "stop" : 1590535435949,
+        "duration" : 63817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "d6f1ee4c66e8e3a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592565874746,
+        "stop" : 1592565987504,
+        "duration" : 112758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "f070073b7db39513",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592847639712,
+        "stop" : 1592847715481,
+        "duration" : 75769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "3197946c10756a33",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592500710232,
+        "stop" : 1592500785363,
+        "duration" : 75131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "1ab4cd67ad8ac1f2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590678323417,
+        "stop" : 1590678363736,
+        "duration" : 40319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "bd75c6ddb228445e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591008437057,
+        "stop" : 1591008472910,
+        "duration" : 35853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "e4cb544b8521a47f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592499572223,
+        "stop" : 1592499623517,
+        "duration" : 51294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "909bc1445ee68d7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591650319593,
+        "stop" : 1591650366077,
+        "duration" : 46484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "87e357cde775679d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592680715595,
+        "stop" : 1592680803255,
+        "duration" : 87660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "eb30001c60d3cc9b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592850486913,
+        "stop" : 1592850620725,
+        "duration" : 133812
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "e89bdf97fda228a9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592310802104,
+        "stop" : 1592310982293,
+        "duration" : 180189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "42b16b914cb4927d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592691550462,
+        "stop" : 1592691643748,
+        "duration" : 93286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "391a2953cce569e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592594458168,
+        "stop" : 1592594550688,
+        "duration" : 92520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "f48ca3d7cef30dd9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591013148134,
+        "stop" : 1591013183960,
+        "duration" : 35826
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "4b45dfe7bc18761b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592848417361,
+        "stop" : 1592848479013,
+        "duration" : 61652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "3d9fcaaf1856663",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592303486122,
+        "stop" : 1592303616989,
+        "duration" : 130867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "2ba4b8bae7c80552",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591721395037,
+        "stop" : 1591721459450,
+        "duration" : 64413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "b13a54666bdb7b51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593213859982,
+        "stop" : 1593213994672,
+        "duration" : 134690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "75101119e918e9cf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592477295754,
+        "stop" : 1592477333497,
+        "duration" : 37743
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "7eeb4df02829aab2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592504856688,
+        "stop" : 1592504909522,
+        "duration" : 52834
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "d6ee0ecb5eb941be",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592342271714,
+        "stop" : 1592342346270,
+        "duration" : 74556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "4aa61638b55dd88f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590584975313,
+        "stop" : 1590585010283,
+        "duration" : 34970
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "60320aa0b3f9b9a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592834643126,
+        "stop" : 1592834746450,
+        "duration" : 103324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "f461789954e3a7f6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592505844179,
+        "stop" : 1592505904644,
+        "duration" : 60465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "3022708a6271735d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592691387386,
+        "stop" : 1592691495768,
+        "duration" : 108382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "954c9f193c45c6e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593419904840,
+        "stop" : 1593419955505,
+        "duration" : 50665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "3301a954fd5e41bd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593103340389,
+        "stop" : 1593103405408,
+        "duration" : 65019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "8cacc8c9a9e94e7d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590587893463,
+        "stop" : 1590587937454,
+        "duration" : 43991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "1552ba489d48def4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592437074275,
+        "stop" : 1592437132651,
+        "duration" : 58376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "43f3b6a7bb84a14f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593211577550,
+        "stop" : 1593211665032,
+        "duration" : 87482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "7e2bc33ed4c02b62",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591653208894,
+        "stop" : 1591653240453,
+        "duration" : 31559
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "9751d620f1addd4c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592838410850,
+        "stop" : 1592838499322,
+        "duration" : 88472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "72681eacefc259d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593168992284,
+        "stop" : 1593169051902,
+        "duration" : 59618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "c44d0ae41f79c0e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593383486297,
+        "stop" : 1593383600698,
+        "duration" : 114401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "2b4d9b844a739187",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592775349437,
+        "stop" : 1592775454018,
+        "duration" : 104581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "7138c2d3afc1c28f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590591750493,
+        "stop" : 1590591787571,
+        "duration" : 37078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "398738c217d0ca0d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581231449,
+        "stop" : 1590581283439,
+        "duration" : 51990
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "ad376251756ac06e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593381142821,
+        "stop" : 1593381277786,
+        "duration" : 134965
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "8121fa358219efdd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591724139116,
+        "stop" : 1591724202222,
+        "duration" : 63106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "1215edee1ab5c13c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593394422649,
+        "stop" : 1593394460036,
+        "duration" : 37387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "109a63c2a42a6eb2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592342069091,
+        "stop" : 1592342251514,
+        "duration" : 182423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "44d88afa9bc67bd1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592661420696,
+        "stop" : 1592661506238,
+        "duration" : 85542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "efe9ad43fbdc2b77",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592661270854,
+        "stop" : 1592661376083,
+        "duration" : 105229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "55944f1f4da7f0e7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425099246,
+        "stop" : 1592425171491,
+        "duration" : 72245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "89f15f510a257173",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593379935178,
+        "stop" : 1593379958905,
+        "duration" : 23727
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "1506291cebdd09e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591008688172,
+        "stop" : 1591008725309,
+        "duration" : 37137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "78dc5adbdb7e7484",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593211322627,
+        "stop" : 1593211364768,
+        "duration" : 42141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "765c61880954d471",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592581598199,
+        "stop" : 1592581681682,
+        "duration" : 83483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "1ec04675458cdefc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590594585474,
+        "stop" : 1590594620637,
+        "duration" : 35163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "935296dfe125b3c6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592848640827,
+        "stop" : 1592848774263,
+        "duration" : 133436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "b3ca7ea8067059b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590534846517,
+        "stop" : 1590534914764,
+        "duration" : 68247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "a8baaaee8cf9016c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592846766711,
+        "stop" : 1592846828244,
+        "duration" : 61533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "c0affc592d1c85fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591019705769,
+        "stop" : 1591019737655,
+        "duration" : 31886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "5abcf0524c59641",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590450424450,
+        "stop" : 1590450484969,
+        "duration" : 60519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "61150140b5fd1dde",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592826156756,
+        "stop" : 1592826248556,
+        "duration" : 91800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "76adc5cb6d42ae1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592685849906,
+        "stop" : 1592685889941,
+        "duration" : 40035
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "7244075e11800385",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591658613584,
+        "stop" : 1591658663418,
+        "duration" : 49834
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "4561fabb03ab51b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593214180622,
+        "stop" : 1593214264501,
+        "duration" : 83879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "45a9c27dd8608feb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591657162476,
+        "stop" : 1591657209840,
+        "duration" : 47364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "a7ed1ee57c8e262d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592833823845,
+        "stop" : 1592833917222,
+        "duration" : 93377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "cf9de6ba4f2af56",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591721627128,
+        "stop" : 1591721692376,
+        "duration" : 65248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "187d08bcae4b03ba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592837597332,
+        "stop" : 1592837689191,
+        "duration" : 91859
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "e7ed7bbbe69f224b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592847062576,
+        "stop" : 1592847155974,
+        "duration" : 93398
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "fa4c5167fed5d299",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591014927636,
+        "stop" : 1591014963569,
+        "duration" : 35933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "31858d3a5ce9e215",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592478461305,
+        "stop" : 1592478499264,
+        "duration" : 37959
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "22b37a326dba9c7d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592836654339,
+        "stop" : 1592836718190,
+        "duration" : 63851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "a3444ca9b1cde33e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592823296359,
+        "stop" : 1592823337533,
+        "duration" : 41174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "5eccccb60b99baa4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592510555262,
+        "stop" : 1592510643370,
+        "duration" : 88108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "f502a304e6798c74",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719332366,
+        "stop" : 1591719402688,
+        "duration" : 70322
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "785d04b081b67d62",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593093233403,
+        "stop" : 1593093297424,
+        "duration" : 64021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "128dd36c217e13d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590756156690,
+        "stop" : 1590756202957,
+        "duration" : 46267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "f3d3c4426a225434",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592505204500,
+        "stop" : 1592505289816,
+        "duration" : 85316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "6a4b2f4ff16dce98",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581350896,
+        "stop" : 1590581425308,
+        "duration" : 74412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "688201dc04c39c3c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593213673133,
+        "stop" : 1593213799424,
+        "duration" : 126291
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "3f50f42882ed81b4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592530080449,
+        "stop" : 1592530172124,
+        "duration" : 91675
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "4e469c4ce1fbaba9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592842143576,
+        "stop" : 1592842232064,
+        "duration" : 88488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "aa05893e610626d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592524363625,
+        "stop" : 1592524454885,
+        "duration" : 91260
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "91b3b797e837db33",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592304160996,
+        "stop" : 1592304225376,
+        "duration" : 64380
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "8f11b8aece1f4709",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593380421887,
+        "stop" : 1593380550871,
+        "duration" : 128984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "59e2451e752d1745",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592777988907,
+        "stop" : 1592778085717,
+        "duration" : 96810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "1f5e7fff85a0097",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592500414837,
+        "stop" : 1592500458789,
+        "duration" : 43952
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "427937aa1ed0c1b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592679831289,
+        "stop" : 1592679900169,
+        "duration" : 68880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "96af523c4c2b83fb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592842774062,
+        "stop" : 1592842865817,
+        "duration" : 91755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "e273dce2d1abab13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590534595741,
+        "stop" : 1590534652924,
+        "duration" : 57183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "d71ba00baa5c8f28",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593382947890,
+        "stop" : 1593383031929,
+        "duration" : 84039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "ba7ff0824135cf9d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593092784562,
+        "stop" : 1593092848195,
+        "duration" : 63633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "fdb2901dd457f7fb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593381296022,
+        "stop" : 1593381429940,
+        "duration" : 133918
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "a3c8c77dff0cf2a7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591698745514,
+        "stop" : 1591698782448,
+        "duration" : 36934
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "ec7b9c8f4b5fcd51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719094380,
+        "stop" : 1591719193338,
+        "duration" : 98958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "45f2da49fa578e2a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592833672951,
+        "stop" : 1592833732799,
+        "duration" : 59848
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "96dcc4ab8b41af7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593387079651,
+        "stop" : 1593387114456,
+        "duration" : 34805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "a7fb9a58b17a22d1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590451866217,
+        "stop" : 1590451914261,
+        "duration" : 48044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "796a93b8e6c588f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592673257194,
+        "stop" : 1592673340774,
+        "duration" : 83580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "6d7a3421583aa498",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592530911363,
+        "stop" : 1592530998603,
+        "duration" : 87240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "c0989835f31e21f4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592774315345,
+        "stop" : 1592774370755,
+        "duration" : 55410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "981112b67736714e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593214018296,
+        "stop" : 1593214153301,
+        "duration" : 135005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "54c2493e2e535c13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591649022926,
+        "stop" : 1591649068265,
+        "duration" : 45339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "6bbb79d8f6f52559",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592836747955,
+        "stop" : 1592836843401,
+        "duration" : 95446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "32becd6927e261f8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593081494955,
+        "stop" : 1593081624318,
+        "duration" : 129363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "72d1e8a04198f35f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592514334529,
+        "stop" : 1592514423531,
+        "duration" : 89002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "5b2bcc50a8115656",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592531530532,
+        "stop" : 1592531594420,
+        "duration" : 63888
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "be561b4031979651",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592682851413,
+        "stop" : 1592682894204,
+        "duration" : 42791
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "fbc2130a99eb4ac2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593214523348,
+        "stop" : 1593214585650,
+        "duration" : 62302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "296bb07810642e75",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592497630069,
+        "stop" : 1592497685012,
+        "duration" : 54943
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "1b335d0b4178d2ee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592691133341,
+        "stop" : 1592691237984,
+        "duration" : 104643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "eb03d8877d512c73",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592498346423,
+        "stop" : 1592498388627,
+        "duration" : 42204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "164e5b36298b7514",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592588269436,
+        "stop" : 1592588360624,
+        "duration" : 91188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "a46030189cfb7c77",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591726691830,
+        "stop" : 1591726763190,
+        "duration" : 71360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "8e13c41aac819d68",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593169418942,
+        "stop" : 1593169553971,
+        "duration" : 135029
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "ab8362d8ca478875",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592826841881,
+        "stop" : 1592826902525,
+        "duration" : 60644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "c1b5cd1430bf2f0d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591718988133,
+        "stop" : 1591719046493,
+        "duration" : 58360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "f3c45d08bcc49535",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592679110636,
+        "stop" : 1592679179944,
+        "duration" : 69308
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "bcf4188ef75e3275",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593394748086,
+        "stop" : 1593394832977,
+        "duration" : 84891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "708b4c303a226488",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592842896227,
+        "stop" : 1592842989144,
+        "duration" : 92917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "4f8a22d10770fe64",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592683252643,
+        "stop" : 1592683349938,
+        "duration" : 97295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "be7d829af2ac49ac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593092160904,
+        "stop" : 1593092287440,
+        "duration" : 126536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "ea1de07d45a2fb50",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592841882027,
+        "stop" : 1592841977092,
+        "duration" : 95065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "75c1ef36f5995f36",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592847929723,
+        "stop" : 1592848023979,
+        "duration" : 94256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "ba8313e5b45ebf15",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592846892092,
+        "stop" : 1592846988957,
+        "duration" : 96865
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "36eaca6411f27752",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593379762225,
+        "stop" : 1593379844818,
+        "duration" : 82593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "7cbf336217805421",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592823390809,
+        "stop" : 1592823450636,
+        "duration" : 59827
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "e2804962780eeb73",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425735681,
+        "stop" : 1592425800666,
+        "duration" : 64985
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "6a4a8b12df60de76",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592846463548,
+        "stop" : 1592846569161,
+        "duration" : 105613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "d618ba9b08538d61",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592681118118,
+        "stop" : 1592681218030,
+        "duration" : 99912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "4564ecae854446d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591718664138,
+        "stop" : 1591718719425,
+        "duration" : 55287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "8308e5986d0f81a6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592437716066,
+        "stop" : 1592437790340,
+        "duration" : 74274
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "34174bd847ef0b85",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590676680815,
+        "stop" : 1590676725864,
+        "duration" : 45049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "7e929394fa3d47a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592842273416,
+        "stop" : 1592842364879,
+        "duration" : 91463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "343719776b63b785",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592310705692,
+        "stop" : 1592310744285,
+        "duration" : 38593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "8b0afd339b334fc7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592311001452,
+        "stop" : 1592311072411,
+        "duration" : 70959
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "32cfaa740051d678",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593382731451,
+        "stop" : 1593382919138,
+        "duration" : 187687
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "3506d5e1ca4b057c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590681463931,
+        "stop" : 1590681504056,
+        "duration" : 40125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "cc74005a94fd12ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593394533766,
+        "stop" : 1593394716611,
+        "duration" : 182845
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "3f9be2686dbd6534",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592311561220,
+        "stop" : 1592311626155,
+        "duration" : 64935
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "d5e404186d3f7723",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592690875506,
+        "stop" : 1592690991214,
+        "duration" : 115708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "bf99c948ba1d9a9c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592431998735,
+        "stop" : 1592432052168,
+        "duration" : 53433
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "abb8598534d33e5f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593092084142,
+        "stop" : 1593092146021,
+        "duration" : 61879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "457562343cf94157",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591700683848,
+        "stop" : 1591700709485,
+        "duration" : 25637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "49d0171d025e247c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593380776600,
+        "stop" : 1593380911927,
+        "duration" : 135327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "87b540cfe50e7e30",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591649335594,
+        "stop" : 1591649376889,
+        "duration" : 41295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "1b7de1af3d7b84ea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592778861019,
+        "stop" : 1592778962697,
+        "duration" : 101678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "e793c64b499689cb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591700272194,
+        "stop" : 1591700294426,
+        "duration" : 22232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "fc3694986298f7fb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592568165522,
+        "stop" : 1592568266729,
+        "duration" : 101207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "b0a17dfe355c5ec7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592426382109,
+        "stop" : 1592426479803,
+        "duration" : 97694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "19e5ae52f659b92e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593129021218,
+        "stop" : 1593129147315,
+        "duration" : 126097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "fd6c4e8c7074d190",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592777867451,
+        "stop" : 1592777919901,
+        "duration" : 52450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "774ec3d3eed63e0c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590582659784,
+        "stop" : 1590582732983,
+        "duration" : 73199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "f9eaa0b434913a9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591699223988,
+        "stop" : 1591699273432,
+        "duration" : 49444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "9b956d0113aad68b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593130043358,
+        "stop" : 1593130178099,
+        "duration" : 134741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "b65eb82941572e88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593381481462,
+        "stop" : 1593381573286,
+        "duration" : 91824
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "312f5ecb7cd16598",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592583711427,
+        "stop" : 1592583798224,
+        "duration" : 86797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "85df9a12d1a89e00",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592512166659,
+        "stop" : 1592512227376,
+        "duration" : 60717
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "6f31bc7529b5be88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591015252621,
+        "stop" : 1591015289249,
+        "duration" : 36628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "5317f3128729cec9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591722594580,
+        "stop" : 1591722658007,
+        "duration" : 63427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "b0e8d026a7fc9fbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592581883462,
+        "stop" : 1592581967105,
+        "duration" : 83643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "2b9be8b2e570ae6a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590590965530,
+        "stop" : 1590590999155,
+        "duration" : 33625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "c19692c1390f6233",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593379652124,
+        "stop" : 1593379711570,
+        "duration" : 59446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "4133c8663bf7f0de",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592580873531,
+        "stop" : 1592580960474,
+        "duration" : 86943
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "28bb942bb016c260",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591724726670,
+        "stop" : 1591724791094,
+        "duration" : 64424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "770934511324b485",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592437914336,
+        "stop" : 1592437991196,
+        "duration" : 76860
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "af8df329a2c8614f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592531754821,
+        "stop" : 1592531869537,
+        "duration" : 114716
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "6f5222e81c8052d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592477385549,
+        "stop" : 1592477552426,
+        "duration" : 166877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "5f48176d739ba79a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592512364284,
+        "stop" : 1592512428621,
+        "duration" : 64337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "b437f0a4c1006ac6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593091936199,
+        "stop" : 1593092068242,
+        "duration" : 132043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "50b11ac5ec5aa39",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592825982369,
+        "stop" : 1592826070836,
+        "duration" : 88467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "63c489a1041cb519",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591653856267,
+        "stop" : 1591653894764,
+        "duration" : 38497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "297a98ebc914bcb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592838883711,
+        "stop" : 1592838975027,
+        "duration" : 91316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "f95faafb03e6df8a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592567813394,
+        "stop" : 1592567874575,
+        "duration" : 61181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "f0f3177d9afc5e45",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591648552069,
+        "stop" : 1591648598244,
+        "duration" : 46175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "eac4f3044582c663",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593379035547,
+        "stop" : 1593379075907,
+        "duration" : 40360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "d4758204cd5ad1ca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591651541310,
+        "stop" : 1591651589758,
+        "duration" : 48448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "6b8ed2a5bc92064f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592504955688,
+        "stop" : 1592505167604,
+        "duration" : 211916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "808427210231fa40",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592837190034,
+        "stop" : 1592837285762,
+        "duration" : 95728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "66426619c2300e6c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592530358348,
+        "stop" : 1592530444676,
+        "duration" : 86328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "f8072ee90d217027",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592477571048,
+        "stop" : 1592477640721,
+        "duration" : 69673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "dd8626529561034f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592567903972,
+        "stop" : 1592567990380,
+        "duration" : 86408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "b100d9a062af561",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591724496606,
+        "stop" : 1591724559983,
+        "duration" : 63377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "134950082ec61af7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592523397045,
+        "stop" : 1592523479430,
+        "duration" : 82385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the item to the mirror",
+      "uid" : "809f45c6490743d9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592823589103,
+        "stop" : 1592823654397,
+        "duration" : 65294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "3caa46de6306744d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719906786,
+        "stop" : 1591719971498,
+        "duration" : 64712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "2aaa775a337c2ffd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592848843067,
+        "stop" : 1592848986536,
+        "duration" : 143469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should set the app before testing",
+      "uid" : "115e67048193e9cc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591648360688,
+        "stop" : 1591648395949,
+        "duration" : 35261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "6a1d8675a9f9d26f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592844027244,
+        "stop" : 1592844125788,
+        "duration" : 98544
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to call the Advisor from the mirror",
+      "uid" : "6506d221bac14d82",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592568035973,
+        "stop" : 1592568106152,
+        "duration" : 70179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "db4bf900cb5339fd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593387182849,
+        "stop" : 1593387283611,
+        "duration" : 100762
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "ae7106f30d9f8cae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592853245318,
+        "stop" : 1592853386687,
+        "duration" : 141369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "b0fdb5fc557543eb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592839306036,
+        "stop" : 1592839394688,
+        "duration" : 88652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send the recommendaton to the customer",
+      "uid" : "a22b12efcc26cf10",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592824157427,
+        "stop" : 1592824263956,
+        "duration" : 106529
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "true" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-5",
+    "children" : [ {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "e2f87904b7050d04",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590535222156,
+        "stop" : 1590535286138,
+        "duration" : 63982
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "9e726cc7e752f18c",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592438348460,
+        "stop" : 1592438416030,
+        "duration" : 67570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "354984c7f386e09e",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425580704,
+        "stop" : 1592425645194,
+        "duration" : 64490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "ba4f0dbfe46f479",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592311401446,
+        "stop" : 1592311466625,
+        "duration" : 65179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "484797a1acf77b9a",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592505679153,
+        "stop" : 1592505739580,
+        "duration" : 60427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "c3125dfb0a02b8e3",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592304010798,
+        "stop" : 1592304074874,
+        "duration" : 64076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "52a4e0d30ce21b51",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592775157117,
+        "stop" : 1592775217557,
+        "duration" : 60440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "4ea6eb932a0fb2cd",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593387828999,
+        "stop" : 1593387910630,
+        "duration" : 81631
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "a85f154e2739b6cb",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592511098730,
+        "stop" : 1592511159100,
+        "duration" : 60370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "dfc3965d80c3074b",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593395271809,
+        "stop" : 1593395354676,
+        "duration" : 82867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "883018cc135e1a91",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592686674660,
+        "stop" : 1592686755773,
+        "duration" : 81113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "e287d7ab8caefb26",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719745009,
+        "stop" : 1591719809768,
+        "duration" : 64759
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "18e391eaa7494b01",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592826639621,
+        "stop" : 1592826723252,
+        "duration" : 83631
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "dfb6b388986d592f",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592778626883,
+        "stop" : 1592778724129,
+        "duration" : 97246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "4377756df7441e28",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593212052144,
+        "stop" : 1593212112854,
+        "duration" : 60710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "c68f7eba5a1fd2f4",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592823987817,
+        "stop" : 1592824050100,
+        "duration" : 62283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "875bf26f348bcc40",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581823835,
+        "stop" : 1590581887827,
+        "duration" : 63992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "4f8c6afae2a6886b",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592683802476,
+        "stop" : 1592683892485,
+        "duration" : 90009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "not able to send the recommendaton to the customer",
+      "uid" : "dcb750d9546ae8df",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592834435647,
+        "stop" : 1592834519108,
+        "duration" : 83461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "49d534bedf4cb9ef",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581522294,
+        "stop" : 1590581586638,
+        "duration" : 64344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "337572b4fdff8ed",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592685940874,
+        "stop" : 1592685999629,
+        "duration" : 58755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "b573af1da20d1477",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592505313445,
+        "stop" : 1592505396126,
+        "duration" : 82681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "1a9bb8e03ddbbd45",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592510575082,
+        "stop" : 1592510663447,
+        "duration" : 88365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the customer",
+      "uid" : "33924515971860ca",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590450469063,
+        "stop" : 1590450537638,
+        "duration" : 68575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "c81a8ffd96dc87ea",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592510766788,
+        "stop" : 1592510828221,
+        "duration" : 61433
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "d3c8b940cfd334a5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590582663001,
+        "stop" : 1590582754682,
+        "duration" : 91681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "4fd686a0f2a529a3",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592823396464,
+        "stop" : 1592823570011,
+        "duration" : 173547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "63424a20e8857134",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592823670412,
+        "stop" : 1592823731521,
+        "duration" : 61109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "69a030e9724cbbda",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593211415655,
+        "stop" : 1593211546544,
+        "duration" : 130889
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "9959e68b9434622b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592311086119,
+        "stop" : 1592311152217,
+        "duration" : 66098
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "7e824b2e88a1516a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592777986925,
+        "stop" : 1592778080221,
+        "duration" : 93296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "6ec80e96eb4990bb",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593394506007,
+        "stop" : 1593394584877,
+        "duration" : 78870
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "339cf0a1e4d37b7b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592774752263,
+        "stop" : 1592774813672,
+        "duration" : 61409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "1fbd8336d8f89de3",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593382725701,
+        "stop" : 1593382782401,
+        "duration" : 56700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "8152d277e743b8f6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592833819470,
+        "stop" : 1592833897041,
+        "duration" : 77571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "56105e1aa76ab1ad",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593394854783,
+        "stop" : 1593394936182,
+        "duration" : 81399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "e761d18814ed4926",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592500516808,
+        "stop" : 1592500690166,
+        "duration" : 173358
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "6b7521642eaad8de",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592683372442,
+        "stop" : 1592683470630,
+        "duration" : 98188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "6451591f413677c9",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592477380226,
+        "stop" : 1592477437773,
+        "duration" : 57547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "4146dccbb84a3e7d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592774424424,
+        "stop" : 1592774644891,
+        "duration" : 220467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "163319304570ef09",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593387412864,
+        "stop" : 1593387493527,
+        "duration" : 80663
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "9095971f83549964",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592500796991,
+        "stop" : 1592500871474,
+        "duration" : 74483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "b33dc2d0c1b5da7c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593379763602,
+        "stop" : 1593379900589,
+        "duration" : 136987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "19657f03d0bc9fe1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592686277614,
+        "stop" : 1592686338729,
+        "duration" : 61115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "8f2e5d29c59c3648",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719421480,
+        "stop" : 1591719487393,
+        "duration" : 65913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "bcb92ce434ee9d30",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593211680600,
+        "stop" : 1593211742076,
+        "duration" : 61476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "14708a18291e7d86",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425080210,
+        "stop" : 1592425154147,
+        "duration" : 73937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "920838a1ad2bd7df",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592303713178,
+        "stop" : 1592303777707,
+        "duration" : 64529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "9c4bd9e461353722",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592426374182,
+        "stop" : 1592426458247,
+        "duration" : 84065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "dee6675e59e72365",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592477654298,
+        "stop" : 1592477720553,
+        "duration" : 66255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "f4006ed87084b80a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592504953333,
+        "stop" : 1592505022682,
+        "duration" : 69349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "1d2d1ae31d436c2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590534699697,
+        "stop" : 1590534820851,
+        "duration" : 121154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "b3dfe9965d1627f0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592310307517,
+        "stop" : 1592310394307,
+        "duration" : 86790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "2ec4a0ac02e37b29",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592826005103,
+        "stop" : 1592826126651,
+        "duration" : 121548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "4054377e8065f32a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425272728,
+        "stop" : 1592425338977,
+        "duration" : 66249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "337f4cd46e19f67d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592310795193,
+        "stop" : 1592310854586,
+        "duration" : 59393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "cdeaf54585a8b52",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592826269428,
+        "stop" : 1592826347623,
+        "duration" : 78195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "cf012661cd15ff7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592437720954,
+        "stop" : 1592437891805,
+        "duration" : 170851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "726d2d865dc90243",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592499669258,
+        "stop" : 1592499751843,
+        "duration" : 82585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "1875844c36fae143",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592778234029,
+        "stop" : 1592778295526,
+        "duration" : 61497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "b389169f9a6865c5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592418192663,
+        "stop" : 1592418262695,
+        "duration" : 70032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "b41aaf4ebab9113d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719135104,
+        "stop" : 1591719308106,
+        "duration" : 173002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "a5c1aed11929c868",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592497731703,
+        "stop" : 1592497821577,
+        "duration" : 89874
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "fdefb4877835ec26",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592834044613,
+        "stop" : 1592834119590,
+        "duration" : 74977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "72b5e3e4f5d3f443",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593420009948,
+        "stop" : 1593420083284,
+        "duration" : 73336
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "9264b21cc6d5cd68",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593387176545,
+        "stop" : 1593387248177,
+        "duration" : 71632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "6dcaddf7f3407c12",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592438018486,
+        "stop" : 1592438088869,
+        "duration" : 70383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "b146ec85f79b5e7a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592342065354,
+        "stop" : 1592342134608,
+        "duration" : 69254
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "42d5c54f9cc52a9c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593383482196,
+        "stop" : 1593383568323,
+        "duration" : 86127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "f7c84a5ce2efd6bc",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592682953625,
+        "stop" : 1592683216734,
+        "duration" : 263109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "7f6d4c51534d81d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581331266,
+        "stop" : 1590581403261,
+        "duration" : 71995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "1d64d873e5c01168",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592513498112,
+        "stop" : 1592513574256,
+        "duration" : 76144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to send looks to the mirror",
+      "uid" : "5a1ec65fd373ec45",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590534925892,
+        "stop" : 1590534989938,
+        "duration" : 64046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to steal the mirror",
+      "uid" : "37e1e90989d1798b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592303487088,
+        "stop" : 1592303619412,
+        "duration" : 132324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "should be able to reset the mirror",
+      "uid" : "1058dec579b3a927",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592311480355,
+        "stop" : 1592311546440,
+        "duration" : 66085
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "ec66d58def0ef2c",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592304084631,
+        "stop" : 1592304149097,
+        "duration" : 64466
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "4008059b43ee57f",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592778745060,
+        "stop" : 1592778836697,
+        "duration" : 91637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "9caff981728a55ee",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592834538434,
+        "stop" : 1592834619100,
+        "duration" : 80666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "6caf996cc9733100",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719824504,
+        "stop" : 1591719889989,
+        "duration" : 65485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "16773eb579e6b4f4",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592826742454,
+        "stop" : 1592826823636,
+        "duration" : 81182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "c8164288b8575480",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593395374879,
+        "stop" : 1593395473884,
+        "duration" : 99005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "aa62a8f16c74d0ee",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593212124723,
+        "stop" : 1593212217534,
+        "duration" : 92811
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "6d22b33af58149e5",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590535296246,
+        "stop" : 1590535360466,
+        "duration" : 64220
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "2d293abfab1bbdae",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592686774933,
+        "stop" : 1592686855097,
+        "duration" : 80164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "3e08e815422f3958",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592505763783,
+        "stop" : 1592505825249,
+        "duration" : 61466
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "6daaf4dd725732dd",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592511173124,
+        "stop" : 1592511234478,
+        "duration" : 61354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "ebfd3b19ac8c191b",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593387930308,
+        "stop" : 1593388029300,
+        "duration" : 98992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "656bc23e06be6e41",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592775228508,
+        "stop" : 1592775324947,
+        "duration" : 96439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "17671fcea464bce2",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425656334,
+        "stop" : 1592425721669,
+        "duration" : 65335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "9c21f1817e0e8fbd",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581899001,
+        "stop" : 1590581963362,
+        "duration" : 64361
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "9d109a6743427aba",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592438429272,
+        "stop" : 1592438498097,
+        "duration" : 68825
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "c34fe9e1e5c00a37",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592824069381,
+        "stop" : 1592824132577,
+        "duration" : 63196
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should be able to reset the mirror",
+      "uid" : "933029215334bf78",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592683913549,
+        "stop" : 1592684000133,
+        "duration" : 86584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "273fe714d60168cc",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593395069937,
+        "stop" : 1593395147857,
+        "duration" : 77920
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "b67735a4fdb5f786",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592778421157,
+        "stop" : 1592778482593,
+        "duration" : 61436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "aa79128c8431e21f",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590535074037,
+        "stop" : 1590535138446,
+        "duration" : 64409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "27009132386c78c8",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592505518165,
+        "stop" : 1592505579549,
+        "duration" : 61384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "fa3d90b451aa921d",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593211865993,
+        "stop" : 1593211960583,
+        "duration" : 94590
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "c3563c0489e7ebe0",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592311244150,
+        "stop" : 1592311309684,
+        "duration" : 65534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "f732799ce5842b65",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425427441,
+        "stop" : 1592425492979,
+        "duration" : 65538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "4daed0c33d53e8c3",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719583945,
+        "stop" : 1591719649441,
+        "duration" : 65496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "73eeeb63946b1d4d",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592683562520,
+        "stop" : 1592683666939,
+        "duration" : 104419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "838321fde3df435b",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592774932029,
+        "stop" : 1592775025115,
+        "duration" : 93086
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "49947a4b8de61273",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581673271,
+        "stop" : 1590581737311,
+        "duration" : 64040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "988669d33b443aea",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592823824862,
+        "stop" : 1592823887064,
+        "duration" : 62202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "3ba692547bffadc3",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592510948532,
+        "stop" : 1592511009980,
+        "duration" : 61448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "85a7c2d297bf9ea",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592303861720,
+        "stop" : 1592303926678,
+        "duration" : 64958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "3dc268d1088436f3",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592686453780,
+        "stop" : 1592686554789,
+        "duration" : 101009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "1be8914e24446429",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593387625829,
+        "stop" : 1593387704030,
+        "duration" : 78201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "ec3897eb80bf3b3a",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592438185498,
+        "stop" : 1592438254408,
+        "duration" : 68910
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "a08f9ae1276ff64a",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592826463052,
+        "stop" : 1592826524229,
+        "duration" : 61177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should contain items in the mirror tab",
+      "uid" : "3e6ea49e6c7f327f",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592834232713,
+        "stop" : 1592834321274,
+        "duration" : 88561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "2086f3d42e2b94f1",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592823906217,
+        "stop" : 1592823968566,
+        "duration" : 62349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "1a67625f53fab101",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591719665168,
+        "stop" : 1591719729922,
+        "duration" : 64754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "de572bb5e98e663a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590535148451,
+        "stop" : 1590535212392,
+        "duration" : 63941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "7c5aafa515258ad6",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590581748706,
+        "stop" : 1590581812619,
+        "duration" : 63913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "a3f5137d6878cab9",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592686574672,
+        "stop" : 1592686664436,
+        "duration" : 89764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "42e473b030130f1f",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592303936626,
+        "stop" : 1592304000690,
+        "duration" : 64064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "a39096fd422b49da",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592438267054,
+        "stop" : 1592438335906,
+        "duration" : 68852
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "832ae7fb1175da3d",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592425504600,
+        "stop" : 1592425569608,
+        "duration" : 65008
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "f090ee5fcc0b8264",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592775045938,
+        "stop" : 1592775139244,
+        "duration" : 93306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "c1ab7e672712230c",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592683687922,
+        "stop" : 1592683780616,
+        "duration" : 92694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "fba9e37dc75acd3b",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592834331082,
+        "stop" : 1592834416879,
+        "duration" : 85797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "cdb13ae4d022374a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592511024162,
+        "stop" : 1592511084631,
+        "duration" : 60469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "c0b21bd2a1de92fb",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592311322867,
+        "stop" : 1592311388454,
+        "duration" : 65587
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "6e1c417abdb96a8c",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592826533775,
+        "stop" : 1592826620574,
+        "duration" : 86799
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "b23295ef4bbe2624",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592778511504,
+        "stop" : 1592778605777,
+        "duration" : 94273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "6f6113f4bfe19f8c",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593211976352,
+        "stop" : 1593212037053,
+        "duration" : 60701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "655a49c88393bb89",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593387723489,
+        "stop" : 1593387809328,
+        "duration" : 85839
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "65d3b98e8a3b67a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593395167617,
+        "stop" : 1593395251589,
+        "duration" : 83972
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    }, {
+      "name" : "should not able to Assign Mirror from the product with no image",
+      "uid" : "3c9ce2ae8db8f41",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592505603203,
+        "stop" : 1592505663605,
+        "duration" : 60402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "true" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
   } ]
 }

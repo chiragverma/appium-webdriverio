@@ -1,0 +1,58 @@
+{
+  "uid" : "c058d9689c9b0bc4",
+  "name" : "should set the app before testing",
+  "fullName" : "Prebuild Shopfloor,.should set the app before testing",
+  "historyId" : "aa434805a18e2360ddf9a865d5391b96",
+  "time" : {
+    "start" : 1591019339374,
+    "stop" : 1591019372113,
+    "duration" : 32739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Can't call touchAction on element with selector \"//[@contains(@label, 'Environment development')]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call touchAction on element with selector \"//[@contains(@label, 'Environment development')]\" because element wasn't found\n                    at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/preBuildShopfloor.spec.js:12:64)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testClass",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should set the app before testing"
+  }, {
+    "name" : "package",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c058d9689c9b0bc4.json",
+  "parameterValues" : [ "true" ]
+}

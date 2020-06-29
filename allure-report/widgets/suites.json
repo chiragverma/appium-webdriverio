@@ -1,13 +1,112 @@
 {
-  "total" : 1,
+  "total" : 11,
   "items" : [ {
-    "uid" : "9f3f6b2f0a7a3bb802003eceeec21769",
-    "name" : "Checking if the customer received the recommendation,",
+    "uid" : "7ed15813f834e1680f2c1150cb27af1d",
+    "name" : "Sending the looks to the mirror successfully,",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6d0f94275269dc78d7f578f06c5e1bb3",
+    "name" : "Able to Successfully call the Advisor from the mirror,",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e041fd3394f8c234276b7a1100a214df",
+    "name" : "Not able to Assign Mirror from the product with no image,",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "472cc16e828b684c61964912951cabe3",
+    "name" : "Resetting the mirror successfully,",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9748dd37633e9078060dcdc312d918c5",
+    "name" : "Sending the recommendaton to the customer,",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "5f93e75b6e8b2c1f4be4f6b96e506c9a",
+    "name" : "Steal mirror from the advisor,",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "91ce450b42e31a14f1efc140420a8e0e",
+    "name" : "Steal customer from the advisor,",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1cc3769fffba5e0c9bd62ba7053b5c82",
+    "name" : "Sending the item to the mirror successfully,",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d93a99254759507eb03e625caa12e4a4",
+    "name" : "Check Mirror Tab,",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2c3e574c5310b67e46c6346325b1e0e7",
+    "name" : "Cannot send recommendaton to the customer,",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

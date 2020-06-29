@@ -1,0 +1,58 @@
+{
+  "uid" : "457562343cf94157",
+  "name" : "should set the app before testing",
+  "fullName" : "Prebuild Shopfloor,.should set the app before testing",
+  "historyId" : "aa434805a18e2360ddf9a865d5391b96",
+  "time" : {
+    "start" : 1591700683848,
+    "stop" : 1591700709485,
+    "duration" : 25637
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "invalid selector: Locator Strategy 'css selector' is not supported for this session",
+  "statusTrace" : "    at <Jasmine>\n                    at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/preBuildShopfloor.spec.js:12:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testClass",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should set the app before testing"
+  }, {
+    "name" : "package",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "457562343cf94157.json",
+  "parameterValues" : [ "true" ]
+}

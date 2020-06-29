@@ -1,0 +1,58 @@
+{
+  "uid" : "7a6b385ac176931d",
+  "name" : "should set the app before testing",
+  "fullName" : "Prebuild Shopfloor,.should set the app before testing",
+  "historyId" : "aa434805a18e2360ddf9a865d5391b96",
+  "time" : {
+    "start" : 1592512860665,
+    "stop" : 1592512950762,
+    "duration" : 90097
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+  "statusTrace" : "Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testClass",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should set the app before testing"
+  }, {
+    "name" : "package",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a6b385ac176931d.json",
+  "parameterValues" : [ "true" ]
+}

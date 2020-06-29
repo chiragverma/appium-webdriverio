@@ -7,7 +7,7 @@ exports.config = {
     maxInstances: 1,
     //
     specs: [
-        './tests/ShopfloorApp/specs/shopfloorAndMirror/resetMirror.spec.js'
+        './tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js'
     ],
 
     //
@@ -32,7 +32,7 @@ exports.config = {
             port: 4723,
             capabilities: {
                 platformName: 'iOS',
-                'appium:platformVersion': '13.4',
+                'appium:platformVersion': '13.5',
                 'appium:orientation': 'PORTRAIT',
                 'appium:noReset': true,
                 'appium:newCommandTimeout': 240,
@@ -70,7 +70,7 @@ exports.config = {
     jasmineNodeOpts: 
     {   
     // Jasmine default timeout
-    defaultTimeoutInterval: 90000,
+    defaultTimeoutInterval: 110000,
     expectationResultHandler(passed, assertion) 
     {
       // do something

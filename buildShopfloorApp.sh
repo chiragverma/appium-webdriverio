@@ -7,7 +7,7 @@ export LC_ALL=en_US.UTF-8
 # define variables
 WORKSPACE="Shopfloor.xcworkspace"
 SCHEME="In-House"
-DESTINATION="platform=iOS Simulator,name=iPhone 8,OS=13.4.1"
+DESTINATION="platform=iOS Simulator,name=iPhone 8,OS=13.5"
 IPHONE_VERSION_ONE="iPhone-7"
 IPHONE_VERSION_TWO="iPhone-8"
 APPDIR="$HOME/Library/Developer/Xcode/DerivedData/"

@@ -1,0 +1,364 @@
+{
+  "uid" : "bc9a1ed60414b39",
+  "name" : "should be able to steal the customer",
+  "fullName" : "Steal customer from the advisor,.should be able to steal the customer",
+  "historyId" : "aa6440fa2d9f73c24f072030d868389b",
+  "time" : {
+    "start" : 1593420014352,
+    "stop" : 1593420214196,
+    "duration" : 199844
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---",
+  "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    at getErrorFromFailedTest (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/allure-reporter/build/utils.js:55:56)\n                    at AllureReporter.onTestFail (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/allure-reporter/build/index.js:196:67)\n                    at AllureReporter.<anonymous> (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/reporter/build/index.js:115:12)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:482:12)\n                    at /Users/sof.machines/qa-end-to-end/node_modules/@wdio/runner/build/reporter.js:38:49\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/runner/build/reporter.js:38:20)\n                    at JasmineReporter.emit (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/jasmine-framework/build/reporter.js:112:19)\n                    at JasmineReporter.specDone (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/jasmine-framework/build/reporter.js:62:10)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Steal Customer"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Steal customer from the advisor,"
+  }, {
+    "name" : "testClass",
+    "value" : "Steal customer from the advisor,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to steal the customer"
+  }, {
+    "name" : "package",
+    "value" : "Steal customer from the advisor,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cc74005a94fd12ab",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593394533766,
+        "stop" : 1593394716611,
+        "duration" : 182845
+      }
+    }, {
+      "uid" : "db4bf900cb5339fd",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:49:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:23:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593387182849,
+        "stop" : 1593387283611,
+        "duration" : 100762
+      }
+    }, {
+      "uid" : "c44d0ae41f79c0e1",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:49:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:23:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593383486297,
+        "stop" : 1593383600698,
+        "duration" : 114401
+      }
+    }, {
+      "uid" : "32cfaa740051d678",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:17:29)\n                --- End of stack trace ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:23:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593382731451,
+        "stop" : 1593382919138,
+        "duration" : 187687
+      }
+    }, {
+      "uid" : "36eaca6411f27752",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:49:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593379762225,
+        "stop" : 1593379844818,
+        "duration" : 82593
+      }
+    }, {
+      "uid" : "ef9057f5b1b3409c",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:49:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593211411393,
+        "stop" : 1593211484925,
+        "duration" : 73532
+      }
+    }, {
+      "uid" : "a7ed1ee57c8e262d",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592833823845,
+        "stop" : 1592833917222,
+        "duration" : 93377
+      }
+    }, {
+      "uid" : "50b11ac5ec5aa39",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592825982369,
+        "stop" : 1592826070836,
+        "duration" : 88467
+      }
+    }, {
+      "uid" : "7cbf336217805421",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                        at <Jasmine>\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592823390809,
+        "stop" : 1592823450636,
+        "duration" : 59827
+      }
+    }, {
+      "uid" : "59e2451e752d1745",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592777988907,
+        "stop" : 1592778085717,
+        "duration" : 96810
+      }
+    }, {
+      "uid" : "ba77acca985511f8",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                        at <Jasmine>\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592774418926,
+        "stop" : 1592774480453,
+        "duration" : 61527
+      }
+    }, {
+      "uid" : "ec96d12d4b2a7a31",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592685945971,
+        "stop" : 1592686149427,
+        "duration" : 203456
+      }
+    }, {
+      "uid" : "db3bef8ef2fb14ff",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592682949184,
+        "stop" : 1592683023234,
+        "duration" : 74050
+      }
+    }, {
+      "uid" : "db2c7916b5102bb7",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:549:17)\n                        at processTimers (internal/timers.js:492:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592513412718,
+        "stop" : 1592513548036,
+        "duration" : 135318
+      }
+    }, {
+      "uid" : "5eccccb60b99baa4",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                        at <Jasmine>\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592510555262,
+        "stop" : 1592510643370,
+        "duration" : 88108
+      }
+    }, {
+      "uid" : "6b8ed2a5bc92064f",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592504955688,
+        "stop" : 1592505167604,
+        "duration" : 211916
+      }
+    }, {
+      "uid" : "6cdea712f0e73455",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                        at <Jasmine>\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592500511511,
+        "stop" : 1592500567720,
+        "duration" : 56209
+      }
+    }, {
+      "uid" : "eb73269b2aec1d1a",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~SettingsIcon\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:42:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592499674034,
+        "stop" : 1592499852408,
+        "duration" : 178374
+      }
+    }, {
+      "uid" : "6f5222e81c8052d8",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~SettingsIcon\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:42:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592477385549,
+        "stop" : 1592477552426,
+        "duration" : 166877
+      }
+    }, {
+      "uid" : "8308e5986d0f81a6",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592437716066,
+        "stop" : 1592437790340,
+        "duration" : 74274
+      }
+    }, {
+      "uid" : "b0a17dfe355c5ec7",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"//XCUIElementTypeOther[@name=\"Sign In\"]/XCUIElementTypeOther[3]/XCUIElementTypeTextField\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:26:38)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592426382109,
+        "stop" : 1592426479803,
+        "duration" : 97694
+      }
+    }, {
+      "uid" : "55944f1f4da7f0e7",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"//XCUIElementTypeOther[@name=\"Sign In\"]/XCUIElementTypeOther[3]/XCUIElementTypeTextField\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:26:38)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592425099246,
+        "stop" : 1592425171491,
+        "duration" : 72245
+      }
+    }, {
+      "uid" : "1441aaee55c8a4ce",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:549:17)\n                        at processTimers (internal/timers.js:492:7)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:549:17)\n                        at processTimers (internal/timers.js:492:7)\n                --- End of stack trace ---\n                    Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:549:17)\n                        at processTimers (internal/timers.js:492:7)\n                --- End of stack trace ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~SettingsIcon\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:42:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592418194119,
+        "stop" : 1592418397351,
+        "duration" : 203232
+      }
+    }, {
+      "uid" : "109a63c2a42a6eb2",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:549:17)\n                        at processTimers (internal/timers.js:492:7)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:549:17)\n                        at processTimers (internal/timers.js:492:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customerSearchTextField\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:51:45)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:30:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~SettingsIcon\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:42:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592342069091,
+        "stop" : 1592342251514,
+        "duration" : 182423
+      }
+    }, {
+      "uid" : "e89bdf97fda228a9",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~SettingsIcon\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:42:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592310802104,
+        "stop" : 1592310982293,
+        "duration" : 180189
+      }
+    }, {
+      "uid" : "11a4bff9d5ba6e7b",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"//XCUIElementTypeOther[@name=\"Sign In\"]/XCUIElementTypeOther[3]/XCUIElementTypeTextField\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:26:38)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592310334902,
+        "stop" : 1592310406431,
+        "duration" : 71529
+      }
+    }, {
+      "uid" : "3d9fcaaf1856663",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:549:17)\n                        at processTimers (internal/timers.js:492:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1592303486122,
+        "stop" : 1592303616989,
+        "duration" : 130867
+      }
+    }, {
+      "uid" : "ec7b9c8f4b5fcd51",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1591719094380,
+        "stop" : 1591719193338,
+        "duration" : 98958
+      }
+    }, {
+      "uid" : "774ec3d3eed63e0c",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                        at <Jasmine>\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1590582659784,
+        "stop" : 1590582732983,
+        "duration" : 73199
+      }
+    }, {
+      "uid" : "6a4b2f4ff16dce98",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"//XCUIElementTypeOther[@name=\"Sign In\"]/XCUIElementTypeOther[3]/XCUIElementTypeTextField\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:26:38)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1590581350896,
+        "stop" : 1590581425308,
+        "duration" : 74412
+      }
+    }, {
+      "uid" : "ccf67266bd141136",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1590534686532,
+        "stop" : 1590534759698,
+        "duration" : 73166
+      }
+    }, {
+      "uid" : "406062e2f0e453e2",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                        at <Jasmine>\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1590452979385,
+        "stop" : 1590453044300,
+        "duration" : 64915
+      }
+    }, {
+      "uid" : "33924515971860ca",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"//XCUIElementTypeOther[@name=\"Sign In\"]/XCUIElementTypeOther[3]/XCUIElementTypeTextField\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:26:38)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1590450469063,
+        "stop" : 1590450537638,
+        "duration" : 68575
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bc9a1ed60414b39.json",
+  "parameterValues" : [ "true" ]
+}

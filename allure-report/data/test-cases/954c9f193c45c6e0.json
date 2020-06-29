@@ -1,0 +1,923 @@
+{
+  "uid" : "954c9f193c45c6e0",
+  "name" : "should set the app before testing",
+  "fullName" : "Prebuild Shopfloor,.should set the app before testing",
+  "historyId" : "aa434805a18e2360ddf9a865d5391b96",
+  "time" : {
+    "start" : 1593419904840,
+    "stop" : 1593419955505,
+    "duration" : 50665
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testClass",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should set the app before testing"
+  }, {
+    "name" : "package",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1215edee1ab5c13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593394422649,
+        "stop" : 1593394460036,
+        "duration" : 37387
+      }
+    }, {
+      "uid" : "96dcc4ab8b41af7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593387079651,
+        "stop" : 1593387114456,
+        "duration" : 34805
+      }
+    }, {
+      "uid" : "ed6c9fe1b947c2b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593383385686,
+        "stop" : 1593383436338,
+        "duration" : 50652
+      }
+    }, {
+      "uid" : "988c06eda2e37226",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593382633469,
+        "stop" : 1593382675011,
+        "duration" : 41542
+      }
+    }, {
+      "uid" : "c19692c1390f6233",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593379652124,
+        "stop" : 1593379711570,
+        "duration" : 59446
+      }
+    }, {
+      "uid" : "78dc5adbdb7e7484",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593211322627,
+        "stop" : 1593211364768,
+        "duration" : 42141
+      }
+    }, {
+      "uid" : "45f2da49fa578e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592833672951,
+        "stop" : 1592833732799,
+        "duration" : 59848
+      }
+    }, {
+      "uid" : "fce09d9997d1b63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592825877712,
+        "stop" : 1592825932451,
+        "duration" : 54739
+      }
+    }, {
+      "uid" : "a3444ca9b1cde33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592823296359,
+        "stop" : 1592823337533,
+        "duration" : 41174
+      }
+    }, {
+      "uid" : "fd6c4e8c7074d190",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592777867451,
+        "stop" : 1592777919901,
+        "duration" : 52450
+      }
+    }, {
+      "uid" : "c0989835f31e21f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592774315345,
+        "stop" : 1592774370755,
+        "duration" : 55410
+      }
+    }, {
+      "uid" : "76adc5cb6d42ae1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592685849906,
+        "stop" : 1592685889941,
+        "duration" : 40035
+      }
+    }, {
+      "uid" : "be561b4031979651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592682851413,
+        "stop" : 1592682894204,
+        "duration" : 42791
+      }
+    }, {
+      "uid" : "ba64215ff4d0226c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592513286667,
+        "stop" : 1592513329564,
+        "duration" : 42897
+      }
+    }, {
+      "uid" : "7a6b385ac176931d",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+      "time" : {
+        "start" : 1592512860665,
+        "stop" : 1592512950762,
+        "duration" : 90097
+      }
+    }, {
+      "uid" : "b61b6313999bdfac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592510478074,
+        "stop" : 1592510517514,
+        "duration" : 39440
+      }
+    }, {
+      "uid" : "7eeb4df02829aab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592504856688,
+        "stop" : 1592504909522,
+        "duration" : 52834
+      }
+    }, {
+      "uid" : "1f5e7fff85a0097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592500414837,
+        "stop" : 1592500458789,
+        "duration" : 43952
+      }
+    }, {
+      "uid" : "e4cb544b8521a47f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592499572223,
+        "stop" : 1592499623517,
+        "duration" : 51294
+      }
+    }, {
+      "uid" : "eb03d8877d512c73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592498346423,
+        "stop" : 1592498388627,
+        "duration" : 42204
+      }
+    }, {
+      "uid" : "296bb07810642e75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592497630069,
+        "stop" : 1592497685012,
+        "duration" : 54943
+      }
+    }, {
+      "uid" : "31858d3a5ce9e215",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592478461305,
+        "stop" : 1592478499264,
+        "duration" : 37959
+      }
+    }, {
+      "uid" : "75101119e918e9cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592477295754,
+        "stop" : 1592477333497,
+        "duration" : 37743
+      }
+    }, {
+      "uid" : "e78552574697ae07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592437598718,
+        "stop" : 1592437652926,
+        "duration" : 54208
+      }
+    }, {
+      "uid" : "1552ba489d48def4",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~production\" because element wasn't found",
+      "time" : {
+        "start" : 1592437074275,
+        "stop" : 1592437132651,
+        "duration" : 58376
+      }
+    }, {
+      "uid" : "e8da0641a0c5ec80",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~production\" because element wasn't found",
+      "time" : {
+        "start" : 1592432273437,
+        "stop" : 1592432311143,
+        "duration" : 37706
+      }
+    }, {
+      "uid" : "bf99c948ba1d9a9c",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~production\" because element wasn't found",
+      "time" : {
+        "start" : 1592431998735,
+        "stop" : 1592432052168,
+        "duration" : 53433
+      }
+    }, {
+      "uid" : "c7c6d790bd88c8cb",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1592417465631,
+        "stop" : 1592417496183,
+        "duration" : 30552
+      }
+    }, {
+      "uid" : "1539cd1d427127d",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async function did not complete within 90000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+      "time" : {
+        "start" : 1592406104428,
+        "stop" : 1592406194509,
+        "duration" : 90081
+      }
+    }, {
+      "uid" : "89ac8ca8890daece",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1592334710032,
+        "stop" : 1592334754829,
+        "duration" : 44797
+      }
+    }, {
+      "uid" : "636d18b9a0eed6bc",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1592314342172,
+        "stop" : 1592314408524,
+        "duration" : 66352
+      }
+    }, {
+      "uid" : "343719776b63b785",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592310705692,
+        "stop" : 1592310744285,
+        "duration" : 38593
+      }
+    }, {
+      "uid" : "15b030fa224dadaf",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591727629685,
+        "stop" : 1591727667699,
+        "duration" : 38014
+      }
+    }, {
+      "uid" : "a46030189cfb7c77",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591726691830,
+        "stop" : 1591726763190,
+        "duration" : 71360
+      }
+    }, {
+      "uid" : "28bb942bb016c260",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591724726670,
+        "stop" : 1591724791094,
+        "duration" : 64424
+      }
+    }, {
+      "uid" : "b100d9a062af561",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591724496606,
+        "stop" : 1591724559983,
+        "duration" : 63377
+      }
+    }, {
+      "uid" : "8121fa358219efdd",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591724139116,
+        "stop" : 1591724202222,
+        "duration" : 63106
+      }
+    }, {
+      "uid" : "5317f3128729cec9",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591722594580,
+        "stop" : 1591722658007,
+        "duration" : 63427
+      }
+    }, {
+      "uid" : "e0be0dea2630705e",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591722080141,
+        "stop" : 1591722157931,
+        "duration" : 77790
+      }
+    }, {
+      "uid" : "cf9de6ba4f2af56",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591721627128,
+        "stop" : 1591721692376,
+        "duration" : 65248
+      }
+    }, {
+      "uid" : "2ba4b8bae7c80552",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591721395037,
+        "stop" : 1591721459450,
+        "duration" : 64413
+      }
+    }, {
+      "uid" : "c1b5cd1430bf2f0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591718988133,
+        "stop" : 1591719046493,
+        "duration" : 58360
+      }
+    }, {
+      "uid" : "4564ecae854446d3",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591718664138,
+        "stop" : 1591718719425,
+        "duration" : 55287
+      }
+    }, {
+      "uid" : "d6078aa47ac03833",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"//XCUIElementTypeButton[text()=\"Environment development (livesbx)\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1591718458472,
+        "stop" : 1591718510131,
+        "duration" : 51659
+      }
+    }, {
+      "uid" : "3f2bfea0b628066a",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"//XCUIElementTypeButton[text()=\"Environment development (livesbx)\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1591718145331,
+        "stop" : 1591718191620,
+        "duration" : 46289
+      }
+    }, {
+      "uid" : "17b6e7d26b171b2c",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"//XCUIElementTypeButton[contains(text(),\"Environment development\")]\" because element wasn't found",
+      "time" : {
+        "start" : 1591710394634,
+        "stop" : 1591710432379,
+        "duration" : 37745
+      }
+    }, {
+      "uid" : "740a1fab25a4315c",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591707128357,
+        "stop" : 1591707165379,
+        "duration" : 37022
+      }
+    }, {
+      "uid" : "457562343cf94157",
+      "status" : "failed",
+      "statusDetails" : "invalid selector: Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1591700683848,
+        "stop" : 1591700709485,
+        "duration" : 25637
+      }
+    }, {
+      "uid" : "d2495038f822907c",
+      "status" : "failed",
+      "statusDetails" : "invalid selector: Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1591700455096,
+        "stop" : 1591700468832,
+        "duration" : 13736
+      }
+    }, {
+      "uid" : "e793c64b499689cb",
+      "status" : "failed",
+      "statusDetails" : "Error: element (\"~Environment development (livesbx)\") still not existing after 5000ms",
+      "time" : {
+        "start" : 1591700272194,
+        "stop" : 1591700294426,
+        "duration" : 22232
+      }
+    }, {
+      "uid" : "f9eaa0b434913a9",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment development (livesbx) \" because element wasn't found",
+      "time" : {
+        "start" : 1591699223988,
+        "stop" : 1591699273432,
+        "duration" : 49444
+      }
+    }, {
+      "uid" : "a3c8c77dff0cf2a7",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment development (livesbx) \" because element wasn't found",
+      "time" : {
+        "start" : 1591698745514,
+        "stop" : 1591698782448,
+        "duration" : 36934
+      }
+    }, {
+      "uid" : "7244075e11800385",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591658613584,
+        "stop" : 1591658663418,
+        "duration" : 49834
+      }
+    }, {
+      "uid" : "a51f405fd2a2d7f7",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"//XCUIElementTypeButton[contains(@name, \"Environment development\")]\" because element wasn't found",
+      "time" : {
+        "start" : 1591657553502,
+        "stop" : 1591657602102,
+        "duration" : 48600
+      }
+    }, {
+      "uid" : "45a9c27dd8608feb",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"//XCUIElementTypeButton[contains(@name, \"Environment development\")]\" because element wasn't found",
+      "time" : {
+        "start" : 1591657162476,
+        "stop" : 1591657209840,
+        "duration" : 47364
+      }
+    }, {
+      "uid" : "dd44e18e0bbefb54",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//XCUIElementTypeButton[contains(@name, \"Environment development\")]\" because element wasn't found",
+      "time" : {
+        "start" : 1591655995411,
+        "stop" : 1591656041933,
+        "duration" : 46522
+      }
+    }, {
+      "uid" : "63c489a1041cb519",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//XCUIElementTypeButton[@name=\"Environment development (livesbx)\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1591653856267,
+        "stop" : 1591653894764,
+        "duration" : 38497
+      }
+    }, {
+      "uid" : "7e2bc33ed4c02b62",
+      "status" : "failed",
+      "statusDetails" : "Error: The element with selector \"//XCUIElementTypeButton[@name=\"Environment development (livesbx)\"]\" you trying to pass into the execute method wasn't found",
+      "time" : {
+        "start" : 1591653208894,
+        "stop" : 1591653240453,
+        "duration" : 31559
+      }
+    }, {
+      "uid" : "d4758204cd5ad1ca",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"//XCUIElementTypeButton[@name=\"Environment development (livesbx)\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1591651541310,
+        "stop" : 1591651589758,
+        "duration" : 48448
+      }
+    }, {
+      "uid" : "909bc1445ee68d7b",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call doubleClick on element with selector \"~Environment development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591650319593,
+        "stop" : 1591650366077,
+        "duration" : 46484
+      }
+    }, {
+      "uid" : "24d809dae3dcb804",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591649854768,
+        "stop" : 1591649893889,
+        "duration" : 39121
+      }
+    }, {
+      "uid" : "ad3720ce5381f071",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591649636647,
+        "stop" : 1591649676551,
+        "duration" : 39904
+      }
+    }, {
+      "uid" : "87b540cfe50e7e30",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591649335594,
+        "stop" : 1591649376889,
+        "duration" : 41295
+      }
+    }, {
+      "uid" : "54c2493e2e535c13",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"//XCUIElementTypeButton[@name=\"Environment development (livesbx)\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1591649022926,
+        "stop" : 1591649068265,
+        "duration" : 45339
+      }
+    }, {
+      "uid" : "f0f3177d9afc5e45",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//XCUIElementTypeButton[@name=\"Environment development (livesbx)\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1591648552069,
+        "stop" : 1591648598244,
+        "duration" : 46175
+      }
+    }, {
+      "uid" : "115e67048193e9cc",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//XCUIElementTypeButton[@name=\"Environment development (livesbx)\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1591648360688,
+        "stop" : 1591648395949,
+        "duration" : 35261
+      }
+    }, {
+      "uid" : "9193126be05b4e38",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment development (livesbx)\" because element wasn't found",
+      "time" : {
+        "start" : 1591647680855,
+        "stop" : 1591647718142,
+        "duration" : 37287
+      }
+    }, {
+      "uid" : "c0affc592d1c85fe",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//[@contains(@label, 'Environment development')]\" because element wasn't found",
+      "time" : {
+        "start" : 1591019705769,
+        "stop" : 1591019737655,
+        "duration" : 31886
+      }
+    }, {
+      "uid" : "c058d9689c9b0bc4",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//[@contains(@label, 'Environment development')]\" because element wasn't found",
+      "time" : {
+        "start" : 1591019339374,
+        "stop" : 1591019372113,
+        "duration" : 32739
+      }
+    }, {
+      "uid" : "87f2b112050e1a8",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//[@contains(@label, 'Environment development')]\" because element wasn't found",
+      "time" : {
+        "start" : 1591018994165,
+        "stop" : 1591019034843,
+        "duration" : 40678
+      }
+    }, {
+      "uid" : "82b67d038bd90dda",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//[@contains(@label, 'Environment development')]\" because element wasn't found",
+      "time" : {
+        "start" : 1591016594917,
+        "stop" : 1591016649163,
+        "duration" : 54246
+      }
+    }, {
+      "uid" : "6f31bc7529b5be88",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//button[@contains(@label, 'Environment development')]\" because element wasn't found",
+      "time" : {
+        "start" : 1591015252621,
+        "stop" : 1591015289249,
+        "duration" : 36628
+      }
+    }, {
+      "uid" : "fa4c5167fed5d299",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//button[@contains(@name, 'Environment development')]\" because element wasn't found",
+      "time" : {
+        "start" : 1591014927636,
+        "stop" : 1591014963569,
+        "duration" : 35933
+      }
+    }, {
+      "uid" : "6a9a8f1d463e365",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//UIAButton[@contains(@name, 'Environment development')]\" because element wasn't found",
+      "time" : {
+        "start" : 1591014692847,
+        "stop" : 1591014744235,
+        "duration" : 51388
+      }
+    }, {
+      "uid" : "45a1e6b674a3bae0",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"//UIAButton[@contains(@name, 'Environment test')]\" because element wasn't found",
+      "time" : {
+        "start" : 1591014465440,
+        "stop" : 1591014515713,
+        "duration" : 50273
+      }
+    }, {
+      "uid" : "f48ca3d7cef30dd9",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment development\" because element wasn't found",
+      "time" : {
+        "start" : 1591013148134,
+        "stop" : 1591013183960,
+        "duration" : 35826
+      }
+    }, {
+      "uid" : "1506291cebdd09e6",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1591008688172,
+        "stop" : 1591008725309,
+        "duration" : 37137
+      }
+    }, {
+      "uid" : "bd75c6ddb228445e",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment'\n                'development\" because element wasn't found",
+      "time" : {
+        "start" : 1591008437057,
+        "stop" : 1591008472910,
+        "duration" : 35853
+      }
+    }, {
+      "uid" : "4498014ead80827e",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                \"development\" because element wasn't found",
+      "time" : {
+        "start" : 1591008049013,
+        "stop" : 1591008083534,
+        "duration" : 34521
+      }
+    }, {
+      "uid" : "128dd36c217e13d6",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590756156690,
+        "stop" : 1590756202957,
+        "duration" : 46267
+      }
+    }, {
+      "uid" : "a89b53537aa91558",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590704015819,
+        "stop" : 1590704051176,
+        "duration" : 35357
+      }
+    }, {
+      "uid" : "b86d14581d882b1e",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590702365840,
+        "stop" : 1590702411735,
+        "duration" : 45895
+      }
+    }, {
+      "uid" : "3506d5e1ca4b057c",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590681463931,
+        "stop" : 1590681504056,
+        "duration" : 40125
+      }
+    }, {
+      "uid" : "1ab4cd67ad8ac1f2",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590678323417,
+        "stop" : 1590678363736,
+        "duration" : 40319
+      }
+    }, {
+      "uid" : "34174bd847ef0b85",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590676680815,
+        "stop" : 1590676725864,
+        "duration" : 45049
+      }
+    }, {
+      "uid" : "f2718aa59b324046",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590667472238,
+        "stop" : 1590667519469,
+        "duration" : 47231
+      }
+    }, {
+      "uid" : "1ec04675458cdefc",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call touchAction on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590594585474,
+        "stop" : 1590594620637,
+        "duration" : 35163
+      }
+    }, {
+      "uid" : "7138c2d3afc1c28f",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590591750493,
+        "stop" : 1590591787571,
+        "duration" : 37078
+      }
+    }, {
+      "uid" : "2b9be8b2e570ae6a",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590590965530,
+        "stop" : 1590590999155,
+        "duration" : 33625
+      }
+    }, {
+      "uid" : "8cacc8c9a9e94e7d",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call doubleClick on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590587893463,
+        "stop" : 1590587937454,
+        "duration" : 43991
+      }
+    }, {
+      "uid" : "cabd163916cb5678",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call doubleClick on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590587528148,
+        "stop" : 1590587576078,
+        "duration" : 47930
+      }
+    }, {
+      "uid" : "4aa61638b55dd88f",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590584975313,
+        "stop" : 1590585010283,
+        "duration" : 34970
+      }
+    }, {
+      "uid" : "c26d93d88e48f4b0",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                development\" because element wasn't found",
+      "time" : {
+        "start" : 1590583418600,
+        "stop" : 1590583465700,
+        "duration" : 47100
+      }
+    }, {
+      "uid" : "dc2912c4e6092ea0",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                production\" because element wasn't found",
+      "time" : {
+        "start" : 1590582578202,
+        "stop" : 1590582613122,
+        "duration" : 34920
+      }
+    }, {
+      "uid" : "398738c217d0ca0d",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                production\" because element wasn't found",
+      "time" : {
+        "start" : 1590581231449,
+        "stop" : 1590581283439,
+        "duration" : 51990
+      }
+    }, {
+      "uid" : "e273dce2d1abab13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590534595741,
+        "stop" : 1590534652924,
+        "duration" : 57183
+      }
+    }, {
+      "uid" : "d49ded8ff8d6c6fc",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                production\" because element wasn't found",
+      "time" : {
+        "start" : 1590452853940,
+        "stop" : 1590452940363,
+        "duration" : 86423
+      }
+    }, {
+      "uid" : "a7fb9a58b17a22d1",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                production\" because element wasn't found",
+      "time" : {
+        "start" : 1590451866217,
+        "stop" : 1590451914261,
+        "duration" : 48044
+      }
+    }, {
+      "uid" : "5abcf0524c59641",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"~Environment\n                production\" because element wasn't found",
+      "time" : {
+        "start" : 1590450424450,
+        "stop" : 1590450484969,
+        "duration" : 60519
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "954c9f193c45c6e0.json",
+  "parameterValues" : [ "true" ]
+}

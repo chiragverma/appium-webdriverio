@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591724496604' stop='1591724559985'>
+    <name>Prebuild Shopfloor,</name>
+    <title>Prebuild Shopfloor,</title>
+    <test-cases>
+        <test-case start='1591724496606' status='failed' stop='1591724559983'>
+            <name>should set the app before testing</name>
+            <title>should set the app before testing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "~Environment
+                development (livesbx)" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~Environment
+                development (livesbx)" because element wasn't found
+                    at UserContext.&lt;anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/preBuildShopfloor.spec.js:20:64)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

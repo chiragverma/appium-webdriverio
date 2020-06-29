@@ -1,10 +1,10 @@
 import AppScreen from './app.screen';
 
-
 const SELECTORS = {
     SHOPFLOOR_APP: '~FA',
     DEBUG_SECTION: '~Debug',
-    ENVIRONMENT_SECTION: '~Environment\nproduction',
+    ENVIRONMENT_PRODUCTION: '~Environment\nproduction',
+    ENVIRONMENT_DEVELOPMENT: '~Environment\ndevelopment (livesbx)',
     PRODUCTION: '~production'
 };
 
@@ -18,8 +18,12 @@ class PreferenceScreen extends AppScreen {
         return SELECTORS.DEBUG_SECTION;
     }
 
-    get environmentSection () {
-        return SELECTORS.ENVIRONMENT_SECTION;
+    get environmentProduction () {
+        return SELECTORS.ENVIRONMENT_PRODUCTION;
+    }
+
+    get environmentDevelopment () {
+        return SELECTORS.ENVIRONMENT_DEVELOPMENT;
     }
 
     get production () {

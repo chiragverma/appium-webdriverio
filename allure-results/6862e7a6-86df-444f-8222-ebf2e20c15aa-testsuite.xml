@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592567903971' stop='1592567990384'>
+    <name>Able to Successfully call the Advisor from the mirror,</name>
+    <title>Able to Successfully call the Advisor from the mirror,</title>
+    <test-cases>
+        <test-case start='1592567903972' status='failed' stop='1592567990380'>
+            <name>should be able to call the Advisor from the mirror</name>
+            <title>should be able to call the Advisor from the mirror</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Call Advisor'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                    Error: unknown error: Element &lt;body class="screen-off">...&lt;/body> is not clickable at point (640, 399). Other element would receive the click: &lt;html>...&lt;/html>
+                      (Session info: chrome=83.0.4103.106)
+                      (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.3 x86_64)
+                        at UserContext.&lt;anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/callAdvisor.spec.js:25:50)
+                --- End of stack trace ---
+                    Error: element ("~Login") still not existing after 9000ms
+                        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:45:52)
+                        at UserContext.&lt;anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/callAdvisor.spec.js:14:29)
+                --- End of stack trace ---</message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                    Error: unknown error: Element &lt;body class="screen-off">...&lt;/body> is not clickable at point (640, 399). Other element would receive the click: &lt;html>...&lt;/html>
+                      (Session info: chrome=83.0.4103.106)
+                      (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.3 x86_64)
+                        at UserContext.&lt;anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/callAdvisor.spec.js:25:50)
+                --- End of stack trace ---
+                    Error: element ("~Login") still not existing after 9000ms
+                        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:45:52)
+                        at UserContext.&lt;anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/callAdvisor.spec.js:14:29)
+                --- End of stack trace ---
+                    at getErrorFromFailedTest (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/allure-reporter/build/utils.js:55:56)
+                    at AllureReporter.onTestFail (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/allure-reporter/build/index.js:196:67)
+                    at AllureReporter.&lt;anonymous> (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/reporter/build/index.js:115:12)
+                    at AllureReporter.emit (events.js:315:20)
+                    at AllureReporter.EventEmitter.emit (domain.js:482:12)
+                    at /Users/sof.machines/qa-end-to-end/node_modules/@wdio/runner/build/reporter.js:38:49
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/runner/build/reporter.js:38:20)
+                    at JasmineReporter.emit (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/jasmine-framework/build/reporter.js:112:19)
+                    at JasmineReporter.specDone (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/jasmine-framework/build/reporter.js:62:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

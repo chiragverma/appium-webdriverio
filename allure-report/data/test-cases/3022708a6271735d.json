@@ -1,0 +1,59 @@
+{
+  "uid" : "3022708a6271735d",
+  "name" : "should be able to call the Advisor from the mirror",
+  "fullName" : "Able to Successfully call the Advisor from the mirror,.should be able to call the Advisor from the mirror",
+  "historyId" : "319ee2c111991bbad40fc3adf5d00093",
+  "time" : {
+    "start" : 1592691387386,
+    "stop" : 1592691495768,
+    "duration" : 108382
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Call Advisor"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Able to Successfully call the Advisor from the mirror,"
+  }, {
+    "name" : "testClass",
+    "value" : "Able to Successfully call the Advisor from the mirror,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to call the Advisor from the mirror"
+  }, {
+    "name" : "package",
+    "value" : "Able to Successfully call the Advisor from the mirror,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3022708a6271735d.json",
+  "parameterValues" : [ "true" ]
+}

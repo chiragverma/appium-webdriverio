@@ -11,7 +11,7 @@ const SELECTORS = {
     TAP_MIRROR:  '/html/body',
     VERIFY_SCREENOFF: '.screen-off',
     VERIFY_MIRRORPRODUCT: "//div[@data-test='title-category' and contains(text(), 'PRÊT À PORTER')]",
-    VERIFY_MIRRORLOOKS: '//*[@data-test="PRÊT À PORTER"]',
+    VERIFY_MIRRORLOOKS: "//div//span[contains(text(), 1)]",
     EXPAND_PRODUCT: '//*[@id="accordionTitle-recommended"]/div',
     MIRROR_LEFTAREA: '//div[@data-test="touch-area"]',
     RESET_MIRROR: '//button[@data-test="settings-reset"]',
@@ -48,7 +48,7 @@ class RequestScreen extends AppScreen {
     }
 
     get verifyMirrorlooks () {
-        return SELECTORS.VERIFY_MIRRORPRODUCT;
+        return SELECTORS.VERIFY_MIRRORLOOKS;
     }
 
     get expandProduct () {

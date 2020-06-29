@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592834435646' stop='1592834519109'>
+    <name>Cannot send recommendaton to the customer,</name>
+    <title>Cannot send recommendaton to the customer,</title>
+    <test-cases>
+        <test-case start='1592834435647' status='passed' stop='1592834519108'>
+            <name>not able to send the recommendaton to the customer</name>
+            <title>not able to send the recommendaton to the customer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+                <label name='feature' value='Not Able to Recommend to the customer'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

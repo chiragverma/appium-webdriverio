@@ -1,8 +1,5 @@
 [ {
-  "buildOrder" : 13,
-  "reportUrl" : "http://localhost:8080/job/test/13/allure",
-  "reportName" : "AllureReport",
   "data" : {
-    "duration" : 31112
+    "duration" : 25425754
   }
 } ]

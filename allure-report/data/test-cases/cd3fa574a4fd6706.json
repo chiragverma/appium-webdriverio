@@ -1,0 +1,59 @@
+{
+  "uid" : "cd3fa574a4fd6706",
+  "name" : "should contain items in the mirror tab",
+  "fullName" : "Check Mirror Tab,.should contain items in the mirror tab",
+  "historyId" : "3df89a360b69fe9445baabd2f252ae27",
+  "time" : {
+    "start" : 1592842650145,
+    "stop" : 1592842744707,
+    "duration" : 94562
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Mirror Tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check Mirror Tab,"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Mirror Tab,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should contain items in the mirror tab"
+  }, {
+    "name" : "package",
+    "value" : "Check Mirror Tab,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd3fa574a4fd6706.json",
+  "parameterValues" : [ "true" ]
+}

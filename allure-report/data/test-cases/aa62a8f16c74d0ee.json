@@ -1,0 +1,59 @@
+{
+  "uid" : "aa62a8f16c74d0ee",
+  "name" : "should be able to reset the mirror",
+  "fullName" : "Resetting the mirror successfully,.should be able to reset the mirror",
+  "historyId" : "16539f6191a9eb0143c0d142e4b40055",
+  "time" : {
+    "start" : 1593212124723,
+    "stop" : 1593212217534,
+    "duration" : 92811
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Reset Mirror"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Resetting the mirror successfully,"
+  }, {
+    "name" : "testClass",
+    "value" : "Resetting the mirror successfully,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to reset the mirror"
+  }, {
+    "name" : "package",
+    "value" : "Resetting the mirror successfully,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa62a8f16c74d0ee.json",
+  "parameterValues" : [ "true" ]
+}

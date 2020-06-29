@@ -1,5 +1,43 @@
 {
-  "b4f5c267b0d2adc586366093385d1c92" : {
+  "3df89a360b69fe9445baabd2f252ae27" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "273fe714d60168cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593395069937,
+        "stop" : 1593395147857,
+        "duration" : 77920
+      }
+    } ]
+  },
+  "a3be154a62ab79703222492f671764b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfc3965d80c3074b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593395271809,
+        "stop" : 1593395354676,
+        "duration" : 82867
+      }
+    } ]
+  },
+  "7cfc3a505b04a48b08d83f94f52a95" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -9,14 +47,172 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c166d084c8266844",
-      "reportUrl" : "http://localhost:8080/job/test/13/allure/#testresult/c166d084c8266844",
+      "uid" : "3cd137cbc332cce8",
       "status" : "failed",
-      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: element (\"~Recommendations\") still not existing after 7000ms\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                        at UserContext.<anonymous> (/Users/chirag.verma/Desktop/qa-end-to-end/tests/ConsumerApp/specs/shopfloorAndconsumer/verifyRecommendItem.spec.js:18:55)\n                --- End of stack trace ---",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                        at <Jasmine>\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:51:45)\n                        at ShopfloorCommonPage.assignMirror (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:62:14)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js:19:29)\n                --- End of stack trace ---\n                    Error: connect ECONNREFUSED 127.0.0.1:4723\n                        at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:34:21)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js:13:29)\n                --- End of stack trace ---",
       "time" : {
-        "start" : 1587518162310,
-        "stop" : 1587518193422,
-        "duration" : 31112
+        "start" : 1593420246601,
+        "stop" : 1593420280537,
+        "duration" : 33936
+      }
+    } ]
+  },
+  "699b66287d26446483235c559ce85b35" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72b5e3e4f5d3f443",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealMirror.spec.js:15:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:49:43)\n                        at ShopfloorCommonPage.assignMirror (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:62:14)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealMirror.spec.js:28:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealMirror.spec.js:21:29)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593420009948,
+        "stop" : 1593420083284,
+        "duration" : 73336
+      }
+    } ]
+  },
+  "aa6440fa2d9f73c24f072030d868389b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc9a1ed60414b39",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: selector needs to be typeof `string` or `function`\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndshopfloor/stealCustomer.spec.js:31:25)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593420014352,
+        "stop" : 1593420214196,
+        "duration" : 199844
+      }
+    } ]
+  },
+  "16539f6191a9eb0143c0d142e4b40055" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8164288b8575480",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call moveTo on element with selector \"//div[@data-test=\"touch-area\"]\" because element wasn't found\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/resetMirror.spec.js:29:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Can't call moveTo on element with selector \"//div[@data-test=\"touch-area\"]\" because element wasn't found\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/resetMirror.spec.js:29:55)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593395374879,
+        "stop" : 1593395473884,
+        "duration" : 99005
+      }
+    } ]
+  },
+  "dd51a78a1c86caa67534d4d32c1326ba" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56105e1aa76ab1ad",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: The element with selector \"//*[@id=\"accordionTitle-recommended\"]/div\" you trying to pass into the execute method wasn't found\n                        at <Jasmine>\n                        at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js:29:23)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: The element with selector \"//*[@id=\"accordionTitle-recommended\"]/div\" you trying to pass into the execute method wasn't found\n                        at <Jasmine>\n                        at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js:29:23)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593394854783,
+        "stop" : 1593394936182,
+        "duration" : 81399
+      }
+    } ]
+  },
+  "aa434805a18e2360ddf9a865d5391b96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "954c9f193c45c6e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593419904840,
+        "stop" : 1593419955505,
+        "duration" : 50665
+      }
+    } ]
+  },
+  "f8e7619045f7b01e880f37e2bdf1c6e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65e1378f42e2e907",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Resend\" because element wasn't found\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shoplfoorAndconsumer/recommendItem.spec.js:32:55)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Can't call click on element with selector \"~Resend\" because element wasn't found\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shoplfoorAndconsumer/recommendItem.spec.js:32:55)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593395499535,
+        "stop" : 1593395597242,
+        "duration" : 97707
+      }
+    } ]
+  },
+  "89b7df79688140bb212fecf3df6f5b0d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65d3b98e8a3b67a",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"(//XCUIElementTypeImage[@name=\"HangerForListing\"])[1]\" because element wasn't found\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/notAbletoAssignMirror.spec.js:24:50)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Can't call click on element with selector \"(//XCUIElementTypeImage[@name=\"HangerForListing\"])[1]\" because element wasn't found\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/notAbletoAssignMirror.spec.js:24:50)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593395167617,
+        "stop" : 1593395251589,
+        "duration" : 83972
+      }
+    } ]
+  },
+  "319ee2c111991bbad40fc3adf5d00093" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a08105cc3a9752e",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call doubleClick on element with selector \"//*[@id=\"call-advisor\"]\" because element wasn't found\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/callAdvisor.spec.js:29:58)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Can't call doubleClick on element with selector \"//*[@id=\"call-advisor\"]\" because element wasn't found\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/callAdvisor.spec.js:29:58)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1593394955839,
+        "stop" : 1593395049747,
+        "duration" : 93908
       }
     } ]
   }

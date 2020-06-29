@@ -1,0 +1,59 @@
+{
+  "uid" : "b65eb82941572e88",
+  "name" : "should be able to send looks to the mirror",
+  "fullName" : "Sending the looks to the mirror successfully,.should be able to send looks to the mirror",
+  "historyId" : "dd51a78a1c86caa67534d4d32c1326ba",
+  "time" : {
+    "start" : 1593381481462,
+    "stop" : 1593381573286,
+    "duration" : 91824
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Assign Looks to Mirror"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sending the looks to the mirror successfully,"
+  }, {
+    "name" : "testClass",
+    "value" : "Sending the looks to the mirror successfully,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to send looks to the mirror"
+  }, {
+    "name" : "package",
+    "value" : "Sending the looks to the mirror successfully,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b65eb82941572e88.json",
+  "parameterValues" : [ "true" ]
+}
