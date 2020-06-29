@@ -21,6 +21,9 @@ describe('Resetting the mirror successfully,', () => {
         ShopfloorCommonPage.sendItemToMirror(shopfloorApp)
         // double tap on the mirror
         chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
+        chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
+        chromeBrowser.$(RequestScreen.tapMirror).click()
+        chromeBrowser.$(RequestScreen.tapMirror).click()
         chromeBrowser.execute(() => document.body.style.zoom='50%')
         driver.pause(5000)
         chromeBrowser.$(RequestScreen.mirrorleftArea).moveTo(0,0)
@@ -35,7 +38,7 @@ describe('Resetting the mirror successfully,', () => {
         chromeBrowser.pause(2000)
         // enable the mirror again
         chromeBrowser.$(RequestScreen.tapMirror).moveTo(0,0)
-        chromeBrowser.$(RequestScreen.tapMirror).click()
+        chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
         chromeBrowser.$(RequestScreen.tapMirror).click()
         // wait for the item to reappear
         chromeBrowser.$(RequestScreen.verifyMirrorproduct).waitForExist(8000)

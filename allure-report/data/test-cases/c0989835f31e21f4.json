@@ -1,0 +1,56 @@
+{
+  "uid" : "c0989835f31e21f4",
+  "name" : "should set the app before testing",
+  "fullName" : "Prebuild Shopfloor,.should set the app before testing",
+  "historyId" : "aa434805a18e2360ddf9a865d5391b96",
+  "time" : {
+    "start" : 1592774315345,
+    "stop" : 1592774370755,
+    "duration" : 55410
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testClass",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should set the app before testing"
+  }, {
+    "name" : "package",
+    "value" : "Prebuild Shopfloor,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0989835f31e21f4.json",
+  "parameterValues" : [ "true" ]
+}

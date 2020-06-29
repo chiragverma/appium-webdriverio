@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591653208893' stop='1591653240457'>
+    <name>Prebuild Shopfloor,</name>
+    <title>Prebuild Shopfloor,</title>
+    <test-cases>
+        <test-case start='1591653208894' status='failed' stop='1591653240453'>
+            <name>should set the app before testing</name>
+            <title>should set the app before testing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: The element with selector "//XCUIElementTypeButton[@name="Environment development (livesbx)"]" you trying to pass into the execute method wasn't found</message>
+                <stack-trace>Error: The element with selector "//XCUIElementTypeButton[@name="Environment development (livesbx)"]" you trying to pass into the execute method wasn't found
+                    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at UserContext.&lt;anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/preBuildShopfloor.spec.js:12:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

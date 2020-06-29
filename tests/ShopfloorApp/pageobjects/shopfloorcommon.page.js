@@ -42,8 +42,7 @@ class ShopfloorCommonPage extends Page {
         appName.$(HomeScreen.settingIcon).click();
         appName.$(HomeScreen.logoutButton).click();
         appName.$(SettingScreen.logoutButton).click();
-        appName.$(LoginScreen.loginContainerButon).waitForExist(9000)
-        driver.pause(3000)
+        appName.$(LoginScreen.loginContainerButon).waitForExist(12000)
     }
 
     assignClient(appName, customerName) {

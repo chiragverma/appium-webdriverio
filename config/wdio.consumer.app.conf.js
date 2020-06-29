@@ -20,7 +20,7 @@ exports.config = {
             port: 4724,
             capabilities: {
                 platformName: 'iOS',
-                'appium:platformVersion': '13.4',
+                'appium:platformVersion': '13.5',
                 'appium:orientation': 'PORTRAIT',
                 'appium:noReset': true,
                 'appium:newCommandTimeout': 240,

@@ -21,6 +21,8 @@ describe('Able to Successfully call the Advisor from the mirror,', () => {
         ShopfloorCommonPage.sendItemToMirror(shopfloorApp)
         // double tap on the mirror
         chromeBrowser.$(RequestScreen.tapMirror).moveTo(0,0)
+        chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
+        chromeBrowser.$(RequestScreen.tapMirror).doubleClick()
         chromeBrowser.$(RequestScreen.tapMirror).click()
         chromeBrowser.$(RequestScreen.tapMirror).click()
         chromeBrowser.execute(() => document.body.style.zoom='100%')

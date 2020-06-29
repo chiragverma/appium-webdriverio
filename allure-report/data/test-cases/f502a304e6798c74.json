@@ -1,0 +1,61 @@
+{
+  "uid" : "f502a304e6798c74",
+  "name" : "should be able to send the item to the mirror",
+  "fullName" : "Sending the item to the mirror successfully,.should be able to send the item to the mirror",
+  "historyId" : "7cfc3a505b04a48b08d83f94f52a95",
+  "time" : {
+    "start" : 1591719332366,
+    "stop" : 1591719402688,
+    "duration" : 70322
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"//XCUIElementTypeOther[@name=\"Sign In\"]/XCUIElementTypeOther[3]/XCUIElementTypeTextField\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:26:38)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js:9:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at ShopfloorCommonPage.assignMirror (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:63:14)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js:19:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js:13:29)\n                --- End of stack trace ---",
+  "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Can't call setValue on element with selector \"//XCUIElementTypeOther[@name=\"Sign In\"]/XCUIElementTypeOther[3]/XCUIElementTypeTextField\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:26:38)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js:9:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~customersBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.assignClient (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:50:43)\n                        at ShopfloorCommonPage.assignMirror (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:63:14)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js:19:29)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignItemToMirror.spec.js:13:29)\n                --- End of stack trace ---\n                    at getErrorFromFailedTest (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/allure-reporter/build/utils.js:55:56)\n                    at AllureReporter.onTestFail (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/allure-reporter/build/index.js:196:67)\n                    at AllureReporter.<anonymous> (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/reporter/build/index.js:115:12)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:482:12)\n                    at /Users/sof.machines/qa-end-to-end/node_modules/@wdio/runner/build/reporter.js:38:49\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/runner/build/reporter.js:38:20)\n                    at JasmineReporter.emit (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/jasmine-framework/build/reporter.js:112:19)\n                    at JasmineReporter.specDone (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/jasmine-framework/build/reporter.js:62:10)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Assign Item to Mirror"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sending the item to the mirror successfully,"
+  }, {
+    "name" : "testClass",
+    "value" : "Sending the item to the mirror successfully,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to send the item to the mirror"
+  }, {
+    "name" : "package",
+    "value" : "Sending the item to the mirror successfully,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f502a304e6798c74.json",
+  "parameterValues" : [ "true" ]
+}

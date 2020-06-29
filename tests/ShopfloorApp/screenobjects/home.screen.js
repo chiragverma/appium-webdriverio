@@ -5,7 +5,7 @@ const SELECTORS = {
     PRODUCTSEARCH_SCREEN: '~productSearchBarButton',
     CUSTOMERSEARCH_SCREEN: '~customersBarButton',
     REQUESTS_SCREEN: '~storeHubBarButton',
-    SETTING_ICON: '~SettingsIcon',
+    SETTING_ICON: '~OldSettingsIcon',
     LOGOUT_BUTTON: '~settingsMainLogoutButton'
 };
 

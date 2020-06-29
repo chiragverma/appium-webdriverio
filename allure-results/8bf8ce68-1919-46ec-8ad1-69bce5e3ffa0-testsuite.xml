@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593211322613' stop='1593211364768'>
+    <name>Prebuild Shopfloor,</name>
+    <title>Prebuild Shopfloor,</title>
+    <test-cases>
+        <test-case start='1593211322627' status='passed' stop='1593211364768'>
+            <name>should set the app before testing</name>
+            <title>should set the app before testing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

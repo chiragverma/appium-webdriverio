@@ -5,6 +5,7 @@ appium --port 4723 &
 # Starts the Appium Server 2
 appium --port 4724 &
 # Run all tests
+npm run shopfloor.prebuild || { echo 'Shopfloor Prebuild Fails' ; exit 1; }
 npm run shopfloor.shopfloor
 npm run shopfloor.mirror
 npm run shopfloor.consumer

@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590451866214' stop='1590451914262'>
+    <name>Prebuild Shopfloor,</name>
+    <title>Prebuild Shopfloor,</title>
+    <test-cases>
+        <test-case start='1590451866217' status='failed' stop='1590451914261'>
+            <name>should set the app before testing</name>
+            <title>should set the app before testing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "~Environment
+                production" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~Environment
+                production" because element wasn't found
+                    at UserContext.&lt;anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/preBuildShopfloor.spec.js:12:64)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

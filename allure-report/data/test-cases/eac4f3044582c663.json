@@ -1,0 +1,61 @@
+{
+  "uid" : "eac4f3044582c663",
+  "name" : "should be able to send looks to the mirror",
+  "fullName" : "Sending the looks to the mirror successfully,.should be able to send looks to the mirror",
+  "historyId" : "dd51a78a1c86caa67534d4d32c1326ba",
+  "time" : {
+    "start" : 1593379035547,
+    "stop" : 1593379075907,
+    "duration" : 40360
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js:9:29)\n                --- End of stack trace ---\n                    Error: no such window: window was already closed\n                      (Session info: chrome=83.0.4103.116)\n                      (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.3 x86_64)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js:18:23)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js:13:29)\n                --- End of stack trace ---",
+  "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                        at ShopfloorCommonPage.login (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:25:52)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js:9:29)\n                --- End of stack trace ---\n                    Error: no such window: window was already closed\n                      (Session info: chrome=83.0.4103.116)\n                      (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.3 x86_64)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js:18:23)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"~homeBarButton\" because element wasn't found\n                        at ShopfloorCommonPage.logout (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/pageobjects/shopfloorcommon.page.js:41:48)\n                        at UserContext.<anonymous> (/Users/sof.machines/qa-end-to-end/tests/ShopfloorApp/specs/shopfloorAndMirror/assignLooksToMirror.spec.js:13:29)\n                --- End of stack trace ---\n                    at getErrorFromFailedTest (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/allure-reporter/build/utils.js:55:56)\n                    at AllureReporter.onTestFail (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/allure-reporter/build/index.js:196:67)\n                    at AllureReporter.<anonymous> (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/reporter/build/index.js:115:12)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:482:12)\n                    at /Users/sof.machines/qa-end-to-end/node_modules/@wdio/runner/build/reporter.js:38:49\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/runner/build/reporter.js:38:20)\n                    at JasmineReporter.emit (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/jasmine-framework/build/reporter.js:112:19)\n                    at JasmineReporter.specDone (/Users/sof.machines/qa-end-to-end/node_modules/@wdio/jasmine-framework/build/reporter.js:62:10)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Assign Looks to Mirror"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sending the looks to the mirror successfully,"
+  }, {
+    "name" : "testClass",
+    "value" : "Sending the looks to the mirror successfully,"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to send looks to the mirror"
+  }, {
+    "name" : "package",
+    "value" : "Sending the looks to the mirror successfully,"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "isMultiremote",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eac4f3044582c663.json",
+  "parameterValues" : [ "true" ]
+}
