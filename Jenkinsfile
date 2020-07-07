@@ -86,7 +86,13 @@ pipeline {
                 results: [[path: '$WORKSPACE/${env.HOME}/app/target/allure-results']]
               ])
             }
-          }
+            
+          
+        }
+        failure {  
+             mail bcc: '', body: "${currentBuild.currentResult} <b>End To End Tests</b><br>Project: ${env.JOB_NAME} <br> Build Number: ${env.BUILD_NUMBER} <br> Build URL: ${env.BUILD_URL}", cc: 'chirag.verma@hotmail.com', charset: 'UTF-8', from: 'chirag.verma@farfetch.com', mimeType: 'text/html', replyTo: 'chirag.verma@farfetch.com', subject: "Failure in End to End Tests -> Build Number: ${env.BUILD_NUMBER}", to: "chirag.verma@farfetch.com";  
+            }
         }
         
 }  
+
