@@ -12,33 +12,33 @@ class ConsumerCommonPage extends Page {
     /**
      * define or overwrite page methods
      */
-    hideKeyboard() {
-        if (consumerApp.isKeyboardShown()) {
-            (consumerApp.hideKeyboard());
-        }
-    }
 
-    login() {
-        consumerApp.$(LoginScreen.emailField).setValue('chirag.verma@farfetch.com');
-        consumerApp.hideKeyboard()
-        consumerApp.$(LoginScreen.passwordField).setValue('SFApp_321');
-        consumerApp.$(LoginScreen.signinButton).click();
-        driver.pause(2000)
-        if (consumerApp.$(LoginScreen.skipButton).isDisplayed()) {
-            consumerApp.$(LoginScreen.skipButton).click();
-        }
+login() {
+    consumerApp.$(LoginScreen.emailField).setValue('abc@example.com');
+    consumerApp.hideKeyboard()
+    consumerApp.$(LoginScreen.passwordField).setValue('123');
+    consumerApp.$(LoginScreen.signinButton).click();
+    driver.pause(2000)
+    if (consumerApp.$(LoginScreen.skipButton).isDisplayed()) {
+        consumerApp.$(LoginScreen.skipButton).click();
+    }
 }
 
-    logout () {
-        driver.pause(2000)
-        if (consumerApp.$(HomeScreen.closeButton).isDisplayed()) {
-            consumerApp.$(HomeScreen.closeButton).click();
-        }
-        consumerApp.$(AccountScreen.accountTab).click();
-        consumerApp.execute('mobile: scroll', {'direction': 'down'});
-        consumerApp.$(AccountScreen.logoutButon).click();
-        consumerApp.$(AccountScreen.confirmButton).click();
-        consumerApp.$(LoginScreen.emailField).waitForExist(7000)
+logout() {
+
+    consumerApp.$(HomeScreen.closeButton).waitUntil(() => {
+        this.isDisplayed();
+    }, {timeout: 5000, interval: 500});
+    if (consumerApp.$(HomeScreen.closeButton).isDisplayed()) {
+        consumerApp.$(HomeScreen.closeButton).click();
+    }
+    consumerApp.$(AccountScreen.accountTab).click();
+    consumerApp.execute('mobile: scroll', {
+      'direction': 'down'
+    });
+    consumerApp.$(AccountScreen.logoutButon).click();
+    consumerApp.$(AccountScreen.confirmButton).click();
+    consumerApp.$(LoginScreen.emailField).waitForExist(7000)
     }
 }
 
