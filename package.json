@@ -3,17 +3,7 @@
   "version": "5.3.1",
   "description": "Run end to end tests with using the webapp and the mobile app",
   "scripts": {
-    "consumer.app": "./node_modules/.bin/wdio ./config/wdio.consumer.app.conf.js",
-    "shopfloor.app": "./node_modules/.bin/wdio ./config/wdio.shopfloor.consumer.conf.js",
-    "shopfloor.consumer": "npm run shopfloor.app && npm run consumer.app",
-    "shopfloor.mirror": "./node_modules/.bin/wdio ./config/wdio.shopfloor.mirror.conf.js",
-    "shopfloor.shopfloor": "./node_modules/.bin/wdio ./config/wdio.shopfloor.shopfloor.conf.js",
-    "lint": "eslint config tests",
-    "build": "babel --presets es2015 -d lib/ src",
-    "singleshopfloortest.app": "./node_modules/.bin/wdio ./config/wdio.singleshopfloortest.conf.js",
-    "singleconsumertest.app": "./node_modules/.bin/wdio ./config/wdio.singleconsumertest.conf.js",
-    "shopfloor.prebuild": "./node_modules/.bin/wdio ./config/wdio.shopfloor.prebuild.conf.js",
-    "test.app": "./node_modules/.bin/wdio ./config/wdio.test.conf.js"
+    "consumer.app": "./node_modules/.bin/wdio ./config/wdio.consumer.app.conf.js"
   },
   "dependencies": {
     "@babel/runtime": "^7.7.6",
