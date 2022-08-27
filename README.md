@@ -1,6 +1,6 @@
 # Appium WebdriverIO
 
-This uses WebdriverIO and Appium
+This uses WebdriverIO, Appium and Typescript
 
 
 # To run tests locally:
