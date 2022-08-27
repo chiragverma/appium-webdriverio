@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661612588657' stop='1661612589459'>
+    <name>Test Should Fail</name>
+    <title>Test Should Fail</title>
+    <test-cases>
+        <test-case start='1661612588658' status='passed' stop='1661612589458'>
+            <name>Test should fail</name>
+            <title>Test should fail</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Test Should Fail'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

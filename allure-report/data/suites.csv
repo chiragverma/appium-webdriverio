@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Aug 27 14:31:41 CEST 2022","Sat Aug 27 14:31:43 CEST 2022","1810","","Dashboard and Settings tabs are displayed","","Dashboard and Settings tabs are displayed","should be able see the dashboard and settings tab","should be able see the dashboard and settings tab",""
