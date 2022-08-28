@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661725996492' stop='1661726000563'>
+    <name>Dashboard and Settings tabs are displayed</name>
+    <title>Dashboard and Settings tabs are displayed</title>
+    <test-cases>
+        <test-case start='1661725996494' status='passed' stop='1661726000562'>
+            <name>should be able see the dashboard and settings tab</name>
+            <title>should be able see the dashboard and settings tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='HomeScreen'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

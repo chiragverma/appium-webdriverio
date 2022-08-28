@@ -14,8 +14,8 @@ config.exclude = [
 // Browserstack specific config
 // =============================
 // User configuration
-config.user = process.env.BROWSERSTACK_USER || 'chiragverma_rDpBlx';
-config.key = process.env.BROWSERSTACK_ACCESS_KEY || '5bCZssByGsnsqWPzwqy3';
+config.user = process.env.BROWSERSTACK_USER || 'fuegoamore_tsNJlI';
+config.key = process.env.BROWSERSTACK_ACCESS_KEY || 'EYwNZRzEGAziPpuFRmv8';
 // Use browserstack service
 config.services = ['browserstack'];
 
@@ -30,7 +30,7 @@ config.capabilities = [
         'browserstack.debug': true,
 
         // Set URL of the application under test
-        app: process.env.BROWSERSTACK_APP_ID || 'BROWSERSTACK_APP_ID',
+        app: process.env.BROWSERSTACK_APP_ID || 'bs://8c1f051d8eefde1f057e331acfbbb5c58affb3fd',
 
         // Specify device and os_version for testing
         device: 'Google Pixel 3',

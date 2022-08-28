@@ -12,6 +12,6 @@ describe('Alert is displayed', () => {
         // click on the button
         await SwipeScreen.tapOnUltimateAnswer();
         // check for alert is present
-        await NativeAlert.waitForIsShown(false);
+        await NativeAlert.waitForIsShown();
     });
 });

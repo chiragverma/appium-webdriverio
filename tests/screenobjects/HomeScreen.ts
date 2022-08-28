@@ -1,12 +1,9 @@
-import AppScreen from './AppScreen';
+class HomeScreen {
 
-class HomeScreen extends AppScreen {
-    constructor () {
-        super('~Instructions tab');
-    }
+    get instructionsTab () {return $(browser.isAndroid ? '//android.view.View[contains(@resource-id, "Settings tab")]' : '~Settings tab')}
+    get dashboardTab () {return $(browser.isAndroid ? '//android.view.View[contains(@resource-id, "Settings tab")]' : '~Settings tab')}
+    get settingsTab () {return $(browser.isAndroid ? '//android.view.View[contains(@resource-id, "Settings tab")]' : '~Settings tab')}
 
-    get dashboardTab () {return $('~Dashboard tab');}
-    get settingsTab () {return $('~Settings tab');}
 
     async tapOnDashboard(){
         await this.dashboardTab.click();
@@ -15,7 +12,6 @@ class HomeScreen extends AppScreen {
     async tapOnSettings(){
         await this.settingsTab.click();
     }
-
 }
 
 export default new HomeScreen();
