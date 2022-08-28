@@ -30,7 +30,7 @@ npm run android.browserstack.app
 ```
 
 
-To open Allure Reports:
+# To open Allure Reports:
 
 ```
 allure open
