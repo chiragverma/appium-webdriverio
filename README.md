@@ -23,12 +23,6 @@ npm install
 npm run ios.app
 ```
 
-# To run tests on iOS BrowserStack:
-
-```
-npm run ios.browserstack.app
-```
-
 # To run tests on Android BrowserStack:
 
 ```
