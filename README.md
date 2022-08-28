@@ -26,5 +26,12 @@ npm run ios.app
 # To run tests locally on Android BrowserStack:
 
 ```
+npm run ios.browserstack.app
+```
+
+# To run tests locally on Android BrowserStack:
+
+```
 npm run android.browserstack.app
 ```
+
