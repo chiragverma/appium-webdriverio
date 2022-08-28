@@ -5,12 +5,11 @@ class SwipeScreen extends AppScreen {
         super('~Swipe-screen');
     }
 
-    get ultimateAnswer () {return $('~Get the ultimate answer');}
+    get ultimateAnswer () {return $(browser.isAndroid ? '//android.widget.TextView[contains(@resource-id, "sidemenuButton")]' : '~Get the ultimate answer')}
 
     async tapOnUltimateAnswer(){
         await this.ultimateAnswer.click();
     }
-
 }
 
 export default new SwipeScreen();

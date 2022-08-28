@@ -1,6 +1,6 @@
 # Appium WebdriverIO
 
-This uses WebdriverIO and Appium
+This uses WebdriverIO, Appium and Typescript
 
 
 # To run tests locally:
@@ -23,8 +23,20 @@ npm install
 npm run ios.app
 ```
 
-# To run tests locally on Android:
+# To run tests on Android BrowserStack:
 
 ```
-npm run ios.app
+npm run android.browserstack.app
+```
+
+
+# Generate and Open Allure Reports:
+
+```
+allure generate allure-results --clean -o allure-report
+```
+
+
+```
+allure open
 ```

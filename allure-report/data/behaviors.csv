@@ -1,2 +1,4 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"","HomeScreen","","0","0","1","0","0"
+"","Test Should Fail","","0","2","0","0","0"
+"","SwipeScreen","","0","0","2","0","0"
+"","HomeScreen","","0","0","2","0","0"
