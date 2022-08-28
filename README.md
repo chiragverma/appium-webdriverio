@@ -29,3 +29,9 @@ npm run ios.app
 npm run android.browserstack.app
 ```
 
+
+To open Allure Reports:
+
+```
+allure open
+```
