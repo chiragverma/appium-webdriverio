@@ -6,7 +6,7 @@ import allureReporter from '@wdio/allure-reporter'
 
 describe('Dashboard and Settings tabs are loaded', () => {
 
-    it('should be able see the dashboard and settings tab', async () => {
+    it('should be able to see all the tabs', async () => {
         allureReporter.addFeature('Dashboard and Settings tabs are loaded correctly');
         // check if the Instructions, Dashboard and Settings tabs exists
         await HomeScreen.instructionsTab.waitForExist();
@@ -14,7 +14,7 @@ describe('Dashboard and Settings tabs are loaded', () => {
         await HomeScreen.settingsTab.waitForExist();
     });
 
-    it('should be able load dashboard and settings tab', async () => {
+    it('should be able to load dashboard and settings tabs', async () => {
         // check if the Dashboard and Settings tabs load
         await HomeScreen.tapOnDashboard();
         // title exist for dashboard tab
