@@ -12,3 +12,9 @@ apps/
 *.log
 chromeDriver
 .tmp
+
+# Reports
+
+allure-report
+
+allure-results
