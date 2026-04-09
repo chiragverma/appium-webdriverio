@@ -28,7 +28,7 @@ class WebView {
                 const currentContexts = await this.getCurrentContexts();
 
                 return currentContexts.length > 1 &&
-                    currentContexts.find(context => context.toLowerCase().includes(CONTEXT_REF.WEBVIEW)) !== 'undefined';
+                    currentContexts.find(context => context.toLowerCase().includes(CONTEXT_REF.WEBVIEW)) !== undefined;
             }, {
                 // Wait a max of 45 seconds. Reason for this high amount is that loading
                 // a webview for iOS might take longer

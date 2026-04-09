@@ -41,13 +41,13 @@ class Carousel extends Gestures {
     async getNthCardText (nthCard:string):Promise<string> {
         await this.waitForIsDisplayed();
         await driver.waitUntil(
-            async () => await this.cards.length > 0,
+            async () => (await this.cards).length > 0,
             {
                 timeoutMsg: 'Expected to have more than 0 cards',
             },
         );
 
-        const cardNumber = (nthCard === 'first' || await this.cards.length === 1) ? 0 : 1;
+        const cardNumber = (nthCard === 'first' || (await this.cards).length === 1) ? 0 : 1;
         /**
          * IMPORTANT:
          * iOS gives back the text of all child elements when you call `element.getText()` on the parent element.

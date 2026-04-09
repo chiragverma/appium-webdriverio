@@ -1,4 +1,3 @@
-import SwipeScreen from '../screenobjects/SwipeScreen';
 import HomeScreen from '../screenobjects/HomeScreen';
 import DashboardScreen from '../screenobjects/DashboardScreen';
 import SettingsScreen from '../screenobjects/SettingsScreen';

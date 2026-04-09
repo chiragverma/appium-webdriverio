@@ -1,4 +1,4 @@
-class DashboardScreen {
+class SettingsScreen {
 
     get settingsTitle () {return $(browser.isAndroid ? '//android.widget.TextView[contains(@resource-id, "settings-title")]' : '~settings-title')}
     get showBitcoin () {return $(browser.isAndroid ? '//android.widget.TextView[contains(@resource-id, "checkBTC")]' : '~Only show "Bitcoin" coins')}
@@ -7,4 +7,4 @@ class DashboardScreen {
 
 }
 
-export default new DashboardScreen();
+export default new SettingsScreen();
